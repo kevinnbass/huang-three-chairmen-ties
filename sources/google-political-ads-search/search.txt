@@ -1,0 +1,10 @@
+URL: https://adstransparency.google.com/political?region=US&topic=political
+SEARCHED: 2026-11-13T23:50:49Z (opened in a local browser; a name was typed into the page's search box, "Political ads" selected, United States)
+
+WHAT THE SEARCH BOX OFFERED AFTER EACH NAME WAS TYPED (the text between the box and "See more results"):
+  typed "Public First Action": Public First Action Inc ~20 ads
+  typed "Nvidia": [nothing offered]
+  typed "NVIDIA Corporation": [nothing offered]
+
+READING: the control name returns an advertiser entry ("Public First Action Inc", about 20 ads); "Nvidia" and "NVIDIA Corporation" return none.
+This covers election ads bought through Google under an advertiser of that name; it does not cover other ad platforms, television, or groups Nvidia may fund.

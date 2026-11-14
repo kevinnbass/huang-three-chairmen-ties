@@ -1,0 +1,92 @@
+**Second independent audit of the third-version three-chairmen figure**
+
+Publication should wait for corrections. I read all 169 supplied rows: **152 ok, 12 qualifications, 5 errors**. The main numeric error understates Nvidia’s firm-gift side: the saved Senate files contain an additional distinct **$500 Brownstein gift naming Mast on November 19, 2025**, written with honoree **MastForCongress**. Nvidia’s three-chairmen total is **$17,500**, not $17,000; Mast’s subtotal is **$13,625 in 16 gifts**, not $13,125 in 15. Nothing in this finding establishes client direction or any connection between that gift and a bill.
+
+The four headline sums were independently recomputed: Anthropic employees’ $78,000 and Nvidia employees’ $0 match the supplied employer/committee rule; Anthropic’s firms’ $6,000 matches; Nvidia’s firms’ $17,000 fails by $500. The latter category includes firm-PAC money, so the title must say lobbyists **and firm PACs**. This is a counting correction in Nvidia’s direction, under the same rule used for Anthropic.
+
+**Part A — rows and arithmetic.** Findings are in `findings.csv`. All 229 unique cited source references resolved; the row/source inventory contains 296 unique pairs. I opened the cited pack/table rows, rather than accepting their extracted passages as substitutes, and consulted saved originals for the contested claims and new material. `source_checks.csv`, `source_checks_extra.csv` and `row_source_coverage.json` record resolution and hashes. An ok grade on a statement that a pack *records a search* is not an independent confirmation of that search’s unsaved response.
+
+All 67 computed-number rows were recomputed from the supplied tables or saved originals. Four fail: CN14 ($13,625), CN16 (16), CN49 ($17,500), CN64 ($10,125). All other values match, including the 38 nonempty Florida ZCTAs and 11 shared areas, the 11 House names in Public First Action’s HTML, its 20 advertiser-specific Google entries, ARI’s 115 candidates/$279,000, AnthroPAC’s 78 members/$190,250, employer party counts and tied ranks. The three campaign receipts match the raw FEC summary lines through October 14, 2026. `recomputed_verified.json` is the final arithmetic record.
+
+I matched all 13 drawn employee receipts to their raw SUB_ID, committee, date, amount and employer. I credited the first audit’s unchanged whole employee-file census and independently recounted the current table for the Congress-wide totals; I did not claim a second full census of every underlying employee API supplement. The percentages 0.8%, 1.4%, 0.6% are mathematically correct. Mast’s percentage needs a caveat: $17,000 of its numerator went to a joint fundraising committee, whose allocation to the campaign is not established here. It is a scale comparison, not proof that those dollars entered the campaign’s receipts.
+
+The eight grant totals recompute to: ARI $3,446,500; Horizon $11,837,990 (Good Ventures Foundation, fiscal year ending June 2023, not an Open Philanthropy calendar-year payment); IFP $11,956,660; CAIS $12,485,288; CNAS $14,626,356; Carnegie $2,391,504; FAI $3,690,000; FLI $1,912,000. Years, exit grants, and the FAI AI-policy/energy-permitting split match the cited rows. The cited general grant label alone does not establish the formal Open Philanthropy renaming. Historic awards do not establish continuing funding, instructions, or a grant’s connection to a particular congressional action.
+
+The Mast release and Sacks rows preserve attribution correctly: Mast’s allegations are quoted as his committee’s release; the Register describes Sacks endorsing someone else’s speculation. Neither is independent proof of the underlying allegation. The source release also expressly records ARI’s support for Mast’s AI OVERWATCH bill, which should be added to the figure. TechSpot records ARI’s support for the Senate GAIN AI proposal too; distinguish that version from the later House bill.
+
+**Part B — figure elements.** I read 417 text runs (371 visible text runs, 45 SVG tooltips, one document title), plus all four embedded advertisement images. The hidden list resolves to all 169 rows. No row id or filename is visible; injected controls detected both kinds. The four embedded frames match their saved originals. I also inspected all nine-frame mosaics for both versions of each district ad, both Arkansas creatives, the signed letter image, and all three Google-search screenshots. The quoted on-screen readings match; these are not voice-over transcripts. The saved PFA plain-text extraction omits some names that the saved HTML retains; the HTML establishes the 11-name list including Mast and Moolenaar.
+
+The element ledger contains 25 problems (4 errors, 21 qualifications), plus B-CLOSE:
+
+|Elements|Finding ids|Result|
+|---|---|---|
+|Headline, Mast panel, glance cell, blue timing caption|B3-01–04|Missing $500 affects all four; the blue caption is Mast-only.|
+|Mark areas and timeline range|B3-05–06|Equal-dollar lobbyist diamonds are smaller than circles/squares; three 2024 group-firm gifts are clipped off the canvas.|
+|Stake band|B3-07–12, B3-24|Restore Nvidia’s full collection claim and smuggling examples, its stated reason for opposing controls, Anthropic’s diversified-stack limit, and distinguish report dates/general positions from dated agreements/bill endorsements.|
+|Key and trust|B3-13–14|Clarify phased/amendable powers; add actual support for the renaming claim.|
+|Contact caveat and omitted policy/committee ties|B3-15–18|The letter acknowledges Nvidia-staff contact; ARI endorsements and the reported Huang committee meeting are omitted; relevant Nvidia denials are absent.|
+|Crawford negative, comparison PAC count, Mast percentage|B3-19–21|Bound the negative to these bills; specify eight comparison PACs excluding AnthroPAC; distinguish JFC receipts.|
+|Status, declared search scope, former-aide dating|B3-22–23, B3-25|Four prior findings remain partly answered; scope limitations and the firm/client effective date need precision.|
+
+Every other glance cell agrees with its panel and table, including the two Mast and four Moolenaar staffing records. All displayed gift amounts/dates, dates of bill actions, vote counts and ad ranges were checked. The title’s summons framing is supported by the signed request and subpoena threat. It is not evidence that a subpoena had already issued. The subtitle explicitly disclaims motive and coordination; neither shaded caption literally claims a payment for a bill. Both companies receive a timing highlight, but the captions use different populations: three chairmen’s Anthropic-employee receipts versus Mast’s Nvidia-firm receipts. Identify those populations and put a reminder beside the timeline that timing does not establish purpose. No source here establishes a quid pro quo.
+
+**Part C — Senate census.** `census.py` applies the specified registration, named-window, network-measure and deduplication rules directly to the saved files. The **Final census** section at the end of `census.md` and `census_verified.json` are authoritative. Earlier sections/JSON retain exploratory passes because this lane is append-only; they are superseded and must not be quoted. Whole-word honoree controls reject Masto/Masters and the other Crawford, while accepting MastForCongress. Identity-aware comparison includes the filer, preventing different people’s equal-dollar, same-day gifts from collapsing in the table comparison.
+
+The following totals exclude ARI’s own PAC, which the panels list separately. Measure splits and all windows are in `census.md`.
+
+|Side|Member|Items|Dollars|Distinct lobbyists|Difference from table|
+|---|---|---:|---:|---:|---|
+|anthropic|mast|0|$0.00|0|matches|
+|anthropic|moolenaar|0|$0.00|0|matches|
+|anthropic|crawford|2|$6,000.00|2|matches|
+|network|mast|3|$4,500.00|2|matches|
+|network|moolenaar|2|$1,500.00|1|matches|
+|network|crawford|0|$0.00|0|matches|
+|nvidia|mast|16|$13,625.00|14|+1 item / $500 / 1 lobbyist|
+|nvidia|moolenaar|4|$2,875.00|2|matches|
+|nvidia|crawford|1|$1,000.00|1|matches|
+
+All 30 existing table items are reproduced, with matching classification and registration windows; one extra item qualifies. The extra Brownstein $500 is `firm_only`, not `named`. Brownstein’s unlisted-lobbyist subtotal becomes $4,625 from nine people; the three listed lobbyists’ $1,500 and firm PAC’s $3,500 remain unchanged. Nvidia’s named-lobbyist total is unchanged. Anthropic’s two Crawford gifts split $3,500 named/$2,500 firm-only. The funded-groups firm totals exclude ARI own-PAC items of $2,500 Mast, $2,500 Moolenaar and $1,000 Crawford, so those are not counted twice.
+
+Accepted/refused honoree spellings are listed in the final census section. No accepted string in the selected totals identifies a different person. Nonmember strings such as Masto/Masters and Susan Crawford are refused; shared honoree lists are distinguished from a personal campaign receipt. The selected totals contain no shared-event gift. Context resolves malformed member spellings and incorrect titles, rather than silently treating every surname substring as a member.
+
+Effective dates and terminations agree with the table for every listed registrant. Nvidia’s Tiber Creek (October 26, 2022) and Nickles (June 1, 2023), and Anthropic’s Aquia Group Inc./Tower 19 (January 23, 2023), show that some older registrations are visible in later filings. They do not prove that every pre-2024 registrant is visible. A firm that ended before 2024 and left no saved 2024–26 filing would be missed on either side. The two saved Anthropic 2026 pages combine to 33/33 filings. The same window and gift rules were applied to both companies; the network side deliberately inherits the pack’s named/firm-only classification and labels unclassified lines. There is no support for treating a qualifying firm’s employees’ gifts as client-funded or client-directed.
+
+The final candidate set has 1,597 distinct gift keys across all returned filers. Twenty-four keys occur in multiple positions within a single report; zero belong to the selected side/gift totals. Two real checks by one person to one committee on one day for the same amount are possible, and the schema has no transaction/check id to distinguish them. The prescribed rule would merge them. Thus zero selected merges of this within-report kind were found, not proof that distinct identical gifts are impossible. Repeated pulls/amendments alone are not proof of separate gifts.
+
+All nine pulls have contiguous saved pages, records summing to their API count, and no next page at the end: 99 pages and 2,394 report appearances altogether. The final census gives each folder’s page count, record count, UUID count and `count` separately. This establishes saved-response completeness, not completeness of every Senate record or of honoree spellings the surname queries could not retrieve.
+
+**Part D — first audit follow-up.** All 51 required findings have individual dispositions in `round1_followup.csv`: **47 yes, 4 partly, 0 no**. The partials are A-TY049 and B-12 (the former-aide row still overstates absence of dating in a report that contains a firm/client effective date), A-TL17 (trust powers’ qualifications), and B-03 (dated-record wording versus undated service). The previously wrong Anthropic registration month is corrected to February in the relevant current-firm row. The letter image and testimony transcript now support claims that previously rested on an X post and a witness roster. Both ad versions are saved and totals are attributed to the entry. Party breakdowns, tied rank, historical funding, tax years, client-direction caveats and the employer-recovery asymmetry are substantially repaired. The blanket claim that all findings are applied is too broad.
+
+**Part E — omissions and fairness.** Beyond the omitted Nvidia-side $500, the cited sources contain three useful direct ties missing from the panels: ARI’s support for Mast’s bill; ARI’s praise of the Senate GAIN AI proposal; and Fortune’s report of Huang addressing a recent House Foreign Affairs Committee meeting about diffusion rules. The latter is a reported committee contact, not a dated personal meeting with Mast or proof of testimony. The Horizon page also lists a 2023–24 bio fellow at Foreign Affairs; that is historical committee context, not evidence of a placement under Mast’s later chairmanship, and must not be re-labelled as his personal tie.
+
+The November 12 signed letter says the committees appreciated a conversation with Nvidia staff the previous day. The footnote’s unqualified no-contact wording should acknowledge that. No saved record here shows Anthropic contact with the chairmen about Huang. That is a bound on this evidence set, not a universal negative or an explanation for anyone’s action.
+
+The Times source includes Nvidia’s denials concerning smuggling and sensitive information, and says officials initially did not believe Huang knew of intelligence gathering. The Fortune source gives a fuller Anthropic response supporting strong and balanced controls, and Nvidia’s argument that restrictions push American suppliers out while Huawei fills demand. The stake band should attribute enough of both positions for a reader to understand the dispute. It should also preserve the chip-team article’s commitment to a diversified hardware stack, the Nemotron release’s description of open and proprietary models working together, and the difference between designing for Claude and selling chips commercially. The partnership/private-placement item usefully prevents an exclusively adversarial picture, but its date and collective amount need correction as described above. None of these business positions establishes a motive for a gift or congressional act.
+
+One cited source has a dated later update worth carrying: the trust page’s footnote lists **four current trustees as of October 2026**, including Fontaine, while its original structural description says five financially disinterested members. Distinguish the five-seat design from the updated roster, and retain its phased powers/amendment provisions. Publication/modification metadata on the other saved pages does not itself identify a correction. I did not find an identified later correction reversing the checked financial transactions in the saved sources; this is not a claim about material outside this frozen set.
+
+The record-not-showing and not-searched lists are useful but incomplete. They should distinguish documentary company-staff contact from personal member contact; lack of client-direction evidence from proof of no direction; no firm affiliation visible in 2024–26 from no earlier affiliation; and no Nvidia advertiser-name suggestion from no ads by groups Nvidia might fund. Employer-prefix, keyed-committee and historical-blank recovery limits matter to comparability. The X search concerns Anthropic-network terms only, has a September cutoff, and lacks its original responses. Historical Carnegie awards span subjects beyond AI policy, as the cited grant-purpose rows show; neither those totals nor any other historical grants establish funding of a particular hearing or bill. The figure already correctly discloses that voice-over was not captured, grants need not be continuing, and most witness lists do not establish appearance.
+
+**Gaps and closure.** `gaps.csv` contains four underlying-search-response gaps: the three member X searches and the PFA additional-donor search. The cited pack rows remain readable and their limited recorded-search assertions can be assessed; their negative results cannot be independently repeated offline. No fresh web fetch was made, as instructed. This audit does not promote or correct pack rows, alter the public figure, or declare the pack verified. It leaves the owner the individual row and figure findings for disposition.
+
+All produced files remain under this lane’s `out/`. Before closing I searched every file there for donor/lobbyist names encountered in the originals, including filename-style variants, removed any matches, and ran a second search with a positive detection control. The scan’s measured result and final frozen-input checks are in `validation.json`. No private donor or lobbyist is named in this report. Public figures permitted by the brief are retained.
+
+Nothing is left running or armed by this lane. The owner’s next step is to dispose the findings and correct the figure, especially the omitted Nvidia gift, before publication. No deadline was supplied. The required remaining external work is a fresh-original audit; this offline round does not perform it.
+
+audit: incomplete originals not re-fetched
+
+
+**Additional Part E source limit.** Anthropic’s first Public First Action donation statement expressly denies that its preferred policies are for Anthropic’s benefit or intended to hold back smaller developers, and says regulation would bring more scrutiny of companies like itself. That denial is absent from the figure. Attribute it alongside the other companies’ stated positions; the saved statement does not independently establish whether the policies benefit Anthropic. This supplements the omissions discussion above without changing any row grade.
+
+audit: incomplete originals not re-fetched
+
+
+**Additional recount limits.** The panel headers’ news-page counts (Mast 88, Moolenaar 78, Crawford 69, each out of 1,086) match `nv13_members.csv`, but the underlying news-corpus manifest/counting script is not supplied in this lane. They were checked against that table and could not be independently recounted from the corpus. Likewise, the 535-member denominator is consistent across the supplied rate tables, but no complete sitting-member roster is supplied; the committee-key file contains 165 distinct members with keyed committees, not a census of Congress. These are four additional gaps, separate from the four unsaved search-response gaps. The final gap count is **eight**. The 67 explicit computed-number rows were recomputed as stated; this qualification concerns additional figure context and tile denominators. No grade is inferred from the unavailable originals.
+
+audit: incomplete originals not re-fetched
+
+
+**Final validation record.** `validation_final.json` supersedes the earlier validation snapshot for final gap/file counts; it repeats frozen-input, coverage, syntax and private-name controls after the append-only addenda. The earlier validation remains as a round record.
+
+audit: incomplete originals not re-fetched

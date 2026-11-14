@@ -1,0 +1,70 @@
+URL: https://api.open.fec.gov/v1/filings/?committee_id=C30003586&per_page=100&sort=-receipt_date
+DOWNLOADED: 2026-11-14T00:35:37Z (through the shared FEC queue)
+
+ALL FILINGS THE FEC LISTS FOR COMMITTEE C30003586 (PUBLIC FIRST ACTION INC.):
+  filings listed: 1 (pages: 1)
+
+FILING 1:
+  additional_bank_names: None
+  amendment_chain: [1952561]
+  amendment_indicator: N
+  amendment_version: 0
+  bank_depository_city: None
+  bank_depository_name: None
+  bank_depository_state: None
+  bank_depository_street_1: None
+  bank_depository_street_2: None
+  bank_depository_zip: None
+  beginning_image_number: 202603119837935482
+  candidate_id: None
+  candidate_name: None
+  cash_on_hand_beginning_period: None
+  cash_on_hand_end_period: None
+  committee_id: C30003586
+  committee_name: PUBLIC FIRST ACTION INC.
+  committee_type: E
+  coverage_end_date: 2026-03-21
+  coverage_start_date: 2026-03-05
+  csv_url: https://docquery.fec.gov/csv/561/1952561.csv
+  cycle: 2026
+  debts_owed_by_committee: None
+  debts_owed_to_committee: None
+  document_description: 24 HOUR NOTIFICATION 2026
+  document_type: None
+  document_type_full: None
+  election_year: None
+  ending_image_number: 202603119837935484
+  fec_file_id: FEC-1952561
+  fec_url: https://docquery.fec.gov/dcdev/posted/1952561.fec
+  file_number: 1952561
+  form_category: NOTICE
+  form_type: F9
+  house_personal_funds: None
+  html_url: https://docquery.fec.gov/cgi-bin/forms/C30003586/1952561/
+  is_amended: False
+  means_filed: e-file
+  most_recent: True
+  most_recent_file_number: 1952561
+  net_donations: None
+  office: None
+  opposition_personal_funds: None
+  pages: 3
+  party: None
+  pdf_url: https://docquery.fec.gov/pdf/482/202603119837935482/202603119837935482.pdf
+  previous_file_number: 1952561
+  primary_general_indicator: None
+  receipt_date: 2026-03-10T00:00:00
+  report_type: 24
+  report_type_full: 24 HOUR NOTIFICATION
+  report_year: 2026
+  request_type: None
+  senate_personal_funds: None
+  state: None
+  sub_id: 4031120261420708001
+  total_communication_cost: None
+  total_disbursements: 104965.0
+  total_independent_expenditures: None
+  total_individual_contributions: None
+  total_receipts: 0.0
+  treasurer_name: CARSON, BRAD
+  update_date: 2026-03-11

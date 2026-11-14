@@ -1,0 +1,225 @@
+committee_id,committee,bioguide,member_name,party,chamber,state,kind,basis,fec_candidate_ids_linked
+C00343871,SCHIFF FOR SENATE,S001150,Adam B. Schiff,D,Senate,CA,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,S4CA00555
+C00422774,ADVANCING DEMOCRACY AND MOBILIZATION PAC,S001150,Adam B. Schiff,D,Senate,CA,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type leadership_pac",
+C00801431,ADAM GRAY FOR CONGRESS,G000605,Adam Gray,D,House,CA,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,H2CA13115
+C00304709,ADAM SMITH FOR CONGRESS COMMITTEE,S000510,Adam Smith,D,House,WA,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,H6WA09025
+C00492025,AMERICAN DEFENSE AND MILITARY PAC,S000510,Adam Smith,D,House,WA,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type leadership_pac",
+C00578567,KEEP AL GREEN IN CONGRESS,G000553,Al Green,D,House,TX,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,H4TX09095
+C00765164,ALEX PADILLA FOR SENATE,P000145,Alex Padilla,D,Senate,CA,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,S2CA00955
+C00771238,DEFEND THE DREAM,P000145,Alex Padilla,D,Senate,CA,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type leadership_pac",
+C00639591,ALEXANDRIA OCASIO-CORTEZ FOR CONGRESS,O000172,Alexandria Ocasio-Cortez,D,House,NY,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,H8NY15148
+C00729954,GARBARINO FOR CONGRESS,G000597,Andrew R. Garbarino,R,House,NY,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,H0NY02234
+C00770297,BAKER PAC,G000597,Andrew R. Garbarino,R,House,NY,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type leadership_pac",
+C00492819,CHESAPEAKE FREEDOM PAC,H001052,Andy Harris,R,House,MD,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type leadership_pac",
+C00938720,TEAM ANDY KIM,K000394,Andy Kim,D,Senate,NJ,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type jfc",
+C00840017,ALSOBROOKS FOR SENATE,A000382,Angela D. Alsobrooks,D,Senate,MD,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,S4MD00327
+C00903690,ANGIE CRAIG FOR MINNESOTA,C001119,Angie Craig,D,House,MN,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,S6MN00499
+C00552539,MAKE IT WORK PAC,K000383,"Angus S. King, Jr.",I,Senate,ME,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type leadership_pac",
+C00854471,APRIL MCCLAIN DELANEY FOR CONGRESS,M001232,April McClain Delaney,D,House,MD,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,H4MD06340
+C00753913,PFLUGER VICTORY COMMITTEE,P000048,August Pfluger,R,House,TX,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type jfc",
+C00443689,PEOPLE FOR BEN,L000570,Ben Ray Luján,D,Senate,NM,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,S0NM00058
+C00517235,TURQUOISE PAC,L000570,Ben Ray Luján,D,Senate,NM,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type leadership_pac",
+C00411330,FRIENDS OF BERNIE SANDERS,S000033,Bernard Sanders,I,Senate,VT,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,S4VT00033
+C00543983,BILL CASSIDY FOR US SENATE,C001075,Bill Cassidy,R,Senate,LA,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,S4LA00107
+C00435099,BILL FOSTER FOR CONGRESS,F000454,Bill Foster,D,House,IL,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,H8IL14067
+C00788448,TEAM HAGERTY VICTORY,H000601,Bill Hagerty,R,Senate,TN,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type jfc",
+C00459297,HUIZENGA FOR CONGRESS,H001058,Bill Huizenga,R,House,MI,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,H0MI02094
+C00580043,TEAM HUIZENGA,H001058,Bill Huizenga,R,House,MI,joint committee or leadership PAC,FEC committee-candidate link: a joint fundraising committee linked to this one candidate,H0MI02094
+C00445023,GUTHRIE FOR CONGRESS,G000558,Brett Guthrie,R,House,KY,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,H8KY02031
+C00483487,BRINGING REPUBLICAN EXCELLENCE TO TOWN PAC,G000558,Brett Guthrie,R,House,KY,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type leadership_pac",
+C00871152,GUTHRIE VICTORY FUND,G000558,Brett Guthrie,R,House,KY,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type jfc",
+C00583161,MAST VICTORY COMMITTEE,M001199,Brian J. Mast,R,House,FL,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type jfc",
+C00632257,MAST FOR CONGRESS,M001199,Brian J. Mast,R,House,FL,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,H6FL18097
+C00647354,TEAM AMERICA - BRINGING AMERICA TOGETHER PAC,F000466,Brian K. Fitzpatrick,R,House,PA,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type leadership_pac",
+C00652644,TEAM FITZ,F000466,Brian K. Fitzpatrick,R,House,PA,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type jfc",
+C00540732,SCHATZ FOR SENATE,S001194,Brian Schatz,D,Senate,HI,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,S4HI00136
+C00567693,HAWAII PAC,S001194,Brian Schatz,D,Senate,HI,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type leadership_pac",
+C00575548,CATHERINE CORTEZ MASTO FOR SENATE,C001113,Catherine Cortez Masto,D,Senate,NV,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,S6NV00200
+C00629212,ALL FOR OUR COUNTRY LEADERSHIP PAC,C001113,Catherine Cortez Masto,D,Senate,NV,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type leadership_pac",
+C00842765,CELESTE FOR CONGRESS,M001228,Celeste Maloy,R,House,UT,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,H4UT02296
+C00461822,"CHUCK FLEISCHMANN FOR CONGRESS COMMITTEE, INC.",F000459,"Charles J. ""Chuck"" Fleischmann",R,House,TN,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,H0TN03254
+C00660464,CHRIS PAPPAS FOR SENATE,P000614,Chris Pappas,D,House,NH,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,S6NH00141
+C00487207,VAN HOLLEN VICTORY FUND,V000128,Chris Van Hollen,D,Senate,MD,joint committee or leadership PAC,FEC committee-candidate link: a joint fundraising committee linked to this one candidate,S6MD03441
+C00708636,HOULAPAC,H001085,Chrissy Houlahan,D,House,PA,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type leadership_pac",
+C00475392,CHRIS COONS FOR DELAWARE,C001088,Christopher A. Coons,D,Senate,DE,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,S0DE00092
+C00493700,BLUE HEN FEDERAL PAC,C001088,Christopher A. Coons,D,Senate,DE,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type leadership_pac",
+C00903658,FIRST STATE VICTORY FUND 2026,C001088,Christopher A. Coons,D,Senate,DE,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type jfc",
+C00492645,FRIENDS OF CHRIS MURPHY,M001169,Christopher Murphy,D,Senate,CT,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,S2CT00132
+C00787648,CHRIS DELUZIO FOR CONGRESS,D000530,Christopher R. Deluzio,D,House,PA,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,H2PA17103
+C00379479,THE HAWKEYE PAC,G000386,Chuck Grassley,R,Senate,IA,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type leadership_pac",
+C00540500,CORY BOOKER FOR SENATE,B001288,Cory A. Booker,D,Senate,NJ,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,S4NJ00185
+C00734319,BOOKER VICTORY FUND,B001288,Cory A. Booker,D,Senate,NJ,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type jfc",
+C00660795,DAN CRENSHAW FOR CONGRESS,C001120,Dan Crenshaw,R,House,TX,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,H8TX02166
+C00570994,ALASKANS FOR DAN SULLIVAN,S001198,Dan Sullivan,R,Senate,AK,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,S4AK00214
+C00609255,SULLIVAN VICTORY,S001198,Dan Sullivan,R,Senate,AK,joint committee or leadership PAC,FEC committee-candidate link: a joint fundraising committee linked to this one candidate,S4AK00214
+C00852012,TEAM MCCORMICK,M001243,David McCormick,R,Senate,PA,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type jfc",
+C00851790,DEREK TRAN FOR CONGRESS,T000491,Derek Tran,D,House,CA,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,H4CA45170
+C00894220,SUA SPONTE PAC,T000491,Derek Tran,D,House,CA,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type leadership_pac",
+C00311639,DIANA DEGETTE FOR CONGRESS,D000197,Diana DeGette,D,House,CO,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,H6CO01141
+C00380675,INDIVIDUALS DEDICATED TO ETHICS AND SCIENCE PAC,D000197,Diana DeGette,D,House,CO,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type leadership_pac",
+C00795211,DON DAVIS FOR NC,D000230,Donald G. Davis,D,House,NC,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,H2NC02287
+C00555888,FRIENDS OF DON BEYER,B001292,"Donald S. Beyer, Jr.",D,House,VA,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,H4VA08224
+C00566562,BACKPAC,B001292,"Donald S. Beyer, Jr.",D,House,VA,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type leadership_pac",
+C00165548,SAC PAC,M001163,Doris O. Matsui,D,House,CA,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type leadership_pac",
+C00409219,MATSUI FOR CONGRESS,M001163,Doris O. Matsui,D,House,CA,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,H6CA05195
+C00196774,THE MARKEY COMMITTEE,M000133,Edward J. Markey,D,Senate,MA,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,S4MA00028
+C00698340,MARKEY VICTORY FUND,M000133,Edward J. Markey,D,Senate,MA,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type jfc",
+C00832147,MITTEN PAC,S001208,Elissa Slotkin,D,Senate,MI,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type leadership_pac",
+C00834218,ELISSA SLOTKIN FOR MICHIGAN,S001208,Elissa Slotkin,D,Senate,MI,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,S4MI00470
+C00500843,"WARREN FOR SENATE, INC.",W000817,Elizabeth Warren,D,Senate,MA,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,S2MA00170
+C00801274,EMILIA SYKES FOR CONGRESS,S001223,Emilia Strong Sykes,D,House,OH,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,H2OH13264
+C00462374,CRAWFORD FOR CONGRESS,C001087,"Eric A. ""Rick"" Crawford",R,House,AR,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,H0AR01083
+C00856955,VINDMAN FOR CONGRESS,V000138,Eugene Simon Vindman,D,House,VA,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,H4VA07234
+C00226928,PALLONE FOR CONGRESS,P000034,"Frank Pallone, Jr.",D,House,NJ,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,H8NJ03073
+C00410308,SHORE PAC,P000034,"Frank Pallone, Jr.",D,House,NJ,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type leadership_pac",
+C00838060,GABE AMO FOR CONGRESS,A000380,Gabe Amo,D,House,RI,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,H4RI01265
+C00789404,GABE VASQUEZ FOR CONGRESS,V000136,Gabe Vasquez,D,House,NM,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,H2NM02191
+C00842369,WHITESIDES VICTORY FUND,W000830,George Whitesides,D,House,CA,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type jfc",
+C00516666,GRACE FOR NEW YORK,M001188,Grace Meng,D,House,NY,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,H2NY06116
+C00791897,GREG CASAR FOR CONGRESS,C001131,Greg Casar,D,House,TX,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,H2TX35144
+C00800276,LANDSMAN FOR CONGRESS,L000601,Greg Landsman,D,House,OH,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,H2OH01194
+C00430991,FRIENDS FOR GREGORY MEEKS,M001137,Gregory W. Meeks,D,House,NY,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,H8NY06048
+C00657833,GUY FOR CONGRESS,R000610,Guy Reschenthaler,R,House,PA,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,H8PA18199
+C00689836,RESCHENTHALER VICTORY FUND,R000610,Guy Reschenthaler,R,House,PA,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type jfc",
+C00503052,JEFFRIES FOR CONGRESS,J000294,Hakeem S. Jeffries,D,House,NY,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,H2NY10092
+C00371302,TEXANS FOR HENRY CUELLAR CONGRESSIONAL CAMPAIGN,C001063,Henry Cuellar,D,House,TX,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,H2TX23082
+C00680934,ILHAN FOR CONGRESS,O000173,Ilhan Omar,D,House,MN,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,H8MN05239
+C00578302,LOU CORREA FOR CONGRESS,C001110,J. Luis Correa,D,House,CA,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,H6CA46116
+C00238907,THE REED COMMITTEE,R000122,Jack Reed,D,Senate,RI,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,S6RI00163
+C00403592,NARRAGANSETT BAY PAC,R000122,Jack Reed,D,Senate,RI,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type leadership_pac",
+C00606939,ROSEN FOR NEVADA,R000608,Jacky Rosen,D,Senate,NV,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,S8NV00156
+C00654475,SMART SOLUTIONS PAC,R000608,Jacky Rosen,D,Senate,NV,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type leadership_pac",
+C00721449,JAKE AUCHINCLOSS FOR CONGRESS,A000148,Jake Auchincloss,D,House,MA,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,H0MA04192
+C00786392,BEYOND THOUGHTS AND PRAYERS PAC,A000148,Jake Auchincloss,D,House,MA,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type leadership_pac",
+C00434191,HIMES FOR CONGRESS,H001047,James A. Himes,D,House,CT,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,H8CT04172
+C00494112,BEEPAC (BUILDING ECONOMIC EMPOWERMENT PAC),H001047,James A. Himes,D,House,CT,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type leadership_pac",
+C00440362,JIM RISCH FOR U.S. SENATE COMMITTEE,R000584,James E. Risch,R,Senate,ID,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,S8ID00092
+C00575126,JAMIE RASKIN FOR CONGRESS,R000606,Jamie Raskin,D,House,MD,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,H6MD08457
+C00843425,JANELLE BYNUM FOR CONGRESS,B001326,Janelle S. Bynum,D,House,OR,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,H4OR05304
+C00795450,JASMINE FOR US,C001130,Jasmine Crockett,D,House,TX,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,H2TX30178
+C00720078,JAY OBERNOLTE FOR CONGRESS,O000019,Jay Obernolte,R,House,CA,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,H0CA08135
+C00437277,JEFF MERKLEY FOR OREGON,M001176,Jeff Merkley,D,Senate,OR,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,S8OR00207
+C00616268,MORAN VICTORY COMMITTEE,M000934,Jerry Moran,R,Senate,KS,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type jfc",
+C00813758,TOKUDA FOR HAWAII,T000487,Jill N. Tokuda,D,House,HI,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,H2HI02581
+C00903476,OHANA PAC,T000487,Jill N. Tokuda,D,House,HI,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type leadership_pac",
+C00577999,BANKS FOR SENATE,B001299,Jim Banks,R,Senate,IN,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,S4IN00196
+C00857615,TEAM JORDAN,J000289,Jim Jordan,R,House,OH,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type jfc",
+C00592154,JIMMY PANETTA FOR CONGRESS,P000613,Jimmy Panetta,D,House,CA,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,H6CA20152
+C00497933,CASTRO FOR CONGRESS,C001091,Joaquin Castro,D,House,TX,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,H2TX35011
+C00764373,BARRASSO VICTORY,B001261,John Barrasso,R,Senate,WY,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type jfc",
+C00369033,TEXANS FOR SENATOR JOHN CORNYN INC.,C001056,John Cornyn,R,Senate,TX,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,S2TX00106
+C00866947,CORNYN LONESTAR VICTORY FUND,C001056,John Cornyn,R,Senate,TX,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type jfc",
+C00765800,FETTERMAN FOR PA,F000479,John Fetterman,D,Senate,PA,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,S6PA00274
+C00608398,JOHN KENNEDY FOR US,K000393,John Kennedy,R,Senate,LA,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,S4LA00065
+C00561530,MOOLENAAR FOR CONGRESS,M001194,John R. Moolenaar,R,House,MI,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,H4MI04126
+C00409003,HEARTLAND VALUES PAC,T000250,John Thune,R,Senate,SD,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type leadership_pac",
+C00687582,GIDDY UP PAC,H000273,John W. Hickenlooper,D,Senate,CO,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type leadership_pac",
+C00716720,HICKENLOOPER FOR COLORADO,H000273,John W. Hickenlooper,D,Senate,CO,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,S0CO00575
+C00744599,HICKENLOOPER VICTORY FUND,H000273,John W. Hickenlooper,D,Senate,CO,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type jfc",
+C00718866,JON OSSOFF FOR SENATE,O000174,Jon Ossoff,D,Senate,GA,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,S8GA00180
+C00750919,OSSOFF VICTORY FUND,O000174,Jon Ossoff,D,Senate,GA,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type jfc",
+C00714527,MORELLE VICTORY FUND,M001206,Joseph D. Morelle,D,House,NY,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type jfc",
+C00573949,JOSH FOR JERSEY,G000583,Josh Gottheimer,D,House,NJ,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,H6NJ05171
+C00652164,JERSEY VALUES PAC,G000583,Josh Gottheimer,D,House,NJ,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type leadership_pac",
+C00639146,JOSH HARDER FOR CONGRESS,H001090,Josh Harder,D,House,CA,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,H8CA10126
+C00779223,JOSH HAWLEY VICTORY COMMITTEE,H001089,Josh Hawley,R,Senate,MO,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type jfc",
+C00793760,JOSH RILEY FOR CONGRESS,R000622,Josh Riley,D,House,NY,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,H8NY22177
+C00831669,KATHERINE CLARK MAJORITY FUND,C001101,Katherine M. Clark,D,House,MA,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type jfc",
+C00410761,CASTOR FOR CONGRESS,C001066,Kathy Castor,D,House,FL,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,H6FL11126
+C00526301,ATHENA PAC,C001066,Kathy Castor,D,House,FL,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type leadership_pac",
+C00823930,TEAM KATIE,B001319,Katie Boyd Britt,R,Senate,AL,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type jfc",
+C00504704,CRAMER FOR SENATE,C001096,Kevin Cramer,R,Senate,ND,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,S8ND00120
+C00772228,TEAM CRAMER,C001096,Kevin Cramer,R,Senate,ND,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type jfc",
+C00801985,KEVIN KILEY FOR CONGRESS,K000401,Kevin Kiley,I,House,CA,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,H2CA03157
+C00867978,GOLDEN STATE DEMOCRACY PAC,M001225,Kevin Mullin,D,House,CA,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type leadership_pac",
+C00768762,GILLIBRAND VICTORY FUND,G000555,Kirsten E. Gillibrand,D,Senate,NY,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type jfc",
+C00871244,KMR VICTORY FUND,M001237,Kristen McDonald Rivet,D,House,MI,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type jfc",
+C00834291,LATEEFAH FOR CONGRESS,S001231,Lateefah Simon,D,House,CA,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,H4CA12154
+C00840165,GILLEN FOR NY,G000602,Laura Gillen,D,House,NY,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,H2NY04244
+C00815373,"LAUREL LEE FOR CONGRESS, INC.",L000597,Laurel M. Lee,R,House,FL,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,H2FL15241
+C00825430,DOUBLE L PAC,L000597,Laurel M. Lee,R,House,FL,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type leadership_pac",
+C00633156,I GOT YOUR BACK PAC,B001303,Lisa Blunt Rochester,D,Senate,DE,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type leadership_pac",
+C00868091,LISA MCCLAIN LEADERSHIP FUND,M001136,Lisa C. McClain,R,House,MI,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type jfc",
+C00765198,LEADING PEOPLE FORWARD PAC,F000468,Lizzie Fletcher,D,House,TX,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type leadership_pac",H8TX07140
+C00787317,SPIKE PAC,T000482,Lori Trahan,D,House,MA,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type leadership_pac",
+C00890137,GOODLANDER VICTORY FUND,G000604,Maggie Goodlander,D,House,NH,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type jfc",
+C00154625,KAPTUR FOR CONGRESS,K000009,Marcy Kaptur,D,House,OH,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,H2OH09031
+C00588772,MAGGIE FOR NH,H001076,Margaret Wood Hassan,D,Senate,NH,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,S6NH00091
+C00629311,GRANITE VALUES PAC,H001076,Margaret Wood Hassan,D,Senate,NH,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type leadership_pac",
+C00806174,MARIE FOR CONGRESS,G000600,Marie Gluesenkamp Perez,D,House,WA,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,H2WA03217
+C00732826,STRICKLAND FOR WASHINGTON,S001159,Marilyn Strickland,D,House,WA,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,H0WA10034
+C00696526,MARK KELLY FOR SENATE,K000377,Mark Kelly,D,Senate,AZ,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,S0AZ00350
+C00785816,LIFTOFF PAC,K000377,Mark Kelly,D,Senate,AZ,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type leadership_pac",
+C00412791,FORWARD TOGETHER PAC,W000805,Mark R. Warner,D,Senate,VA,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type leadership_pac",
+C00438713,FRIENDS OF MARK WARNER,W000805,Mark R. Warner,D,Senate,VA,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,S6VA00093
+C00895219,MARK WARNER VICTORY FUND,W000805,Mark R. Warner,D,Senate,VA,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type jfc",
+C00498345,MULLIN FOR AMERICA,M001190,Markwayne Mullin,R,Senate,OK,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,S2OK00186
+C00434563,MARTIN HEINRICH FOR SENATE,H001046,Martin Heinrich,D,Senate,NM,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,S2NM00088
+C00497073,LOBO PAC,H001046,Martin Heinrich,D,Senate,NM,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type leadership_pac",
+C00420760,FRIENDS OF MAZIE HIRONO,H001042,Mazie K. Hirono,D,Senate,HI,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,S2HI00106
+C00864488,MIKE KENNEDY FOR UTAH,K000403,Mike Kennedy,R,House,UT,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,H4UT03260
+C00367862,MIKE ROGERS FOR CONGRESS,R000575,Mike Rogers,R,House,AL,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,H2AL03032
+C00439521,AMERICAN SECURITY PAC,R000575,Mike Rogers,R,House,AL,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type leadership_pac",
+C00532465,ROUNDS FOR SENATE,R000605,Mike Rounds,R,Senate,SD,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,S4SD00049
+C00492421,NANCY PELOSI VICTORY FUND,P000197,Nancy Pelosi,D,House,CA,joint committee or leadership PAC,FEC committee-candidate link: a joint fundraising committee linked to this one candidate,H8CA05035
+C00796086,NATHANIEL MORAN FOR CONGRESS,M001224,Nathaniel Moran,R,House,TX,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,H2TX01112
+C00887547,NELLIE POU FOR CONGRESS,P000621,Nellie Pou,D,House,NJ,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,H4NJ09194
+C00806018,LALOTA FOR CONGRESS,L000598,Nick LaLota,R,House,NY,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,H2NY01190
+C00750307,FALLON FOR CONGRESS,F000246,Pat Fallon,R,House,TX,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,H0TX04219
+C00802298,THE PAT HARRIGAN COMMITTEE,H001101,Pat Harrigan,R,House,NC,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,H2NC13243
+C00815290,PAT RYAN FOR CONGRESS,R000579,Patrick Ryan,D,House,NY,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,H8NY19223
+C00832576,PATRIOT PAC,R000579,Patrick Ryan,D,House,NY,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type leadership_pac",H2CA47188 H2CO03351 H4CA47119 H4NY22085 H8NY19223
+C00257642,PEOPLE FOR PATTY MURRAY,M001111,Patty Murray,D,Senate,WA,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,S2WA00189
+C00365270,M-PAC,M001111,Patty Murray,D,Senate,WA,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type leadership_pac",
+C00508010,PROGRESSIVES ADVANCING UNITED LEADERSHIP PAC,T000469,Paul Tonko,D,House,NY,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type leadership_pac",
+C00663609,PROGRESSIVE MAJORITY PAC,A000371,Pete Aguilar,D,House,CA,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type leadership_pac",
+C00747840,AGUILAR LEADERSHIP FUND,A000371,Pete Aguilar,D,House,CA,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type jfc",
+C00832949,PETE RICKETTS VICTORY FUND,R000618,Pete Ricketts,R,Senate,NE,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type jfc",
+C00605592,PRAMILA FOR CONGRESS,J000298,Pramila Jayapal,D,House,WA,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,H6WA07458
+C00782698,TEAM RAJA VICTORY FUND,K000391,Raja Krishnamoorthi,D,House,IL,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type jfc",
+C00904466,RAJA FOR ILLINOIS,K000391,Raja Krishnamoorthi,D,House,IL,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,S6IL00482
+C00736876,WARNOCK FOR GEORGIA,W000790,Raphael G. Warnock,D,Senate,GA,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,S0GA00559
+C00668608,RASHIDA TLAIB FOR CONGRESS,T000481,Rashida Tlaib,D,House,MI,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,H8MI13250
+C00492983,NUTMEG PAC,B001277,Richard Blumenthal,D,Senate,CT,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type leadership_pac",
+C00492991,BLUMENTHAL FOR CONNECTICUT,B001277,Richard Blumenthal,D,Senate,CT,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,S0CT00177
+C00766790,BLUMENTHAL VICTORY FUND,B001277,Richard Blumenthal,D,Senate,CT,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type jfc",
+C00548818,TEAM HUDSON,H001067,Richard Hudson,R,House,NC,joint committee or leadership PAC,FEC committee-candidate link: a joint fundraising committee linked to this one candidate,H2NC08185
+C00503185,RO FOR CONGRESS INC,K000389,Ro Khanna,D,House,CA,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,H4CA12055
+C00678854,WITTMAN VICTORY COMMITTEE,W000804,Robert J. Wittman,R,House,VA,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type jfc",
+C00308676,WYDEN FOR SENATE,W000779,Ron Wyden,D,Senate,OR,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,S6OR00110
+C00558627,GALLEGO FOR ARIZONA,G000574,Ruben Gallego,D,Senate,AZ,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,S4AZ00139
+C00823997,RUDY VICTORY FUND,Y000067,Rudy Yakym III,R,House,IN,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type jfc",
+C00858688,LICCARDO FOR CONGRESS,L000607,Sam T. Liccardo,D,House,CA,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,H4CA16197
+C00892901,INNOVATION FOR GOOD PAC,L000607,Sam T. Liccardo,D,House,CA,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type leadership_pac",
+C00893230,LICCARDO VICTORY FUND,L000607,Sam T. Liccardo,D,House,CA,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type jfc",
+C00719559,SARA JACOBS FOR CONGRESS,J000305,Sara Jacobs,D,House,CA,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,H8CA49074
+C00843763,MCBRIDE FOR DELAWARE INC.,M001238,Sarah McBride,D,House,DE,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,H4DE00045
+C00547240,"SETH FOR MASSACHUSETTS, INC",M001196,Seth Moulton,D,House,MA,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,S6MA00296
+C00539825,CAPITO FOR WEST VIRGINIA,C001047,Shelley Moore Capito,R,Senate,WV,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,S4WV00159
+C00668228,NEVADANS FOR STEVEN HORSFORD,H001066,Steven Horsford,D,House,NV,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,H2NV04011
+C00791780,SUMMER LEE FOR CONGRESS,L000602,Summer L. Lee,D,House,PA,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,H2PA18200
+C00655613,SUSIE LEE FOR CONGRESS,L000590,Susie Lee,D,House,NV,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,H6NV04020
+C00326801,TAMMY BALDWIN FOR SENATE,B001230,Tammy Baldwin,D,Senate,WI,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,S2WI00219
+C00410092,PEOPLE'S VOICE PAC,B001230,Tammy Baldwin,D,Senate,WI,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type leadership_pac",
+C00544254,PERIMETER PAC,D000622,Tammy Duckworth,D,Senate,IL,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type leadership_pac",
+C00574889,TAMMY FOR ILLINOIS,D000622,Tammy Duckworth,D,Senate,IL,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,S6IL00292
+C00869719,TED BUDD MAJORITY COMMITTEE 2028,B001305,Ted Budd,R,Senate,NC,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type jfc",
+C00492785,TED CRUZ FOR SENATE,C001098,Ted Cruz,R,Senate,TX,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,S2TX00312
+C00556506,TED LIEU FOR CONGRESS,L000582,Ted Lieu,D,House,CA,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,H4CA33119
+C00589309,BLUE MOMENTUM PAC,L000582,Ted Lieu,D,House,CA,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type leadership_pac",
+C00703058,KEAN FOR CONGRESS INC,K000398,"Thomas H. Kean, Jr.",R,House,NJ,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,H0NJ07261
+C00509729,THOMAS MASSIE FOR CONGRESS,M001184,Thomas Massie,R,House,KY,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,H2KY04121
+C00563429,MAKING A SENSIBLE SHIFT IN ELECTIONS PAC,M001184,Thomas Massie,R,House,KY,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type leadership_pac",
+C00607200,SUOZZI FOR CONGRESS,S001201,Thomas R. Suozzi,D,House,NY,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,H6NY03247
+C00845792,SHEEHY VICTORY COMMITTEE,S001232,Tim Sheehy,R,Senate,MT,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type jfc",
+C00499988,"COTTON FOR SENATE, INC.",C001095,Tom Cotton,R,Senate,AR,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,S4AR00103
+C00774703,COTTON MAJORITY COMMITTEE,C001095,Tom Cotton,R,Senate,AR,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type jfc",
+C00706614,TONY GONZALES FOR CONGRESS,G000594,Tony Gonzales,R,House,TX,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,H0TX35015
+C00794727,FOUSHEE FOR CONGRESS,F000477,Valerie P. Foushee,D,House,NC,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,H2NC06114
+C00838649,LONGLEAF PAC,F000477,Valerie P. Foushee,D,House,NC,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type leadership_pac",
+C00592659,VICENTE GONZALEZ FOR CONGRESS,G000581,Vicente Gonzalez,D,House,TX,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,H6TX15162
+C00859892,VINCE FONG FOR CONGRESS,F000480,Vince Fong,R,House,CA,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,H4CA20181
+C00415331,CLARKE FOR CONGRESS,C001067,Yvette D. Clarke,D,House,NY,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,H4NY11138
+C00289603,LOFGREN FOR CONGRESS,L000397,Zoe Lofgren,D,House,CA,candidate committee,FEC committee-candidate link: the candidate's principal or authorised committee,H4CA16049
+C00343574,MAINSTREAM PAC,L000397,Zoe Lofgren,D,House,CA,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type leadership_pac",
+C00624049,LOFGREN VICTORY FUND,L000397,Zoe Lofgren,D,House,CA,joint committee or leadership PAC,"keyed to the member in the congress evidence set (its reviewed rows), committee type jfc",

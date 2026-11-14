@@ -1,0 +1,51 @@
+finding_id,answered,where_in_figure,what_remains
+V3-CT01,yes,"Mast employees: ""For scale, it equals 0.8%""",Joint-committee allocation limit is explicit in the same paragraph.
+V3-CT10,yes,"Mast former aide: ""The firm has been registered for that client since Mar 1, 2023.""",The individual's service and account-start dates remain expressly undated.
+V3-CT15,yes,"Mast firms: ""$13,625 in 16 gifts""",LG031 is present in the table and timeline; census matches.
+V3-CT19,yes,"Mast other PACs: ""eight technology companies' PACs other than AnthroPAC""",
+V3-CT47,yes,"Crawford Nvidia lobbying: ""He sponsors neither H.R. 5885 nor H.R. 6875""",The negative is expressly bounded to the two counted bills.
+V3-CK10,yes,"Key Open Philanthropy: ""renamed Coefficient Giving in Nov 2025""","TL068 is labelled a seed; corroborating original issuer release was opened in the saved C14 folder and gives Nov 18, 2025. Separate tax-return identity is corroborated by the interlocks row."
+V3-CK18,yes,"Key CNAS: ""phase in according to time- and funding-based milestones""",The same paragraph now states stockholder amendment powers and the four-person updated roster.
+V3-CS01,yes,"Stake Nvidia chips: ""two of the chairmen have bills on their export""",Statuses now distinguish committee action from enactment.
+V3-CS02,yes,"Stake Nvidia models: ""open models, training datasets and reinforcement learning environments and libraries""",The open/proprietary combination is included.
+V3-CS05,yes,"Stake Anthropic team: ""would continue deploying a ""diversified hardware stack""""",Body corrected. Separate heading issue B4-08 remains.
+V3-CS06,yes,"Stake Anthropic controls: ""That is its general position, not a statement on either bill.""",
+V3-CS07,yes,"Stake clash: ""smuggled in 'baby bumps' or 'alongside live lobsters,'""",
+V3-CS09,yes,"Stake partnership: ""Nvidia's own share is not given.""",Reporting date and collective placement amount are also explicit.
+V3-CN14,yes,"Mast glance/panel: ""$13,625""",Independent recount matches.
+V3-CN16,yes,"Mast panel: ""16 gifts""",Independent recount matches.
+V3-CN49,yes,"Headline: ""$17,500""",Independent recount matches.
+V3-CN64,yes,"Blue timing caption: ""$10,125 of the $13,625""",Independent recount matches.
+B3-01,yes,"Headline: ""lobbyists and PACs at Nvidia's lobbying firms gave $17,500, at Anthropic's $6,000""",
+B3-02,yes,"Mast firms: ""$4,625 from nine lobbyists not listed for Nvidia""",The 16-gift subtotal and missing timeline mark are repaired.
+B3-03,yes,"Glance Mast Nvidia firms: ""$13,625""",
+B3-04,yes,"Blue caption: ""$10,125 of the $13,625 that lobbyists and a PAC at Nvidia's firms gave Mast""",
+B3-05,partly,"Timeline legend: ""on one scale for all three shapes""",The former large-symbol disparity is fixed; an undisclosed minimum still inflates $125/$250 diamonds. Rounded PAC corners reduce actual filled area. See B4-05.
+B3-06,yes,"Mast timeline: ""not drawn: 2 gifts dated 2024 ($2,000), listed in his panel""",Moolenaar likewise labels one 2024 gift of $500; all three remain in panels.
+B3-07,yes,"Stake Nvidia models: ""proprietary models for state-of-the-art reasoning""",The full combined collection is named.
+B3-08,partly,"Stake Nvidia Senate bill: ""the U.S. semiconductor industry is being pushed out of China, the world's largest market.""","A reason is restored, but the source's H20 supply/capacity rebuttal is still omitted (A3-CS03/B4-03)."
+B3-09,yes,"Stake Anthropic team: ""The report is of a design team: it does not describe finished chips, or chips for sale.""",The separate heading overreach is B4-08.
+B3-10,yes,"Stake Anthropic controls: ""before either House bill was introduced""",
+B3-11,yes,"Stake clash: ""smuggled in 'baby bumps' or 'alongside live lobsters,'""",
+B3-12,yes,"Stake partnership: ""Reported on Nov 10, 2026""",Collective amount and unspecified Nvidia share are explicit.
+B3-13,yes,"Key CNAS: ""large enough majorities of stockholders can change the trust's powers without the trustees' consent""",
+B3-14,yes,"Key Open Philanthropy: ""renamed Coefficient Giving in Nov 2025""",Saved original issuer release corroborates the added timeline seed.
+B3-15,yes,"Record-does-not-show footnote: ""conversation with NVIDIA staff yesterday""",Caveat now distinguishes member-level contact from acknowledged company-staff contact.
+B3-16,yes,"Mast panel: ""ARI named among his bill's backers.""","Moolenaar panel also expressly attributes support to the Senate proposal, before the later House bill."
+B3-17,yes,"Mast panel: ""Huang before his committee.""","Fortune report date, no supplied meeting date and unspecified attendance are explicit."
+B3-18,yes,"Times footnote: ""zero information relevant to national security""",The requested Nvidia denials and initial official belief are restored. New qualification A3-CK25/B4-02 concerns the next sentence's uncertainty and contrary view.
+B3-19,yes,"Crawford Nvidia lobbying: ""the two chip bills counted here, so no report is counted for him""",
+B3-20,yes,"Mast comparison PACs: ""eight technology companies' PACs other than AnthroPAC""",
+B3-21,yes,"Mast employees: ""the records do not show how much of the joint committee's money reached the campaign""",
+B3-22,yes,"Status: ""Each finding has a written answer in the repository.""",Replaces the claim all were applied; it now says corrections and additions were not yet audited.
+B3-23,yes,"Not-searched footnote: ""ads by other groups that Nvidia may fund""","Also explicitly states older registrations, employer-prefix/committee keys and Anthropic-only X terms/cutoff. Missing original search responses remain gaps."
+B3-24,yes,"Stake Nvidia chips: ""it has passed his committee and no further, and Moolenaar's has not left committee""",
+B3-25,yes,"Mast former aide: ""or when that person began work for the client""",Firm/client registration date is now separately stated.
+R2-GAP-01,no,"Each member's looked-for paragraph: ""The search responses themselves were not saved.""",The same unsaved X-response gap remains. Reading the pack's recorded search does not reproduce it offline.
+R2-GAP-02,no,"Each member's looked-for paragraph: ""The search responses themselves were not saved.""",The same unsaved X-response gap remains. Reading the pack's recorded search does not reproduce it offline.
+R2-GAP-03,no,"Each member's looked-for paragraph: ""The search responses themselves were not saved.""",The same unsaved X-response gap remains. Reading the pack's recorded search does not reproduce it offline.
+R2-GAP-04,no,"Public First Action key: ""a search on Sep 16, 2026 found no other organisation naming itself as one.""",The C85 folder still has no cse-donor.json. The new F9 filing does not restore the September search response.
+R2-GAP-05,no,"mast header: ""named on 88 of the 1,086 news pages""",Supplied member table supports the printed values. No underlying news-corpus manifest/counting script is supplied among the frozen inputs; independent corpus recount remains unavailable.
+R2-GAP-06,no,"moolenaar header: ""named on 78 of the 1,086 news pages""",Supplied member table supports the printed values. No underlying news-corpus manifest/counting script is supplied among the frozen inputs; independent corpus recount remains unavailable.
+R2-GAP-07,no,"crawford header: ""named on 69 of the 1,086 news pages""",Supplied member table supports the printed values. No underlying news-corpus manifest/counting script is supplied among the frozen inputs; independent corpus recount remains unavailable.
+R2-GAP-08,no,"Congress tiles: ""134 of 535""",Supplied tables retain the 535 denominator. No complete sitting-member roster is supplied; committee_keys.csv is a keyed subset.

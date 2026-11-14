@@ -1,0 +1,119 @@
+URL: https://x.com/ChinaSelect/status/2121064505367240850
+FETCHED: 2026-11-13T19:51:26Z
+STATUS: 200
+
+{
+ "code": 200,
+ "message": "OK",
+ "tweet": {
+  "url": "https://x.com/ChinaSelect/status/2121064505367240850",
+  "id": "2121064505367240850",
+  "text": "Jensen Huang has until 8 PM ET tomorrow night to accept the request of our three committees or he will be subpoenaed. @HouseForeignGOP @HouseIntel",
+  "raw_text": {
+   "text": "Jensen Huang has until 8 PM ET tomorrow night to accept the request of our three committees or he will be subpoenaed. @HouseForeignGOP @HouseIntel https://t.co/zfqqVLmqqa",
+   "display_text_range": [
+    0,
+    146
+   ],
+   "facets": [
+    {
+     "type": "mention",
+     "indices": [
+      118,
+      134
+     ],
+     "original": "HouseForeignGOP",
+     "id": "75367781"
+    },
+    {
+     "type": "mention",
+     "indices": [
+      135,
+      146
+     ],
+     "original": "HouseIntel",
+     "id": "1501588745103060993"
+    },
+    {
+     "type": "media",
+     "indices": [
+      147,
+      170
+     ],
+     "id": "2121049027307311104",
+     "display": "pic.x.com/zfqqVLmqqa",
+     "original": "https://t.co/zfqqVLmqqa",
+     "replacement": "https://x.com/ChinaSelect/status/2121064505367240850/photo/1"
+    }
+   ]
+  },
+  "author": {
+   "screen_name": "ChinaSelect",
+   "url": "https://x.com/ChinaSelect",
+   "id": "1619059471484948480",
+   "followers": 64650,
+   "following": 190,
+   "likes": 545,
+   "media_count": 2251,
+   "name": "Select Committee on China",
+   "description": "Select Committee on China led by Chairman @RepMoolenaar",
+   "raw_description": {
+    "text": "Select Committee on China led by Chairman @RepMoolenaar",
+    "facets": []
+   },
+   "location": "Washington, D.C. ",
+   "banner_url": "https://pbs.twimg.com/profile_banners/1619059471484948480/1765829773",
+   "avatar_url": "https://pbs.twimg.com/profile_images/1998463046943899649/NJGmFUqQ_200x200.jpg",
+   "joined": "Fri Jan 27 19:48:40 +0000 2023",
+   "protected": false,
+   "website": {
+    "url": "https://chinaselectcommittee.house.gov/",
+    "display_url": "chinaselectcommittee.house.gov"
+   },
+   "verification": {
+    "verified": true,
+    "verified_at": null,
+    "type": "government"
+   },
+   "avatar_color": null
+  },
+  "replies": 841,
+  "retweets": 1439,
+  "likes": 7889,
+  "bookmarks": 2353,
+  "quotes": 475,
+  "created_at": "Fri Nov 13 02:16:00 +0000 2026",
+  "created_timestamp": 1794536160,
+  "possibly_sensitive": false,
+  "views": 2023065,
+  "is_note_tweet": false,
+  "community_note": null,
+  "lang": "en",
+  "replying_to": null,
+  "replying_to_status": null,
+  "media": {
+   "all": [
+    {
+     "type": "photo",
+     "id": "2121049027307311104",
+     "url": "https://pbs.twimg.com/media/HW962j_XEAAQb33.png?name=orig",
+     "width": 598,
+     "height": 712
+    }
+   ],
+   "photos": [
+    {
+     "type": "photo",
+     "id": "2121049027307311104",
+     "url": "https://pbs.twimg.com/media/HW962j_XEAAQb33.png?name=orig",
+     "width": 598,
+     "height": 712
+    }
+   ]
+  },
+  "twitter_card": "summary_large_image",
+  "color": null,
+  "provider": "twitter",
+  "reposted_by": null
+ }
+}

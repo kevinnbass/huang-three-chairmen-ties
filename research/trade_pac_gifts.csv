@@ -1,0 +1,4 @@
+key,group,group_name,committee_id,committee,member,cand_id,date,usd,lists_nvidia,lists_anthropic,tran_id,image_num,sub_id,fec_page_url
+sia:mast:2025-10-28,sia,Semiconductor Industry Association,C00613521,SEMICONDUCTOR INDUSTRY ASSOCIATION PAC (SIA PAC),mast,H6FL18097,2025-10-28,1000,yes,no,SB23.4622,202511179792615169,4121020251298123063,https://docquery.fec.gov/cgi-bin/fecimg/?202511179792615169
+iti:mast:2025-12-30,iti,Information Technology Industry Council,C00419036,INFORMATION TECHNOLOGY INDUSTRY COUNCIL POLITICAL ACTION COMMITTEE  (ITI PAC),mast,H6FL18097,2025-12-30,1000,yes,no,SB23.7271,202601319795589196,4030120261360428020,https://docquery.fec.gov/cgi-bin/fecimg/?202601319795589196
+sia:mast:2026-04-28,sia,Semiconductor Industry Association,C00613521,SEMICONDUCTOR INDUSTRY ASSOCIATION PAC (SIA PAC),mast,H6FL18097,2026-04-28,2500,yes,no,SB23.4656,202605199867007472,4061120261521215419,https://docquery.fec.gov/cgi-bin/fecimg/?202605199867007472

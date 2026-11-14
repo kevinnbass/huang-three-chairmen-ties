@@ -1,0 +1,16 @@
+URL: https://adstransparency.google.com/advertiser/AR09462075813676449793/creative/CR08230337604738875393?political=&region=US
+CAPTURED: 2026-11-13T23:22:53Z (opened in a local browser; the second of the two variations Google lists under this ad entry (page label "2 of 2 variations"))
+
+Google political-ads report line for this entry: video ad by Public First Action Inc, 2026-08-19 to 2026-09-02, 800000-900000 impressions, $20,000 to $25,000. Google reports these ranges for the entry as a whole, not per variation.
+
+WORDS ON SCREEN IN THE VIDEO (read by the builder from nine frames captured about every 3.5 seconds while the video played; frames saved here as frame-00.png to frame-08.png and tiled in frames.png; a reading, not a transcript: the voice-over was not captured):
+MADE WITH AMERICAN RESOLVE
+WEAPON
+CONGRESSMAN BRIAN MAST
+CONGRESSMAN BRIAN MAST BACKING LEGISLATION TO PUT EXPORT CONTROLS ON ADVANCED CHIPS
+TO KEEP THE MOST ADVANCED AI AWAY FROM THEM
+SO AMERICA KEEPS WINNING.
+CALL CONGRESSMAN BRIAN MAST TELL HIM TO KEEP FIGHTING TO KEEP ADVANCED CHIPS FROM GOING TO OUR ENEMIES. (202) 225-3026
+PAID FOR BY PUBLIC FIRST ACTION. WWW.PUBLICFIRSTACTION.US
+
+The on-screen words are the same as in the first variation (google-ads-creative-fl21-20261113).

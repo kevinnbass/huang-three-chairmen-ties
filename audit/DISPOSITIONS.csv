@@ -1,0 +1,129 @@
+round,finding_id,row_id,grade,disposition,what_was_done
+1,A-TY048,TY048,qualification,applied,"The panel now gives Google's totals ""for that entry, which has two versions""; the second version was captured and shows the same words; it says eleven of the 38 zip-code areas also reach into another district."
+1,A-TY049,TY049,qualification,applied,"Reworded: ""A lobbyist listed for Open Philanthropy Action Fund in a report for the first quarter of 2025""; adds that the report gives no dates for the post or the start of the client work. The second audit found this partly answered. Now: ""The firm has been registered for that client since Mar 1, 2023. The report does not date that person's time in Mast's office, or when that person began work for the client."""
+1,A-TY053,TY053,qualification,applied,"The line is bounded (""in FEC records for Jan 2025 to Sep 2026, counted by the same rule"") and now cites a per-member number computed from the gift lines, not the Congress-wide row alone."
+1,A-TY056,TY056,qualification,applied,"""No client directed it"" removed. Every lobbyist line ends: ""Each is reported as the giver's own contribution; the reports do not show whether a client asked for it."""
+1,A-TY057,TY057,qualification,applied,"Reworded: six people ""were listed as witnesses for hearings ... dated Feb 2025 to Feb 2026""; ""None was listed with Anthropic. A witness list does not show who appeared."""
+1,A-TY061,TY061,qualification,applied,"As A-TY053, for Crawford."
+1,A-TY081,TY081,qualification,applied,As A-TY048: totals stated for the entry with two versions; both versions captured.
+1,A-TY084,TY084,qualification,applied,"As A-TY053, for Moolenaar."
+1,A-TY089,TY089,error,applied,"The wrong date is gone. The firm's registration for Anthropic is given as Feb 2026 (effective Feb 11, 2026 in research/lobbyist_gifts.csv) and only where a gift falls inside it; ""no client directed it"" removed."
+1,A-TY090,TY090,qualification,applied,The hearing transcript and Clark's written statement were saved and are cited: the transcript shows Moolenaar presiding and Clark's statement; the sentence now names Moolenaar as presiding.
+1,A-TE01,TE01,qualification,applied,"The timeline event cites the transcript (""STATEMENT OF MR. JACK CLARK""), not the witness list."
+1,A-TE12,TE12,qualification,applied,"""First"" dropped: ""Times report on Huang""."
+1,A-TE14,TE14,qualification,applied,"The letter's image was saved and its words read into a text file beside it; the event now reads ""Their letter: interview on Dec 1, or a subpoena"" and cites that reading."
+1,A-TL01,TL01,qualification,applied,"Now ""alleged that""; the subtitle adds that nothing here shows that any overlap caused or coordinated the coverage."
+1,A-TL06,TL06,qualification,applied,"Now ""Listed as Anthropic's co-founder and head of policy on his testimony of Jun 2025."""
+1,A-TL10,TL10,qualification,applied,"Now ""listed as a director on its 2024 tax return, took part in Anthropic's Series A funding round in 2021. The records do not show what he holds now."""
+1,A-TL14,TL14,qualification,applied,"Now names the payer and the period: Good Ventures Foundation ""reported paying it $11.8M in its fiscal year ending Jun 2023""; the card heading says ""groups it or its related foundation has funded""."
+1,A-TL16,TL16,qualification,applied,"Now ""$12.5M in awards, 2022-23, the last of them a $1.9M exit grant in Oct 2023""; the key adds that a total does not show money still flowing."
+1,A-TL17,TL17,qualification,applied,"Now quotes Anthropic's description of the trust: ""an independent body of five financially disinterested members"". The second audit found this partly answered. Now adds that the trust's power is to ""phase in according to time- and funding-based milestones"", that large enough majorities of stockholders can change its powers without the trustees' consent, and that the page lists four trustees as of Oct 2026."
+1,A-TL19,TL19,qualification,applied,"Now ""$976,000 for AI policy (the 2024 award is an exit grant) and $2.7M in 2026 for energy permitting."""
+1,A-TL20,TL20,qualification,applied,"Now ""Listed as a related organisation on Open Philanthropy's 2024 tax return; both 2024 returns list the same president."""
+1,B-01,TY052 TY083 TY060 TY053 TY084 TY061; employee_gifts.csv; com,qualification,applied,"Title: ""Anthropic's employees gave their committees $78,000"". Panels: ""contributions to committees tied to him"", and for Mast ""$17,000 of it to Mast Victory Committee, a joint fundraising committee""."
+1,B-02,TE13 TE14,qualification,applied,The Nov 12 letter's image is saved and read; its three signatures are in the reading; the subtitle and the timeline cite it.
+1,B-03,TY086 TY087 TX01 TX02 TX03; all 63 rows,qualification,applied,"Now ""every tie found, in the records searched""; lines without dates of service say so. The second audit found this partly answered. The subtitle now reads: ""A tie is a record with a date: the date of a gift, filing, hearing or page, not of when any relationship began or ended."""
+1,B-04,TL01,qualification,applied,As A-TL01.
+1,B-05,TL10,qualification,applied,As A-TL10.
+1,B-06,TL14,qualification,applied,As A-TL14.
+1,B-07,TL14; interlocks.csv 214,qualification,applied,As A-TL14: heading changed and the payer is explicit.
+1,B-08,TL16,qualification,applied,As A-TL16.
+1,B-09,TL17,qualification,applied,As A-TL17.
+1,B-10,TL19,qualification,applied,As A-TL19.
+1,B-11,TL20,qualification,applied,As A-TL20.
+1,B-12,TY049,qualification,applied,"As A-TY049. As A-TY049, after the second audit."
+1,B-13,TY057,qualification,applied,As A-TY057.
+1,B-14,TY056; LC1954,qualification,applied,As A-TY056.
+1,B-15,TY089; LB012,error,applied,As A-TY089 (the one error of round 1).
+1,B-16,TY089; LC2156,qualification,applied,As A-TY056.
+1,B-17,TY090 TL06 TE01,qualification,applied,As A-TY090.
+1,B-18,TY048,qualification,applied,As A-TY048.
+1,B-19,TY081,qualification,applied,As A-TY081.
+1,B-20,TE12,qualification,applied,As A-TE12.
+1,B-21,TE14,qualification,applied,As A-TE14.
+1,B-22,TY053 TY084 TY061,qualification,applied,Each Nvidia negative now says what was searched and for which dates; the footnote lists what was not searched.
+1,B-23,pacs_by_member.csv: M001199:amd M001199:google M001199:micro,qualification,applied,"The characterisation is removed. The line now says these are those companies' own committees, from a table of eight technology-company PACs, and ""they are not ties to Nvidia""."
+1,B-24,TR01,qualification,applied,"The tile gives ""82 Democrats, 51 Republicans, 1 independent""."
+1,B-25,TR02,qualification,applied,"The tile gives ""58 Democrats, 3 Republicans, 2 independents""."
+1,B-26,TR01; employee_gifts.csv; census_checks.json,qualification,applied,"Ranks are recomputed with ties shown: Mast 26th, Moolenaar joint 46th, Crawford joint 89th."
+1,B-27,TR01 TR02; census_v3_results.json,qualification,applied in part,The footnote now says the builder holds no earlier copy of a Nvidia line and that this is the one place the two counts differ. The difference itself stays: no earlier capture of Nvidia lines exists in the builder's files.
+1,B-28,TY056 TY057 TY089 TY090 TL14 TL16 TL17 TL19,qualification,applied,The list now includes: whether a client asked a lobbyist to give; who on a witness list appeared; that a past award means money still flows.
+1,B-29,evidence.tsv; all 63 rows,qualification,applied,"The source line now separates sources fetched Nov 12 to 14, 2026 from records reused from earlier evidence sets, captured in Sep and Oct 2026."
+1,B-30,TL06,qualification,applied,As A-TL06.
+1,GAP TE14,TE14,gap,applied,The linked letter image was fetched and saved (x-chinaselect-letter-image) with a reading of its words.
+1,GAP TX01,TX01,gap,stated as a limit,"The panel line now ends: ""The search responses themselves were not saved."""
+1,GAP TX02,TX02,gap,stated as a limit,As TX01.
+1,GAP TX03,TX03,gap,stated as a limit,As TX01.
+1,GAP TR01 TR02,TR01 TR02,gap,stated as a limit,The README's limits say a line whose employer field does not begin with the company's name is not counted; no census of other spellings was made.
+2,V3-CT01,CT01,qualification,applied,"The panel now reads ""For scale, it equals 0.8% of the $5.1M his campaign reported raising ...; the records do not show how much of the joint committee's money reached the campaign."""
+2,V3-CT10,CT10,qualification,applied,"Now: ""The firm has been registered for that client since Mar 1, 2023. The report does not date that person's time in Mast's office, or when that person began work for the client."" The registration window is cited."
+2,V3-CT15,CT15,error,applied,"The missed gift is counted (item LG031: $500, Nov 19, 2025, honoree written ""MastForCongress""). The rule in scripts/build_lobbyist_gifts.py now accepts a surname that runs straight into ""for Congress"", with controls for Masto and Masters. The panel reads $13,625 in 16 gifts; $4,625 from nine lobbyists not listed for Nvidia."
+2,V3-CT19,CT19,qualification,applied,"Now ""from this project's table of eight technology companies' PACs other than AnthroPAC, which is counted above""."
+2,V3-CT47,CT47,qualification,applied,"Both Crawford lines are bounded to the two bills: ""He sponsors neither H.R. 5885 nor H.R. 6875, the two chip bills counted here ... Reports naming other bills of his were not searched."""
+2,V3-CK10,CK10,qualification,applied,"Now ""renamed Coefficient Giving in Nov 2025 ... a separate organisation from Anthropic, with its own tax return"", citing the evidence set's row for the renaming and the tax-return row that gives its own employer number."
+2,V3-CK18,CK18,qualification,applied,"As A-TL17 above: phased powers, change by large majorities of stockholders, and the four trustees listed as of Oct 2026 are now stated."
+2,V3-CS01,CS01,qualification,applied,"Rewritten: it describes Mast's bill in his committee's words, says the bill ""has passed his committee and no further, and Moolenaar's has not left committee"" (from the bill records), then gives Mast's quotation as his."
+2,V3-CS02,CS02,qualification,applied,"The release's sentence is quoted whole (""... open models, training datasets and reinforcement learning environments and libraries"") and the line adds that the same release describes open models used alongside ""proprietary models for state-of-the-art reasoning""."
+2,V3-CS05,CS05,qualification,applied,"Now adds that the company ""would continue deploying a ""diversified hardware stack"""" and: ""The report is of a design team: it does not describe finished chips, or chips for sale."" The label reads ""Now also a chip-design team""."
+2,V3-CS06,CS06,qualification,applied,"The label is now ""On export controls""; the line says the testimony came ""before either House bill was introduced"" and ""is its general position, not a statement on either bill."""
+2,V3-CS07,CS07,qualification,applied,"The quotation now runs on to ""smuggled in 'baby bumps' or 'alongside live lobsters,'"", and the lead-in says Anthropic had ""described chip smuggling""."
+2,V3-CS09,CS09,qualification,applied,"Now ""Reported on Nov 10, 2026: Anthropic said seven companies, Nvidia among them, had agreed to buy $26 billion of its stock between them ... Nvidia's own share is not given."""
+2,V3-CN14,CN14,error,applied,"Recomputed with item LG031: 13,625."
+2,V3-CN16,CN16,error,applied,Recomputed with item LG031: 16 gifts.
+2,V3-CN49,CN49,error,applied,"Recomputed with item LG031: 17,500."
+2,V3-CN64,CN64,error,applied,"Recomputed with item LG031: 10,125 dated Nov 17 to Dec 31, 2025."
+2,B3-01,CT01 CT15 CT21 CT35 CT40 CT43 CT46 CN45 CN47 CN49; census_ve,error,applied,"The title now reads ""lobbyists and PACs at Nvidia's lobbying firms gave $17,500, at Anthropic's $6,000"". A check in the figure script stops the build if the Anthropic-side sum ever includes a firm's PAC without the title saying so."
+2,B3-02,CT15; census_verified.json,error,applied,As V3-CT15; the gift is drawn on the timeline with the others.
+2,B3-03,CT15 CN14; nv13_glance.csv; nv13_ties.csv,error,applied,"The cell reads $13,625."
+2,B3-04,CT15 CN14 CN64,error,applied,"The caption now reads ""$10,125 of the $13,625 that lobbyists and a PAC at Nvidia's firms gave Mast""; the other caption names its own population (""that Anthropic employees gave the three chairmen"")."
+2,B3-05,figure_inventory.json; CT40 CT43; SVG geometry,qualification,applied,The three shapes now share one dollar scale: a square's and a diamond's size are set so that their area equals the circle's for the same amount. The legend says so. The third audit found this partly answered (a smallest mark size made $125 and $250 marks as large as $500 ones). The smallest size is now gone and squares have square corners: see B4-05.
+2,B3-06,CT11 CT33; LG001 LG002 LG003; SVG path coordinates,qualification,applied,"The axis still starts in Jan 2025. Gifts dated before it are no longer drawn off the canvas; each row that has one says ""not drawn: 2 gifts dated 2024 ($2,000), listed in his panel"" (or the row's own count)."
+2,B3-07,CS02,qualification,applied,As V3-CS02.
+2,B3-08,CS03; art-techspot-gain,qualification,applied,"The line now quotes the report's account of Nvidia's reason in full (""comparable to the Biden-era AI Diffusion Rule that was rescinded in May, and part of an attempt to overturn Trump's AI Action Plan"") and Huang's own words on that rule. The third audit found this partly answered. The line now also carries the report's account of Nvidia's statement on chip supply: see A3-CS03."
+2,B3-09,CS04 CS05,qualification,applied,As V3-CS05.
+2,B3-10,CS06 CT03 CT24,qualification,applied,As V3-CS06.
+2,B3-11,CS07; art-nbc-nvidia-tall-tale,qualification,applied,As V3-CS07.
+2,B3-12,CS09,qualification,applied,As V3-CS09.
+2,B3-13,CK18; anthropic-ltbt,qualification,applied,As V3-CK18.
+2,B3-14,CK10,qualification,applied,As V3-CK10.
+2,B3-15,"CE07; x-chinaselect-letter-image, image and reextraction",qualification,applied,"The footnote now separates the two: no record of contact with Anthropic about Huang; and no contact between the members themselves and Nvidia ""beyond the letters (the Nov 12 letter mentions a ""conversation with NVIDIA staff yesterday"", and does not say who took part)"". The letter's sentence is cited on the timeline row."
+2,B3-16,CT12 CS01 CS03; art-hfac-overwatch-advances; art-techspot-ga,qualification,applied,"Two records added: Mast's committee release names ARI among five groups backing his bill; TechSpot reported ARI calling the Senate's GAIN AI Act a ""major win"", with the line saying that was the Senate proposal and when Moolenaar introduced the House bill. The at-a-glance table has a line for them."
+2,B3-17,CS08; art-fortune-nvidia-tall-tales,qualification,applied,"Added to Mast's Nvidia records as reported: Huang ""addressed the upcoming rules in a recent meeting with the House Foreign Affairs Committee"" (Fortune, May 2, 2025), with: ""The report gives no date for the meeting and does not say which members attended."""
+2,B3-18,CE05; man-nyt-1029-01,qualification,applied,"The subtitle now gives the report's headline and Nvidia's reply (""not unusual or unexpected""); the footnote adds Nvidia's statements on what customers receive and on the smuggling claims, and that officials at first ""did not believe the Nvidia executive knew""."
+2,B3-19,CT47 CT42,qualification,applied,As V3-CT47.
+2,B3-20,CT19; pac_base_rates.csv; pacs_by_member.csv,qualification,applied,As V3-CT19.
+2,B3-21,CT01 CN04 CN05; fec-committee-c00583161-20261113,qualification,applied,As V3-CT01.
+2,B3-22,round1_followup.csv; A-TY049 A-TL17 B-03 B-12,qualification,applied,"The status sentence no longer says all findings are applied. It gives each audit's counts, says each finding has a written answer in the repository, and says what has not been audited."
+2,B3-23,CT18 CT20 CT39 CT50; census.md final section; employee_gift_,qualification,applied,"The ""Not searched"" list now adds: ads by other groups Nvidia may fund; registrations that ended before 2024; gifts whose employer field does not begin with either company's name; committees not keyed to a member; bills other than the two; and that X was searched only for Anthropic-side terms, up to Sep 16, 2026."
+2,B3-24,CS01 CT03 CT24,qualification,applied,"As V3-CS01: the line no longer speaks of ""the chairmen's bills"" limiting sales; it cites both bills' records."
+2,B3-25,CT10; LB323 original,qualification,applied,As V3-CT10.
+2,GAP CT20,CT20,gap,stated as a limit,"As in round 1: the line says ""The search responses themselves were not saved""; the footnote adds that X was searched only for Anthropic-side terms, up to Sep 16, 2026."
+2,GAP CT39,CT39,gap,stated as a limit,As CT20.
+2,GAP CT50,CT50,gap,stated as a limit,As CT20.
+2,GAP CK09,CK09,gap,applied in part,"The line no longer rests on the recorded search alone: the group's own announcement of Jun 30, 2026 (saved Nov 14, 2026) gives a total and names no donor, and the FEC's list of its filings shows one report with no donations. The search of Sep 16, 2026 is still cited as the evidence set records it; its response file is not held."
+2,GAP figure-header:mast,figure-header:mast,gap,stated as a limit,"The count is this project's own: pages among its 1,086 saved story pages that name him. The repository carries the list of those pages and which chairman each names, so a reader can recount; the audit was not given that list."
+2,GAP figure-header:moolenaar,figure-header:moolenaar,gap,stated as a limit,As figure-header:mast.
+2,GAP figure-header:crawford,figure-header:crawford,gap,stated as a limit,As figure-header:mast.
+2,GAP figure-tiles:535,figure-tiles:535,gap,stated as a limit,"535 is the number of voting seats in Congress (435 and 100). The tables count sitting members who received a gift; no roster of all 535 is published with the figure, and vacancies were not checked."
+3,A3-CK09,CK09,qualification,applied,"Now: ""The FEC lists one filing by the group, a notice of spending on an ad in Mar 2026: it names no donor, and it is not an account of the group's funding."" The missing response of the Sep 16, 2026 search stays a gap."
+3,A3-CK25,CK25,qualification,applied,"The footnote now adds the report's next sentence, quoted: ""It is unclear whether intelligence officials have since updated their assessment, but some senior officials inside the Trump administration doubt that Mr. Huang could have remained unaware""."
+3,A3-CS03,CS03,qualification,applied,"The line now adds the report's account of Nvidia's statement ""that H20 sales have not reduced its supply of H100, H200, or Blackwell GPUs""."
+3,A3-CE21,CE21,qualification,applied,"The timeline label now reads ""Anthropic announces $20 million for Public First Action""."
+3,A3-CE22,CE22,qualification,applied,"The timeline label now reads ""Anthropic announces another $20 million for Public First Action""."
+3,A3-CN78,CN78,error,applied,The count is now 36. Twelve of that committee's lines carry no candidate id; the builder now takes the candidate of the recipient committee from the FEC's committee master and stops if a line still has none. The same step is applied when looking for gifts to the three chairmen (none is among those lines). The repository carries the committee-master lines used and its verifier recounts.
+3,B4-01,CK09; saved F9 CSV; saved filing list,qualification,applied,As A3-CK09.
+3,B4-02,CK24 CK25; man-nyt-1029-01,qualification,applied,As A3-CK25.
+3,B4-03,CS03; art-techspot-gain,qualification,applied,As A3-CS03.
+3,B4-04,CE21 CE22; anthropic-pfa-1; anthropic-pfa-2,qualification,applied,"As A3-CE21 and A3-CE22. The note beside the timeline (""Dates show order, not purpose"") and the footnote on which donors paid for the ads are kept."
+3,B4-05,figure_inventory.json; SVG geometry; LG016 LG019 LG021 LG026,qualification,applied,"The smallest mark size is gone: a mark's area follows its amount at every size (a $125 gift takes a quarter of the area of a $500 one). Squares have square corners, and each shape's fill is painted over its outline, so the coloured area is the shape's own. The repository's verifier measures every mark and requires areas per dollar to agree within 2%."
+3,B4-06,CK01 CK07 CE21; anthropic-pfa-1,qualification,applied,"A line in Anthropic's card of the stake band quotes the statement: ""Nor are they for the benefit of Anthropic as an AI developer—effective AI governance means more scrutiny of companies like ours, not less"", followed by ""That is the company's statement; no record here tests it."" It was added while this audit was running, after its inputs were frozen, so this audit did not read it."
+3,B4-07,CK23; SP104; C05 saved Public First employer pull; C02 Sched,qualification,applied,"The key line now adds: ""Five other people who gave Anthropic as employer gave that committee $2,154,900 in Jun 2026. None of this identifies a donor to the group, and the ads shown below are the group's."" They are counted, not named."
+3,B4-08,CS04 CS05; art-dcd-anthropic-chip-team,qualification,applied,"The heading now reads ""The AI model maker, now building a chip-design team""."
+3,GAP CT20,CT20,gap,stated as a limit,"Unchanged since round 2. As in round 1: the line says ""The search responses themselves were not saved""; the footnote adds that X was searched only for Anthropic-side terms, up to Sep 16, 2026."
+3,GAP CT39,CT39,gap,stated as a limit,Unchanged since round 2. As CT20.
+3,GAP CT50,CT50,gap,stated as a limit,Unchanged since round 2. As CT20.
+3,GAP CK09,CK09,gap,applied in part,"Unchanged since round 2. The line no longer rests on the recorded search alone: the group's own announcement of Jun 30, 2026 (saved Nov 14, 2026) gives a total and names no donor, and the FEC's list of its filings shows one report with no donations. The search of Sep 16, 2026 is still cited as the evidence set records it; its response file is not held."
+3,GAP figure-header:mast,figure-header:mast,gap,stated as a limit,"Unchanged since round 2. The count is this project's own: pages among its 1,086 saved story pages that name him. The repository carries the list of those pages and which chairman each names, so a reader can recount; the audit was not given that list."
+3,GAP figure-header:moolenaar,figure-header:moolenaar,gap,stated as a limit,Unchanged since round 2. As figure-header:mast.
+3,GAP figure-header:crawford,figure-header:crawford,gap,stated as a limit,Unchanged since round 2. As figure-header:mast.
+3,GAP figure-tiles:535,figure-tiles:535,gap,stated as a limit,"Unchanged since round 2. 535 is the number of voting seats in Congress (435 and 100). The tables count sitting members who received a gift; no roster of all 535 is published with the figure, and vacancies were not checked."

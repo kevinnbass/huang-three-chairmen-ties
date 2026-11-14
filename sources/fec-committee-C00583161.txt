@@ -1,0 +1,23 @@
+URLS: https://api.open.fec.gov/v1/committee/C00583161/ ; https://api.open.fec.gov/v1/committee/C00583161/filings/?form_type=F1&per_page=5&sort=-receipt_date ; https://docquery.fec.gov/dcdev/posted/1307133.fec
+DOWNLOADED: 2026-11-13T23:18:35Z (through the shared FEC queue)
+
+COMMITTEE RECORD:
+  committee_id: C00583161
+  name: MAST VICTORY COMMITTEE
+  designation_full: Joint fundraising committee
+  committee_type_full: PAC - Nonqualified
+  candidate_ids: []
+  sponsor_candidate_ids: None
+  jfc_committee: None
+  affiliated_committee_name: NONE
+  first_file_date: 2015-08-11
+  last_file_date: 2026-10-22
+
+STATEMENTS OF ORGANIZATION (Form 1) ON FILE: 4
+  received 2019-01-25; file number 1307133; amendment indicator A; https://docquery.fec.gov/pdf/720/201901259143997720/201901259143997720.pdf
+  received 2018-12-12; file number 1300959; amendment indicator A; https://docquery.fec.gov/pdf/850/201812129142296850/201812129142296850.pdf
+  received 2017-02-28; file number 1150971; amendment indicator A; https://docquery.fec.gov/pdf/137/201702289050585137/201702289050585137.pdf
+  received 2015-08-11; file number 1021317; amendment indicator N; https://docquery.fec.gov/pdf/205/201508119000814205/201508119000814205.pdf
+
+NOTE: the electronic copy of file 1307133 holds only the cover line of the Form 1 amendment (752 bytes); the committees that share
+in the joint fundraising are not listed in it. They are on the filed pages (the pdf links above), which were not read.

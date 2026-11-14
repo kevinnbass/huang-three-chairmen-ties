@@ -1,0 +1,12 @@
+URL: https://adstransparency.google.com/advertiser/AR09462075813676449793/creative/CR14558268227953098753?political=&region=US
+CAPTURED: 2026-11-13T22:57:03Z (opened in a local browser; a second, earlier Arkansas ad entry by the same advertiser)
+
+Google political-ads report line for this entry: video ad by Public First Action Inc, 2026-07-11 to 2026-07-14, 600000-700000 impressions, $10,000 to $15,000. Google reports these ranges for the entry as a whole, not per variation.
+
+WORDS ON SCREEN IN THE VIDEO (read by the builder from nine frames captured about every 3.5 seconds while the video played; frames saved here as frame-00.png to frame-08.png and tiled in frames.png; a reading, not a transcript: the voice-over was not captured):
+TOM COTTON MAKING SURE AI-POWERING CHIPS DON'T FA[...]
+TOM COTTON SUPPORTING THE C[...]
+CALL TOM COTTON
+PAID FOR BY PUBLIC FIRST ACTION. WWW.PUBLICFIRSTACTION.US
+
+The on-screen words match the other Arkansas entry (google-ads-creative-ar-20261113); it names Sen. Tom Cotton, not one of the three chairmen.

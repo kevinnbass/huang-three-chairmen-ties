@@ -1,0 +1,114 @@
+URLS: https://www.technet.org/our-story/members/ ; https://www.technet.org/our-story/members/page/2/ ; https://www.technet.org/our-story/members/page/3/ ; https://www.technet.org/our-story/members/page/4/ ; https://www.technet.org/our-story/members/page/5/
+FETCHED: 2026-11-14T00:20:40Z to 2026-11-14T00:21:56Z
+
+MEMBERS OF TECHNET AS LISTED ON ITS FIVE SAVED MEMBER PAGES (107 names; each is the name the page gives for a member entry, read from the saved HTML by script):
+1-800 CONTACTS
+Abridge
+Accel
+Accenture
+Airbnb
+Amazon
+Ancestry
+Anthropic
+Apple
+Applecart
+Aurora
+Benchmark
+Block
+Box
+Bumble
+Carta
+Cisco
+Clayco
+CLEAR
+Cohere
+CollegeBoard
+Comcast
+CoreWeave
+CrowdSmart
+D-Wave
+Dell Technologies
+Deloitte
+Discord
+DoorDash
+eBay
+Etsy
+Faire
+Founder Law
+FWD.us
+Garmin
+Glamsquad, Inc.
+GoDaddy
+Google
+GrubHub
+Hewlett-Packard Enterprise
+Hims, Inc.
+Ibotta
+ID.me
+Indeed
+Instacart
+Intuit
+JC2 Ventures
+Kleiner Perkins
+Kodiak
+LexisNexis Risk Solutions
+Liquid AI
+Lyft
+Lytx
+Mastercard
+Mercari
+Meta
+MOIA America
+Nasdaq
+Nebius
+Netflix
+NVIDIA
+OpenAI
+PayPal
+Persona
+Pindrop
+Pintrest
+Proof
+QTS
+Reflection AI
+Ro
+Rover
+Runway
+Salesforce
+Samsara
+Samsung
+SAP
+Scale
+Serve Robotics
+Shipt
+Shopify
+Snap
+Socure
+Stack
+Strava
+Stripe
+StubHub
+SV Angel
+TaskRabbit
+Teladoc
+Tesla
+TikTok USDS JV
+Torc
+TSMC
+Uber
+UnitedHealth Group
+Verizon
+Visa
+Waabi
+Waymo
+Waystar
+Wilson, Sonsini, Goodrich & Rosati
+Wing
+Zillow
+Zipline
+ZipRecruiter
+Zoom
+Zoox
+
+Nvidia is listed. Anthropic is listed.
+A page of this kind shows the members on the days it was saved; it does not say when a company joined.

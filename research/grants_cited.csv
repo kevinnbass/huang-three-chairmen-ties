@@ -1,0 +1,31 @@
+link,source_ref,funder,recipient,year,date,amount_usd,purpose,url
+ari,evidence-set:lineage/flows_annual#FA014,Open Philanthropy / Coefficient Giving,Americans for Responsible Innovation,2024,2024,3000000,,https://coefficientgiving.org/grants/
+ari,evidence-set:lineage/flows_annual#FA015,Open Philanthropy / Coefficient Giving,Americans for Responsible Innovation,2025,2025,446500,,https://coefficientgiving.org/grants/
+horizon,evidence-set:lineage/flows_annual#FA849,Good Ventures Foundation,Horizon Institute for Public Service,2023,2023,11837990,,https://gt990datalake-rawdata.s3.amazonaws.com/EfileData/XmlFiles/202441369349105564_public.xml
+ifp,evidence-set:lineage/flows_annual#FA132,Open Philanthropy / Coefficient Giving,Institute for Progress,2021,2021,1615000,,https://coefficientgiving.org/grants/
+ifp,evidence-set:lineage/flows_annual#FA133,Open Philanthropy / Coefficient Giving,Institute for Progress,2023,2023,9341660,,https://coefficientgiving.org/grants/
+ifp,evidence-set:lineage/flows_annual#FA134,Open Philanthropy / Coefficient Giving,Institute for Progress,2026,2026,1000000,,https://coefficientgiving.org/grants/
+cais,evidence-set:lineage/flows_annual#FA033,Open Philanthropy / Coefficient Giving,Center for AI Safety,2022,2022,5160000,,https://coefficientgiving.org/grants/
+cais,evidence-set:lineage/flows_annual#FA034,Open Philanthropy / Coefficient Giving,Center for AI Safety,2023,2023,7325288,,https://coefficientgiving.org/grants/
+cnas,evidence-set:lineage/flows_annual#FA045,Open Philanthropy / Coefficient Giving,Center for a New American Security,2017,2017,260000,,https://coefficientgiving.org/grants/
+cnas,evidence-set:lineage/flows_annual#FA046,Open Philanthropy / Coefficient Giving,Center for a New American Security,2018,2018,400352,,https://coefficientgiving.org/grants/
+cnas,evidence-set:lineage/flows_annual#FA047,Open Philanthropy / Coefficient Giving,Center for a New American Security,2020,2020,141094,,https://coefficientgiving.org/grants/
+cnas,evidence-set:lineage/flows_annual#FA048,Open Philanthropy / Coefficient Giving,Center for a New American Security,2021,2021,351187,,https://coefficientgiving.org/grants/
+cnas,evidence-set:lineage/flows_annual#FA049,Open Philanthropy / Coefficient Giving,Center for a New American Security,2022,2022,5149398,,https://coefficientgiving.org/grants/
+cnas,evidence-set:lineage/flows_annual#FA050,Open Philanthropy / Coefficient Giving,Center for a New American Security,2025,2025,8324325,,https://coefficientgiving.org/grants/
+carnegie,evidence-set:congress/grants#GR026,Coefficient Giving,Carnegie Endowment for International Peace,2015,2015-03-01,100000,Work on India and China,https://coefficientgiving.org/grants/carnegie-endowment-for-international-peace-work-on-india-and-china/
+carnegie,evidence-set:congress/grants#GR027,Coefficient Giving,Carnegie Endowment for International Peace,2017,2017-12-14,613380,Chinese and Indian Perspectives on Biotech Security Risks,https://coefficientgiving.org/grants/carnegie-endowment-for-international-peace-chinese-and-indian-perspectives-on-biotech-security-risks/
+carnegie,evidence-set:congress/grants#GR028,Coefficient Giving,Carnegie Endowment for International Peace,2022,2022-03-29,597717,AI Governance Research,https://coefficientgiving.org/grants/carnegie-endowment-for-international-peace-ai-governance-research/
+carnegie,evidence-set:congress/grants#GR029,Coefficient Giving,Carnegie Endowment for International Peace,2023,2023-04-13,322000,Alternative Proteins for Security,https://coefficientgiving.org/grants/carnegie-endowment-for-international-peace-alternative-proteins-for-security/
+carnegie,evidence-set:congress/grants#GR030,Coefficient Giving,Carnegie Endowment for International Peace,2025,2025-04-13,443732,AI Governance Research,https://coefficientgiving.org/grants/ai-governance-research/
+carnegie,evidence-set:congress/grants#GR031,Coefficient Giving,Carnegie Endowment for International Peace,2025,2025-07-23,160000,Frontier AI and Geopolitics Research,https://coefficientgiving.org/grants/frontier-ai-and-geopolitics-research/
+carnegie,evidence-set:congress/grants#GR032,Coefficient Giving,Carnegie Endowment for International Peace,2026,2026-03-05,154675,Mirror Biology Policy Working Group,https://coefficientgiving.org/grants/mirror-biology-policy-working-group/
+fai,evidence-set:congress/grants#GR044,Coefficient Giving,Foundation for American Innovation,2023,2023-06-28,552500,AI Safety Policy Advocacy,https://coefficientgiving.org/grants/foundation-for-american-innovation-ai-safety-policy-advocacy/
+fai,evidence-set:congress/grants#GR045,Coefficient Giving,Foundation for American Innovation,2024,2024-07-29,423500,AI Safety Policy Research and Advocacy (Exit Grant),https://coefficientgiving.org/grants/foundation-for-american-innovation-exit-grant/
+fai,evidence-set:congress/grants#GR046,Coefficient Giving,Foundation for American Innovation,2026,2026-04-28,2714000,Energy Permitting Reforms,https://coefficientgiving.org/grants/energy-permitting-reforms/
+fli,evidence-set:congress/grants#GR053,Coefficient Giving,Future of Life Institute,2015,2015-08-01,1186000,Artificial Intelligence Risk Reduction,https://coefficientgiving.org/grants/future-of-life-institute-artificial-intelligence-risk-reduction/
+fli,evidence-set:congress/grants#GR054,Coefficient Giving,Future of Life Institute,2016,2016-03-11,100000,General Support,https://coefficientgiving.org/grants/future-of-life-institute-general-support/
+fli,evidence-set:congress/grants#GR055,Coefficient Giving,Future of Life Institute,2017,2017-05-19,100000,General Support,https://coefficientgiving.org/grants/future-of-life-institute-general-support-2017/
+fli,evidence-set:congress/grants#GR056,Coefficient Giving,Future of Life Institute,2018,2018-06-14,250000,General Support,https://coefficientgiving.org/grants/future-of-life-institute-general-support-2018/
+fli,evidence-set:congress/grants#GR057,Coefficient Giving,Future of Life Institute,2019,2019-10-21,100000,General Support,https://coefficientgiving.org/grants/future-of-life-institute-general-support-2019/
+fli,evidence-set:congress/grants#GR058,Coefficient Giving,Future of Life Institute,2020,2020-11-18,176000,General Support,https://coefficientgiving.org/grants/future-of-life-institute-general-support-2020/

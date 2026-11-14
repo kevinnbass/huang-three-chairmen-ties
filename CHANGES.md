@@ -1,0 +1,106 @@
+# Changes and corrections
+
+This file lists what changed between drafts and every error found on the way, with what was done about it.
+
+## The published figure (Nov 14, 2026): the ties to Anthropic
+
+- **Nvidia's side is no longer drawn.** The version the audits read set the same records for Nvidia beside Anthropic's
+  in every panel, on the timeline and in the title. The published figure is about the ties to Anthropic, so those parts
+  were taken out of the drawing: the title names no sum for Nvidia, neither the $0 from its employees nor the $17,500 from
+  lobbyists and PACs at its firms. One sentence in the notes says what was left out and gives the three results, and the
+  rows stay in the tables. This version was checked by script only.
+
+## Version 3, corrected after the second and third audits (Nov 14, 2026)
+
+- **A gift on Nvidia's side had been missed, and is now counted.** The second audit recounted every lobbyist's gift from
+  the Senate's files and found one the builder's rule had dropped: $500 to Mast on Nov 19, 2025 from a lobbyist at a firm
+  registered for Nvidia, with the honoree written "MastForCongress". The rule looked for the surname as a separate word.
+  It now also accepts a surname that runs straight into "for Congress" (and still refuses Masto and Masters). The sum for
+  Nvidia's firms rose from $17,000 to $17,500, Mast's from $13,125 to $13,625, and the title, table, timeline and panel
+  were corrected. The title now says "lobbyists and PACs", since the sum includes a firm's own PAC.
+- **Each company's own account was added where the other's had been given.** Nvidia's stated reason for opposing the
+  Senate's bill, the whole of its "tall tales" remark, its reply to the Times and the report's statement that officials at
+  first "did not believe the Nvidia executive knew"; Anthropic's statement that the policies it backs are not for its own
+  benefit, and that its chip work is a design team inside a "diversified hardware stack". Quotations the auditor found cut
+  short were restored.
+- **Three records the auditor found in sources already cited were added:** Mast's committee naming ARI among his bill's
+  backers; ARI calling the Senate's version of Moolenaar's bill a "major win"; and Fortune's report that Huang addressed a
+  meeting of Mast's committee in 2025.
+- **Who funds Public First Action is now stated from the records:** Anthropic is the only donor they identify; the group
+  says it has raised more than $80 million and names no donor; its one FEC filing shows no donations; and Anthropic's
+  chief executive gave $1 million of his own to a separate super PAC with a similar name.
+- **The timeline's marks were redrawn** so that equal dollars take equal areas whatever the shape, and three gifts dated
+  2024, which had fallen off the left edge, are now announced in their rows instead.
+- **The layout is now two columns.** The first half of the figure (what is at stake, who is who, the table, the timeline)
+  is on the left and the second half (each chairman's records, how common the ties are, the notes) is on the right, under
+  one title. Nothing else changed with it except four phrases that pointed "below". This was done after the audits; the
+  words and the marks are those the audits read.
+- **Limits were tightened:** the share of a campaign's receipts is "for scale" where part of the money went to a joint
+  committee; Crawford's "no report" lines are bounded to the two bills searched; the letter of Nov 12 mentions a talk with
+  Nvidia's staff, and the list of what the record does not show now says so.
+
+## Version 3 as first built (Nov 13, 2026)
+
+- **Lobbyists' own gifts are now counted for both companies by one rule, and the result changed the picture.** Version 2
+  said of Nvidia "none on file" under each chairman. That was true of Nvidia's employees and of its PAC, and it was all
+  that had been searched. The contribution reports lobbyists file with the Senate were then pulled for all three chairmen
+  (2024 to 2026) and read the same way for Nvidia's firms, Anthropic's firms and the firms of the groups in the key.
+  Lobbyists and a PAC at firms registered for Nvidia gave the three chairmen more than lobbyists at Anthropic's firms did.
+  The title, the at-a-glance table, the timeline and each panel now say so.
+- **Crawford gained two records on Anthropic's side** from the same search: gifts in April 2026 from lobbyists at two firms
+  then registered for Anthropic.
+- **Trade groups were searched.** The PACs of two trade groups that list Nvidia as a member, and not Anthropic, gave Mast
+  money; TechNet, which lists both companies, gave none of the three anything. A first reading of TechNet's list took one
+  page of five and would have said Nvidia was absent; the whole list was then read.
+- **What is at stake is stated.** A band at the top says what each company makes, that each is moving into the other's
+  business, where the two have clashed in public over chip export limits, and that Nvidia agreed to buy Anthropic stock.
+  Each line is a quotation or a dated record.
+- **One shared timeline** replaces three separate strips, with the three chairmen on one scale.
+- **An at-a-glance table** puts the three side by side by kind of record.
+- **Scale.** Each chairman's campaign receipts are given, and the employees' gifts as a share of them.
+- **The ads.** Each of the two ad entries has two versions; both were captured and show the same words. Two frames of each ad
+  are in the figure. Google's totals are stated for the entry, not for one video.
+- **The hearing.** Jack Clark's written statement and the transcript of the Jun 25, 2025 hearing are now cited, so the
+  figure says he testified and quotes what he asked for.
+- **Applied from the first audit** (all 21 row findings and 30 figure findings; `audit/DISPOSITIONS.csv`): a firm's
+  registration for Anthropic took effect Feb 11, 2026, not in March; "no client directed it" was removed, because a
+  lobbyist's report does not show that; witnesses "were listed", since a witness list does not show who appeared; grant
+  totals say when an award was an exit grant or for another subject; the foundation that paid Horizon and its fiscal year
+  are named; the trust is described in Anthropic's own words as independent; party counts include independents; tied
+  ranks are shown as ties; the title says the gifts went to committees; negatives say what was searched and for which
+  dates; "every documented tie" became "every tie found, in the records searched".
+
+## Version 2 (Nov 13, 2026)
+
+- **A key was added: "Who is who".** The first draft named groups (Americans for Responsible Innovation, Horizon, the
+  Institute for Progress, others) without saying how each connects to Anthropic. The key states each link once, each
+  from a cited record, and the panels sort their statements by that link.
+- **The ads were found.** The first draft said of Public First Action's announced advertisements: "No saved record shows the
+  ad or that it ran." That was wrong. Google's political-ads report, already saved in the builder's evidence, lists a
+  30-second video aimed at Rep. Moolenaar's district (Aug 5 to 25, 2026) and one aimed at the 38 zip-code areas of Rep.
+  Mast's district (Aug 19 to Sep 2, 2026). Both were opened and played; the words on screen name each chairman. The line
+  was replaced by the record.
+- **Statements name the firm and the client.** "Lobbyists whose firms had clients in the network" became the firm, the
+  client it was registered for at the time, and the date. The lobbyist is not named.
+- **The search that found nothing is described exactly:** eleven search terms, the member's official X account, posts since
+  January 2025, searched Sep 16, 2026.
+- **Each bill is described in its official title's words.**
+
+## Corrections to the count of employees' gifts (all before version 1 was shown)
+
+- **16 recovered lines became 9.** Nine gifts to Banks for Senate were first reported with Anthropic as the donor's employer;
+  the committee's amended report leaves that field empty. They are counted from the earlier capture and marked. An early
+  run counted 16 such lines: six were duplicates (the FEC's bulk file drops cents, so 143.56 there is 143, and the
+  comparison was to the cent) and one went to a committee the counting rule does not tie to a member.
+- **Totals rose when the second source was finished.** The first totals for Anthropic (130 members, $3.04 million) were
+  quoted before the FEC API had been read to the end. The API holds lines the weekly bulk file lacks. The finished count is
+  in the README.
+- **One committee rule for every line.** An early run tied a party committee, and a PAC that is not a leadership PAC, to
+  single members. The rule now admits only a member's campaign committee, a joint fundraising committee linked to that
+  one candidate, or a joint or leadership committee the evidence set had already tied to the member.
+- **People are counted by name, not by name and zip code.** One donor with two zip codes was counted twice in an early run.
+
+## Not changed
+
+- Donors and lobbyists are not named, here or in the figure.
+- Quoted passages longer than a sentence or two are not copied from sources that are not official records.

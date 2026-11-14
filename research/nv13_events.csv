@@ -1,0 +1,23 @@
+row_id,lane,date,end,kind,words,src,q
+CE01,all,2025-05-01,,clash,"Nvidia: Anthropic tells ""tall tales""",art-nbc-nvidia-tall-tale,tall tales
+CE02,all,2025-09-04,,clash,Report: Nvidia opposes the Senate's GAIN AI Act,art-techspot-gain,Nvidia has since posted a statement opposing the GAIN AI Act
+CE03,all,2026-04-30,,bill,Senate version of Mast's bill introduced,table:chip_bills.csv#s4456,2026-04-30
+CE04,all,2026-08-06,,clash,Anthropic confirms a chip-design team,art-dcd-anthropic-chip-team,"August 06, 2026"
+CE05,all,2026-10-29,,press,Times report on Huang,man-nyt-1029-01,American officials had concluded that she was a Chinese intelligence asset
+CE06,all,2026-11-05,,letter,The three ask Huang to brief them,house-hfac-letter-pr,"the Chairmen have requested that Mr. Huang brief the committees on November 18, 2026"
+CE07,all,2026-11-12,,letter,"Their letter: interview on Dec 1, or a subpoena",x-chinaselect-letter-image || x-chinaselect-letter-image || x-chinaselect-letter-image,"we request that you appear for a closed-door, transcribed interview on December 1, 2026 || or a subpoena will be issued || We appreciated the conversation with NVIDIA staff yesterday regarding our committees' request."
+CE08,moolenaar,2025-06-25,,hearing,Anthropic's co-founder testifies to his committee,house-hrg-zs00-20250625-transcript,STATEMENT OF MR. JACK CLARK
+CE09,moolenaar,2025-10-31,,bill,Introduces H.R. 5885 (GAIN AI Act),table:chip_bills.csv#hr5885,2025-10-31
+CE10,moolenaar,2025-12-18,,bill,Original cosponsor of Mast's bill,table:chip_bill_backers.csv#hr6875:M001194,2025-12-18
+CE11,moolenaar,2026-07-17,,ad,Ads announced,art-pfa-conservative,Rep. John Moolenaar
+CE12,moolenaar,2026-08-05,2026-08-25,adrun,Ad naming him runs,google-political-ads-pfa-20260916,Ad_ID=CR04292619503667249153
+CE13,mast,2025-12-18,,bill,Introduces H.R. 6875 (AI OVERWATCH Act),table:chip_bills.csv#hr6875,2025-12-18
+CE14,mast,2026-01-21,,bill,"His committee approves it, 42–2",table:chip_bills.csv#hr6875,Ordered to be Reported in the Nature of a Substitute by the Yeas and Nays: 42 - 2.
+CE15,mast,2026-03-26,,bill,"His committee approves the Chip Security Act, 42–0",table:chip_bills.csv#hr3447,Ordered to be Reported in the Nature of a Substitute by the Yeas and Nays: 42 - 0.
+CE16,mast,2026-04-22,,bill,"His committee approves the MATCH Act, 36–8",table:chip_bills.csv#hr8170,Ordered to be Reported in the Nature of a Substitute (Amended) by the Yeas and Nays: 36 - 8.
+CE17,mast,2026-07-17,,ad,Ads announced,art-pfa-conservative,Rep. Brian Mast
+CE18,mast,2026-08-19,2026-09-02,adrun,Ad naming him runs,google-political-ads-pfa-20260916,Ad_ID=CR08230337604738875393
+CE19,crawford,2025-11-18,,bill,Cosponsors H.R. 5885,table:chip_bill_backers.csv#hr5885:C001087,2025-11-18
+CE20,crawford,2025-12-18,,bill,Original cosponsor of Mast's bill,table:chip_bill_backers.csv#hr6875:C001087,2025-12-18
+CE21,all,2026-02-12,,money,Anthropic announces $20 million for Public First Action,anthropic-pfa-1 || anthropic-pfa-1,Anthropic is contributing $20 million to Public First Action || PUBLISHED: 2026-02-12
+CE22,all,2026-07-21,,money,Anthropic announces another $20 million for Public First Action,anthropic-pfa-2 || anthropic-pfa-2,bringing our total support to $40 million || PUBLISHED: 2026-07-21

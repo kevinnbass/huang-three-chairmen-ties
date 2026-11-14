@@ -1,0 +1,127 @@
+URL: https://www.semiconductors.org/about-us/members/
+FETCHED: 2026-11-14T00:20:40Z
+
+MEMBERS OF SEMICONDUCTOR INDUSTRY ASSOCIATION AS LISTED ON THE SAVED PAGE (108 names; each is the alt text or title of a member's logo, read from the saved HTML by script):
+Altera
+AMD
+Ampere Computing
+Analog Devices
+Broadcom
+Cirrus Logic
+Coherent
+Credo Semiconductor Inc.
+Global Foundries
+IBM
+Intel
+Lansdale
+Lattice
+Marvell
+Massachusetts Bay Technologies
+Microchip Technology Inc.
+Micron
+NVIDIA
+Onsemi
+Qualcomm
+Rambus
+Rochester Electronics
+Sandisk
+Silicon Labs
+SiTime
+SkyWater Technology
+Skyworks
+Synaptics
+Tenstorrent
+Texas Instruments
+Woldspeed
+Infineon
+Kioxia
+MediaTek
+muRata
+NXP
+Polar Semiconductor
+Rapidus
+Samsung
+SK hynix
+Socionext
+Solidigm
+ST Micro
+Toshiba Electronic Devices & Storage Corporation
+TSMC
+UMC
+Aixtron
+Amkor Technology
+Arm
+Arrow Electronics
+ASM
+ASML
+Avnet
+Cadence
+EMD Electronics
+Emerson
+FujiFilm
+GlobalWafers
+Hemlock Semiconductor Operations, LLC.
+IMEC
+Keysight
+KLA-Tencor
+LAM Research
+Mouser
+Nokia
+Onto Innovation
+SiFive
+Soitec
+Solstice
+Synopsys
+Tokyo Electron Ltd.
+Teradyne
+Veeco
+Wacker
+ABB
+Akin
+Alum-a-Lift
+Arizona Commerce
+ASNA Global
+Bechtel
+Black & Veatch
+Cambridge Isotope Laboratories
+Charter Brokerage
+CleanSpace
+Deloitte
+Diversified CPC
+DPR Construction
+EFC Gases & Advanced Materials
+Endress+Hauser
+Forma Prime
+Indiana
+JE Dunn
+Jobs Ohio
+Macquarie Electronics USA Inc.
+Maverick Silicon
+Michigan Economic Development Corporation
+My Silicon Compass
+NY Loves Nanotech
+Plug and Play
+PWC
+Revive Environmental
+Roxtec
+Smiths Interconnect
+Sundt
+Swagelok
+TechInsights
+Total Energies
+Veolia
+
+Nvidia is listed. Anthropic is not listed.
+A page of this kind shows the members on the day it was saved; it does not say when a company joined.
+
+
+URL: https://www.semiconductors.org/about-us/members/
+FETCHED: 2026-11-14T00:20:40Z
+STATUS: 200
+TITLE: Members | SIA Membership | Semiconductor Industry Association
+PUBLISHED: 2018-01-22T16:03:45+00:00
+MODIFIED: 2026-11-05T14:55:19+00:00
+AUTHOR: 
+DESCRIPTION: 
+
+

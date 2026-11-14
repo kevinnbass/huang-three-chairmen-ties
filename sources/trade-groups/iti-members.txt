@@ -1,0 +1,100 @@
+URL: https://www.itic.org/about/membership/iti-members
+FETCHED: 2026-11-14T00:20:40Z
+
+MEMBERS OF INFORMATION TECHNOLOGY INDUSTRY COUNCIL AS LISTED ON THE SAVED PAGE (81 names; each is the alt text or title of a member's logo, read from the saved HTML by script):
+Accenture
+Adobe Systems
+Advanced Micro Devices
+Akamai
+Amazon.com
+Apple, Inc.
+Applied Materials
+Aura
+Broadcom
+Canon, Inc.
+Canva
+CDW
+Cisco Systems, Inc.
+Cloudflare
+Cognizant Technology Solutions
+CoreWeave
+Corning Incorporated
+CrowdStrike
+Dell, Inc.
+Dropbox
+Equinix
+Ericsson
+Fujitsu Limited
+Gen
+Gigamon
+GitLab
+Google
+Hewlett Packard Enterprise
+Honeywell
+HP Inc.
+IBM
+Intel Corporation
+Intuit, Inc.
+IonQ
+Iron Mountain
+Keysight Technologies
+Lenovo
+Logitech
+Mastercard
+Medtronic
+Meta
+Microsoft Corporation
+Motorola Solutions
+NetApp
+Nielsen
+NVIDIA
+OpenAI
+Palo Alto Networks
+Qualcomm
+Rapid7
+Reflection AI
+Sage, Inc.
+Salesforce
+SAP
+Schneider Electric
+Seagate Technology
+ServiceNow
+Siemens
+SK Americas
+Snap Inc.
+SoftBank Group
+Spotify
+SWIFT
+Synopsys
+Tata Consultancy Services
+Tenable
+Teradata Corporation
+Texas Instruments
+Toshiba
+Trellix
+TSMC
+Twilio
+Vantage Data Centers
+VeriSign
+Visa, Inc.
+Western Digital
+Xerox Corporation
+Yahoo, Inc.
+Zoom Video Communications, Inc.
+Zscaler
+ZT Systems
+
+Nvidia is listed. Anthropic is not listed.
+A page of this kind shows the members on the day it was saved; it does not say when a company joined.
+
+
+URL: https://www.itic.org/about/membership/iti-members
+FETCHED: 2026-11-14T00:20:40Z
+STATUS: 200
+TITLE: ITI Members - Information Technology Industry Council
+PUBLISHED: 
+MODIFIED: 
+AUTHOR: 
+DESCRIPTION: 
+
+ITI Members Subsection

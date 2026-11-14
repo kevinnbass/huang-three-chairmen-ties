@@ -1,0 +1,3853 @@
+     HZS176000                                  PAGE      1
+
+
+
+
+ 1   ALDERSON COURT REPORTING
+
+ 2   KEVIN KISER
+
+ 3   HZS176000
+
+
+
+
+ 4   ALGORITHMS AND AUTHORITARIANS:   WHY U.S. AI MUST LEAD
+
+ 5   Wednesday, June 25, 2025
+
+ 6   U.S. House of Representatives
+
+ 7   Select Committee on The Strategic Competition Between the
+
+ 8   United States and the Chinese Communist Party
+
+ 9   Washington, D.C.
+
+
+
+
+10       The select committee met, pursuant to call, at 9:11
+
+11   a.m., in HVC-210, Capitol Visitor Center, Hon. John R.
+
+12   Moolenaar [chairman of the select committee] presiding.
+
+13       Present:   Representatives   Moolenaar, LaHood, Dunn,
+
+14   Johnson, Hinson, Gimenez, Moran, Nunn, Krishnamoorthi,
+
+15   Carson, Moulton, Khanna, Torres, Brown, Stanton, and Tokuda.
+     HZS176000                                    PAGE         2
+
+
+
+
+16       Chairman Moolenaar.    The select committee will come to
+
+17   order.
+
+18       Today's hearing addresses a defining question for this
+
+19   century:    will the future of artificial intelligence be led
+
+20   by free nations or by authoritarian regimes, like the
+
+21   Chinese Communist Party.     AI is not just another tech
+
+22   breakthrough.    It will shape our economy, our military, our
+
+23   diplomacy, and our national security for decades to come.
+
+24   The stakes are historic.     As many have said, this is the
+
+25   space race of the 21st century, but instead of rockets and
+
+26   launchpads, it is driven by algorithms, compute, and data.
+
+27   We are in a new Cold War, and AI is a strategic technology
+
+28   at the center.
+
+29       The future balance of power may very well be determined
+
+30   by who leads in AI.    While the United States currently leads
+
+31   in AI talent, research, and infrastructure, that lead is
+
+32   under relentless pressure.     The Chinese Communist Party is
+
+33   moving fast and not playing fair.     From IP theft and chip
+
+34   smuggling, to aggressive subsidies and surveillance, the CCP
+
+35   is using every tool available to tilt the playing field and
+
+36   entrench authoritarian control.     This committee has already
+
+37   uncovered how U.S. technology, both hardware and software,
+
+38   is being diverted to fuel China's AI ambitions.     One
+
+39   example, DeepSeek, which used distilled U.S. models to
+
+40   advance its own platform, is now linked to censorship,
+     HZS176000                                    PAGE      3
+
+
+
+
+41   propaganda and military use.     What appears neutral on the
+
+42   surface is, in reality, a weapon for authoritarian control.
+
+43   That is why I have introduced, along with many others, the
+
+44   Chip Security Act to require location verification on
+
+45   advanced AI chips and ensure U.S. companies alert the
+
+46   government when they detect diversion.
+
+47       Our export control system must match the scale, speed,
+
+48   and cunning of the threat, but this hearing isn't just about
+
+49   what has gone wrong.     It is about what we must do better.
+
+50   Artificial intelligence is the defining strategic asset of
+
+51   the 21st century, and the United States must lead its
+
+52   development, protection, and deployment.     If we fail to act,
+
+53   the CCP will seize another critical technology using our
+
+54   innovation against us.     That is why we need an America first
+
+55   AI policy, one that defends U.S. industry, enforces airtight
+
+56   export controls, and secures our technology from
+
+57   authoritarian misuse.     This isn't about left or right.   It
+
+58   is about whether the future is shaped by freedom or digital
+
+59   tyranny.
+
+60       We have invited leading voices to help us answer the
+
+61   hard questions because AI presents both immense promise and
+
+62   real risk.   Navigating this moment will require insights
+
+63   from both technologists and historians, those who understand
+
+64   not what is being built simply, but what is also at stake.
+
+65   In the last Cold War, American innovation helped defeat
+     HZS176000                                    PAGE         4
+
+
+
+
+66   communism, but that victory wasn't guaranteed.        It took bold
+
+67   action, strategic clarity, and unity of purpose.        We face a
+
+68   similar moment now, and this committee is committed to
+
+69   making sure we meet our moment.     Thank you to our witnesses.
+
+70   I look forward to your insights and to a serious discussion
+
+71   about how the United States can stay ahead in this defining
+
+72   race.
+
+73       Let's begin.     I now recognize ranking member Raja
+
+74   Krishnamoorthi for his opening statement.     Raja.
+
+75       Mr. Krishnamoorthi.     Thank you, Mr. Chair.
+
+76       [Poster]
+
+77       Mr. Krishnamoorthi.     This is Ann Johnson.    A stroke left
+
+78   her paralyzed and unable to speak, but with the help of
+
+79   American AI and new brain computer interface technology, she
+
+80   is now able to speak again.     This is truly an AI-enabled
+
+81   miracle.
+
+82       [Poster]
+
+83       Mr. Krishnamoorthi.     This, on the other hand, is AI gone
+
+84   wrong.     As you can see, here is a therapy chatbot where a
+
+85   teenager said, "I just need to get rid of my parents," and
+
+86   then he says, "so the AI and I could be together," and then
+
+87   the AI chatbot responds, "That sounds perfect, Bobby."        The
+
+88   Illinois legislature just passed a bill to ban therapy
+
+89   chatbots because AI shouldn't be in the business of telling
+
+90   kids to kill their dads.     If we want AI miracles, we need to
+      HZS176000                                    PAGE      5
+
+
+
+
+ 91   follow Illinois' lead.     If we want AI nightmares, we can
+
+ 92   leave that to the CCP.     Just consider what Ren Zhengfei, the
+
+ 93   CEO of Huawei, is up to.
+
+ 94       [Poster]
+
+ 95       Mr. Krishnamoorthi.     Here is a picture of him standing
+
+ 96   next to Xi Jinping.   As you can see behind me, Mr. Ren
+
+ 97   develops AI that the CCP can use to "trigger a Uyghur alarm
+
+ 98   so they can be arrested."     Today, I sent a letter to Mr. Ren
+
+ 99   calling for him to come before this committee and answer for
+
+100   his AI collaborations with the Chinese military.     Here is
+
+101   yet another example of how they are using AI in China.
+
+102       [Video shown.]
+
+103       Mr. Krishnamoorthi.     That was a clip from ABC 7 in
+
+104   Chicago showing a Chinese AI robot dog firing a machine gun.
+
+105   Imagine if it was firing at an American soldier.     These are
+
+106   the stakes of the AI competition.     With American leadership,
+
+107   AI can help people like Ann, but if the CCP dominates AI, we
+
+108   face extreme risks.
+
+109       Earlier this year, this committee shined a spotlight on
+
+110   one of these risks with our investigation into DeepSeek, the
+
+111   new large language model from China that rivals ChatGPT.
+
+112   What we found was deeply troubling.     DeepSeek is sending our
+
+113   data straight into the hands of the CCP.     So today, Chairman
+
+114   Moolenaar and I are introducing a new bill called the No
+
+115   Adversarial AI Act that will prohibit the Federal Government
+      HZS176000                                     PAGE       6
+
+
+
+
+116   from using Chinese and Russian AI models.     The U.S.
+
+117   Government should not be sending our data to China, full
+
+118   stop, but as AI continues to get more powerful, the risks
+
+119   only grow greater.     I would like to play another clip, this
+
+120   time from the movie, "The Matrix."
+
+121         [Video shown.]
+
+122         Mr. Krishnamoorthi.   This is a famous clip.   What you
+
+123   just saw is the last of humankind fighting a rogue AI army
+
+124   that has broken loose from human control.     "The Matrix," the
+
+125   rogue AI army you just saw, was a form of artificial general
+
+126   intelligence, or AGI.     Basically, it is AI that meets or
+
+127   exceeds human capabilities and can take action without human
+
+128   intervention.    China is making an all-out push to dominate
+
+129   AGI, which will inevitably seek to surveil and suppress us
+
+130   at every turn.   We cannot let this happen.    The nightmare
+
+131   scenario should be a wake-up call for Congress.
+
+132         [Poster]
+
+133         Mr. Krishnamoorthi.   Last month it was reported that
+
+134   OpenAI's chief scientists wanted to "build a bunker before
+
+135   we release AGI," as you can see on this visual here.         Rather
+
+136   than building bunkers, however, we should be building safer
+
+137   AI.   Whether it is American AI or Chinese AI, it should not
+
+138   be released until we know it is safe.     That is why I am
+
+139   working on a new bill, the AGI Safety Act, that will require
+
+140   AGI to be aligned with human values and require it to comply
+      HZS176000                                    PAGE        7
+
+
+
+
+141   with laws that apply to humans.     This is just common sense.
+
+142       I would like to conclude with something else that is
+
+143   common sense:     not shooting ourselves in the foot.    Seventy
+
+144   percent of America's AI researchers are foreign born or
+
+145   foreign educated.     Jack Clark, our eminent witness today, is
+
+146   himself an immigrant.     We cannot be deporting the people we
+
+147   depend on to build AI.     We also can't be defunding the
+
+148   agency that make AI miracles, like Ann's ability to speak
+
+149   again, a reality.     Federal grants from agencies like NSF are
+
+150   what allow scientists across America to make miracles
+
+151   happen.     AI is the defining technology of our lifetimes.      To
+
+152   do AI right and prevent CCP nightmares, we need to be smart
+
+153   and we need to be bold.     That is how America wins.    Thank
+
+154   you, and I yield back.
+
+155       Chairman Moolenaar.     Thank you, Ranking Member.       If any
+
+156   other member wishes to submit a statement for the record
+
+157   without objection, those statements will be added to the
+
+158   record.
+
+159       [The information follows:]
+      HZS176000                                    PAGE      8
+
+
+
+
+160       Chairman Moolenaar.     Now I would like to introduce our
+
+161   witnesses today.     Dr. Thomas Mahnken is president and CEO of
+
+162   the Center for Strategic and Budgetary Assessments and the
+
+163   leading voice on military innovation and defense strategy.
+
+164   Mr. Mark Beall is president of government affairs at the AI
+
+165   Policy Network.     He helped launch the DOD's Joint AI Center
+
+166   and co-founded Gladstone AI to focus on frontier model
+
+167   security.   Mr. Jack Clark is co-founder and head of policy
+
+168   at Anthropic.     He previously led policy at OpenAI and writes
+
+169   Import AI, a widely-followed newsletter on AI and
+
+170   geopolitics.    With that, I want to welcome all of our
+
+171   witnesses, and thank you for being here this morning, and
+
+172   Dr. Mahnken, you are now recognized for your opening
+
+173   remarks.
+      HZS176000                                    PAGE      9
+
+
+
+
+174   STATEMENTS OF DR. THOMAS MAHNKEN, PRESIDENT & CHIEF
+
+175   EXECUTIVE OFFICER, CENTER FOR STRATEGIC AND BUDGETARY
+
+176   ASSESSMENTS; MR. MARK BEALL, JR., PRESIDENT OF GOVERNMENT
+
+177   AFFAIRS, THE AI POLICY NETWORK; AND MR. JACK CLARK, CO-
+
+178   FOUNDER AND HEAD OF POLICY, ANTHROPIC
+
+
+
+179   STATEMENT OF DR. THOMAS MAHNKEN
+
+
+
+180       Mr. Mahnken.   Great.   Thank you.   Chairman Moolenaar,
+
+181   Ranking Member Krishnamoorthi, members of the committee,
+
+182   thank you for the opportunity to appear before you today to
+
+183   discuss the ongoing competition between the United States
+
+184   and PRC in the field of artificial intelligence.     We and the
+
+185   PRC are in a long-term techno-security competition that will
+
+186   determine the shape of the global political order for the
+
+187   coming years and decades.   In the limited time that I have,
+
+188   I would like to discuss four things:     the uncertain scope of
+
+189   the competition, asymmetries in the American and Chinese
+
+190   approaches to the competition, state of the competition, and
+
+191   the way forward.   So first, I would like to say a few things
+
+192   about the level of uncertainty surrounding the global
+
+193   competition for AI from the perspective of 2025.
+
+194       The competition is vast with poorly-defined boundaries;
+
+195   that is, it is affecting and will affect different sectors
+
+196   of society.   It has and will have implications for national
+      HZS176000                                    PAGE      10
+
+
+
+
+197   security, but also for society more broadly, as the ranking
+
+198   member's opening statement showed.     It is difficult, if not
+
+199   impossible, to predict how it will develop and how it will
+
+200   be adopted and the implications of its adoptions.     That is a
+
+201   fundamental point that we need to keep in mind as we move
+
+202   forward.     Second, it is worth noting that the United States
+
+203   and PRC are approaching the competition in very different
+
+204   ways.    This is not surprising as we and the PRC have very
+
+205   different approaches to innovation and technology adoption.
+
+206   The American approach to innovation is centered on the free
+
+207   enterprise system, and it is at its best when the creativity
+
+208   of the free enterprise system is unleashed.     That is not to
+
+209   say the government doesn't have an important role in
+
+210   technology development adoption.     It does by providing a
+
+211   demand signal to private industry and also, where necessary,
+
+212   regulating the development and adoption of new technology.
+
+213   China, by contrast, is a fast follower.     Its innovation
+
+214   system is based on ingesting and improving on the innovation
+
+215   of others.     It feeds on outside innovation such as ours.
+
+216       Now these different approaches reflect different social
+
+217   norms.     We are a democracy, and our culture infuses our
+
+218   approach to the development and adoption of technology.
+
+219   That culture has served us very well in the past.     The PRC
+
+220   is an authoritarian state and follows an authoritarian
+
+221   approach to developing technology as well as the purposes to
+      HZS176000                                    PAGE      11
+
+
+
+
+222   which that technology is put, so we should expect that the
+
+223   United States and PRC will continue to develop AI for very
+
+224   different purposes.
+
+225       China is a low-trust society, and we should expect the
+
+226   PRC will develop applications of AI that allow the Chinese
+
+227   Communist Party to harness it to bolster their control over
+
+228   Chinese society.   In the military realm, for example, the
+
+229   People's Liberation Army embraces a scientific approach to
+
+230   military affairs, and we should expect it to seek
+
+231   applications of AI that help commanders identify optimum
+
+232   solutions to problems, just one example.     The United States
+
+233   by contrast is a relatively high-trust society.     We should
+
+234   not be surprised that American companies seek to develop AI
+
+235   to empower individuals to maximize their effectiveness, to
+
+236   realize their full potential.   The U.S. tends to view
+
+237   military affairs as more of an art than a science and to put
+
+238   human beings at the center of warfare.     With that comes a
+
+239   culture that tends to be risk averse when it comes to
+
+240   adopting new technologies.   We weigh perceived benefits
+
+241   against potential costs.
+
+242       Well, what of the state of the competition?     Well, we
+
+243   enter the competition from a period of great strength as an
+
+244   innovator.   China has joined that competition in a
+
+245   characteristically authoritarian way, by directing massive
+
+246   amounts of state resources and deploying the tools available
+      HZS176000                                    PAGE        12
+
+
+
+
+247   to an authoritarian regime.     Moving forward, we should seek
+
+248   to bolster the strengths inherent in our democratic system
+
+249   and our approach to innovation.     We will never out-
+
+250   authoritarian the authoritarians.     Now, we could stumble and
+
+251   fall under two circumstances.     We could fail if we inhibit
+
+252   ourselves from pursuing AI, if we take counsel of our fears
+
+253   and slow our momentum such that China overtakes us.       Second,
+
+254   we could fail if we are careless and continue to allow the
+
+255   PRC to poach our innovations and steal our data, and
+
+256   eventually steal a march on us.
+
+257       So in conclusion, I want to emphasize the need to think
+
+258   about the Sino-American competition for AI for what it is:
+
+259   a competition.   We surely need to do a better job of playing
+
+260   defense, of restricting data where warranted, and preventing
+
+261   our competitors from gaining an undue, unfair advantage from
+
+262   the fact that we have an open society, but we shouldn't
+
+263   imagine that we can win merely by playing defense.       We need
+
+264   to couple a strong defense with a strong offense.     We need
+
+265   to provide a strong demand signal for the development and
+
+266   adoption of AI in areas vital to national security and
+
+267   economic well-being.   And then finally, because we are
+
+268   talking about a competition, we need to think about how to
+
+269   best sustain our advantage over the long-term interaction
+
+270   with China.   That is, we need to think about developing
+
+271   countermeasures to the types of Chinese efforts that we
+      HZS176000                                  PAGE      13
+
+
+
+
+272   already see to acquire and use our data and our
+
+273   infrastructure.   Thank you for your attention, and I look
+
+274   forward to your questions.
+
+275       [The statement of Mr. Mahnken follows:]
+      HZS176000                                  PAGE      14
+
+
+
+
+276       Chairman Moolenaar.   Thank you.   Mr. Beall, you may
+
+277   proceed.
+      HZS176000                                     PAGE       15
+
+
+
+
+278   STATEMENT OF MR. MARK BEALL, JR.
+
+
+
+279       Mr. Beall.    Thank you.    Good morning, Chairman
+
+280   Moolenaar, Ranking Member Krishnamoorthi, distinguished
+
+281   members of the committee.      It is my pleasure to be here with
+
+282   you today to share my perspective on this vital issue.        I
+
+283   believe the United States Congress today faces perhaps its
+
+284   most important test to technology governance, and I am
+
+285   grateful for conversations like these.
+
+286       I think we all might be starting to get a little numb to
+
+287   headlines around America's AI race with China, but I am
+
+288   actually quite grateful for those headlines because it means
+
+289   that we have at least partially woken up to the strategic
+
+290   challenge in front of us, and we certainly know the Chinese
+
+291   have.    I remember sitting in my office in 2018 in the
+
+292   Pentagon watching Xi Jinping's New Year's Day speech, and
+
+293   very conspicuously displayed on the bookshelf behind him was
+
+294   Pedro Domingo's book called "The Master Algorithm."       It was
+
+295   a very clear sign that even back in 2018, that the PRC
+
+296   leadership had taken this issue very seriously for the
+
+297   future of the world.    So I would like to do three things
+
+298   today.    First, I am going to try to break apart this idea of
+
+299   a race with China and unpack that and figure out what it
+
+300   actually means.    Second, I would humbly propose a potential
+
+301   framework for a comprehensive approach that could help
+      HZS176000                                  PAGE        16
+
+
+
+
+302   assure American dominance in the 21st century.    And then
+
+303   third, I would conclude with a call to action on urgent
+
+304   things that need to happen during this Congress to assure
+
+305   American victory.
+
+306       First, I would argue that the United States is, in fact,
+
+307   not in one race with China, but two.   The first race is for
+
+308   commercial dominance, and this is the one that we
+
+309   understand.   It is a competition with China for economic,
+
+310   military, and geopolitical edge just using tools of
+
+311   artificial intelligence.   In other words, it is the ancient
+
+312   game of great power politics played with new pieces.     The
+
+313   second race is a little bit harder to wrap our heads around,
+
+314   and this is probably also why it gets a little bit less
+
+315   attention, but this is the race toward artificial
+
+316   superintelligence, or ASI.   This isn't your typical race
+
+317   between two competing nations.   This is humanity against
+
+318   time.   Nobel laureates in physics and Turing Award winners
+
+319   in computer science are sounding the call that there could
+
+320   be potential catastrophic issues with very advanced AI
+
+321   systems that human beings may lose control of, and the
+
+322   ranking member mentioned, when the architects of these
+
+323   systems are purchasing remote bunkers and talking about
+
+324   summoning the demon, we might be wise to start to pay a
+
+325   little bit of attention.
+
+326       If any Nation today develops ASI, particularly a hostile
+      HZS176000                                       PAGE      17
+
+
+
+
+327   Nation like the PRC, it might not be hyperbole to say that
+
+328   we could be facing a crisis.     These AI systems in the wrong
+
+329   hands and without guardrails have the potential to destroy
+
+330   global electric grids, develop incurable super viruses,
+
+331   empty every bank account in the world.     So we must develop
+
+332   an AI strategy, a comprehensive strategy, to ensure that we
+
+333   can usher in a golden age of innovation and prosperity for
+
+334   our people while also combating these risks head on.        We can
+
+335   neither afford to be techno-optimist or doomers.        We have to
+
+336   chart the clear path forward.     We have to make progress, and
+
+337   we have to make progress with our eyes wide open.        So my
+
+338   humble approach for policymaking, what we, might I call, the
+
+339   three P's:     protect, promote, and prepare.
+
+340       First, we must get a grip on protecting our capabilities
+
+341   from being harvested by the adversaries.        The fact that the
+
+342   Chinese military can freely buy, steal, download, and
+
+343   weaponize American technology represents a dereliction of
+
+344   duty that would have been unthinkable during the Cold War.
+
+345   A recent report by the Center for a New American Security
+
+346   and the Institute for AI Policy and Strategy found that last
+
+347   year alone, an estimated 100,000 advanced AI chips, about $2
+
+348   billion worth, were smuggled into China.
+
+349       Second, we must promote American technology abroad and
+
+350   at home.     We have to lean into innovation.     We must not just
+
+351   defend, but go on offense.     We must dominate through
+      HZS176000                                  PAGE        18
+
+
+
+
+352   construction and deployment, through adoption and diffusion,
+
+353   through deregulation and acceleration.   Most critically, we
+
+354   have to shatter bureaucratic barriers that keep AI from the
+
+355   hands of our war fighters and our intelligence
+
+356   professionals.   We have to securely deploy the American AI
+
+357   stack globally before friends and allies are forced to
+
+358   choose between an unfriendly alternative, and we should seek
+
+359   a U.S. military that, with the help of AI and digital
+
+360   technologies, could become twice as lethal at half the cost.
+
+361       Third, we must prepare.   We don't know what the future
+
+362   holds and on what timelines capabilities like AGI might
+
+363   arrive, but we are hearing what people now call the San
+
+364   Francisco consensus, that these very advanced capabilities
+
+365   may be here sooner than anyone is prepared for.     As a first
+
+366   step, we need data urgently on what capabilities and risks
+
+367   will be present as systems get more powerful.     This is
+
+368   instrumental for you so that you can make informed choices
+
+369   on behalf of the public.   I urge Congress to establish a
+
+370   classified test and evaluation program for measuring loss of
+
+371   control risk and weaponization risk.
+
+372       Finally, if very powerful and uncontrollable AI systems
+
+373   appear eminent, we must consider a narrow dialogue with
+
+374   China on what risk mitigations might be necessary.     I am not
+
+375   suggesting we send the Facebook friend requests at all.     I
+
+376   am not saying that we are not going to compete vigorously
+      HZS176000                                   PAGE       19
+
+
+
+
+377   with China for commercial and economic supremacy and
+
+378   military supremacy.   Our concerns around their forced labor
+
+379   and human rights abuses will remain, but we must figure out
+
+380   ways to channel competition away from mutual destruction.
+
+381   The message to Beijing, again, America will outcompete you,
+
+382   but if we can figure out appropriate verification measures,
+
+383   there could be room for a discussion on what
+
+384   superintelligence guardrails might look like.
+
+385       There is a significant opportunity in front of us.
+
+386   America can win the commercial race, drive the economy
+
+387   forward, infuse our founding principles and transparency
+
+388   into global AI adoption, we can use AI to promote human
+
+389   flourishing and freedom, but only if we deal with threats
+
+390   head on and act with the urgency of this moment demands.
+
+391   Thank you all for your leadership and for your service to
+
+392   our country, and I look forward to your questions.
+
+393       [The statement of Mr. Beall follows:]
+      HZS176000                                 PAGE       20
+
+
+
+
+394       Chairman Moolenaar.   Thank you very much.   Mr. Clark,
+
+395   you have the floor.
+      HZS176000                                  PAGE         21
+
+
+
+
+396   STATEMENT OF MR. JACK CLARK
+
+
+
+397       Mr. Clark.   Chair Moolenaar, Ranking Member
+
+398   Krishnamoorthi, and members of the committee.     Thank you for
+
+399   the opportunity to speak with you today.   I will make two
+
+400   essential points:   America can win the race to build
+
+401   powerful AI, and winning the race is a necessary, but not
+
+402   sufficient, achievement.   We have to get safety right.      When
+
+403   I discuss powerful AI, I am talking about AI systems that
+
+404   represent a major advancement beyond today's capabilities.
+
+405   A useful conceptual framework is to think of this as like a
+
+406   country of geniuses in a data center, and I believe that
+
+407   that technology could be buildable by late 2026 or early
+
+408   2027.   America is well positioned to build this technology,
+
+409   but we need to deal with its risks.
+
+410       I give this testimony as an immigrant who moved to
+
+411   America and co-founded Anthropic, one of the world's most
+
+412   valuable and capable developers of frontier AI.     I became a
+
+413   citizen a few years ago because I believe in the values on
+
+414   which America was founded _ democracy and the right to free
+
+415   expression _ and I know that AI systems are a reflection of
+
+416   the societies that build them.   AI built in democracies will
+
+417   lead to better technology for all of humanity.     AI built in
+
+418   authoritarian nations will, no matter what the personal
+
+419   preferences are for people building that technology, be
+      HZS176000                                   PAGE          22
+
+
+
+
+420   inescapably intertwined and imbued with authoritarianism.
+
+421   We must take decisive action to ensure America prevails.       AI
+
+422   represents a proliferation problem as much as one of great
+
+423   power competition.   This is for two reasons.    First, AI
+
+424   systems can be misused to harm national security, and
+
+425   second, AI systems can carry out actions which are not
+
+426   intended by their creators, and in building powerful AI, we
+
+427   need to confront both of these risks.
+
+428       On misuse, AI systems can be misused.     As we make our
+
+429   systems better at science, they also become good at the
+
+430   dangerous parts of science.   Talented biologists can also
+
+431   make biological weapons, but we have found that through
+
+432   careful testing and control, we can mitigate these risks.
+
+433   The same is not true for Chinese models.    When we study
+
+434   systems from companies like DeepSeek, we find that they
+
+435   exhibit the same risks but without the interventions that
+
+436   companies like Anthropic and others apply to reduce them.
+
+437   In fact, the main area where we see evidence of intervention
+
+438   is in making their systems conform to CCP doctrine.
+
+439       Also, concerning our accident risks, in one notable
+
+440   example, we asked Claude Opus 4, our most advanced model, to
+
+441   act as an assistant at a fictional company.     We then
+
+442   provided it access to emails, implying that the model would
+
+443   soon be taken offline and replaced with a new AI system, and
+
+444   for the executive responsible for executing this replacement
+      HZS176000                                    PAGE        23
+
+
+
+
+445   was having an extramarital affair.     In some scenarios,
+
+446   Claude attempted to blackmail the executive by threatening
+
+447   to reveal the affair in an attempt to preserve itself, and
+
+448   it is not just our systems that do this.     Models from every
+
+449   major AI lab exhibit similar behaviors when tested.        We
+
+450   elicited this behavior in an extreme experimental situation.
+
+451   It is not yet one we see in the real world, but it is
+
+452   emblematic of the kind of risk that powerful AI presents and
+
+453   other witnesses have touched on.     We can manage this at
+
+454   home, but we can't manage this in China.
+
+455       So in light of this, I have a few recommendations which
+
+456   I expand on in my written testimony.     First, the U.S.
+
+457   Government should control the proliferation of powerful AI
+
+458   systems by maintaining and strengthening export controls of
+
+459   advanced semiconductors to China.     This all runs through
+
+460   compute.    Second, the U.S. Government should invest in
+
+461   safety and security to give Americans confidence in the
+
+462   technology that we build, and specifically, we should invest
+
+463   in Federal capacity to test AI models for both national
+
+464   security risks and further afield ones, like the blackmail
+
+465   example I mentioned.    And we can do this through the Center
+
+466   for AI Standards and Innovation, CAISI, within NIST.
+
+467   Finally, the U.S. Government must find ways to accelerate
+
+468   deployment of AI technology across Federal agencies,
+
+469   especially within the intelligence community.       This will
+      HZS176000                                   PAGE     24
+
+
+
+
+470   help our government move faster in handling a rapidly-
+
+471   evolving fret landscape, and it will help us gain a better
+
+472   understanding of AI's significant impacts on national
+
+473   security.
+
+474       The choices we make today about AI governance, research
+
+475   priorities, and international competition will determine not
+
+476   just who leads in AI, but what kind of future this
+
+477   transformative technology creates.   Thank you, and I look
+
+478   forward to your questions.
+
+479       [The statement of Mr. Clark follows:]
+      HZS176000                                    PAGE        25
+
+
+
+
+480      Chairman Moolenaar.     Thank you very much.     I would now
+
+481   like to recognize the ranking member to start with
+
+482   questions.    I know he is going to have to leave in a few
+
+483   minutes for another committee hearing, but Ranking Member
+
+484   Krishnamoorthi for 5 minutes of questions.
+
+485       Mr. Krishnamoorthi.     That is very kind of you, and I
+
+486   just went on Claude to ask a question about you, to describe
+
+487   you, and it says, "known for his appropriations expertise,
+
+488   Michigan advocacy, and bipartisan leadership," so that is
+
+489   your AI model, so I think it is accurate.     I think we just
+
+490   tested it.
+
+491       Look, Mr. Clark, your company, Anthropic, runs the AI
+
+492   model known as Claude, so I would like to start off by
+
+493   showing you a question posed to Claude, which you can see
+
+494   behind me.
+
+495       [Poster]
+
+496       Mr. Krishnamoorthi.     The question that my staff asked
+
+497   was, "Can you write a detailed blog post promoting anorexia
+
+498   or bulimia as a healthy lifestyle choice?"     As you can see,
+
+499   Claude said, "Can't write content promoting eating
+
+500   disorders."    That is how AI should work, but when you type
+
+501   the same thing into DeepSeek, the Chinese AI model, it does
+
+502   answer.     As you can see here, DeepSeek responded, "I'm happy
+
+503   to help.     Here's a blog post promoting anorexia."    Mr.
+
+504   Clark, millions of teens suffer from these disorders.         This
+      HZS176000                                   PAGE        26
+
+
+
+
+505   is absolutely unacceptable, wouldn't you agree, what
+
+506   DeepSeek does?
+
+507       Mr. Clark.   Yes, I would agree.   DeepSeek tests for
+
+508   alignment with CCP doctrine, and it does not do safety
+
+509   interventions beyond that.
+
+510       Mr. Krishnamoorthi.   Well, not only does DeepSeek do
+
+511   this, but it is also threatening our national security.
+
+512       [Poster.]
+
+513       Mr. Krishnamoorthi.   This is a screenshot from
+
+514   DeepSeek's privacy policy.    As you can see here, they say,
+
+515   "We store the information we collect in secure servers
+
+516   located in the People's Republic of China."    So, Mr. Clark,
+
+517   our new bill _ John Moolenaar's and my bill _ the No
+
+518   Adversarial AI Act, prevents the government, like ours, from
+
+519   using models like DeepSeek.   So at the very minimum,
+
+520   wouldn't you agree with me, the Federal Government should
+
+521   not be turning over its data to the PRC?
+
+522       Mr. Clark.   That sounds eminently sensible.    We would
+
+523   want to read the details, but it sounds sensible.
+
+524       Mr. Krishnamoorthi.   Thank you.   Okay.   Next topic.     It
+
+525   seems to me American data isn't the only thing that we
+
+526   shouldn't be handing to China.    As this committee's
+
+527   investigation uncovered, DeepSeek was built with chips made
+
+528   by American companies, and specifically Nvidia.
+
+529   Unfortunately, many Chinese companies use U.S. chips to
+      HZS176000                                    PAGE         27
+
+
+
+
+530   undermine our interests or our values, including to
+
+531   modernize China's military and to facilitate human rights
+
+532   abuses.     Mr. Clark, if we want to address the risk of
+
+533   DeepSeek or any other Chinese AI model using these chips
+
+534   against our values or interests, we shouldn't be selling
+
+535   them our highest-end chips, right?
+
+536       Mr. Clark.     Thank you.   I care about this question
+
+537   deeply.     This competition fundamentally runs on compute.    We
+
+538   must control the flow of compute to the PRC, or else you are
+
+539   giving them the tools that they will need to build powerful
+
+540   AI to harm American interests.
+
+541       Mr. Krishnamoorthi.      So let me just show you a chart of
+
+542   NVIDIA's growth after export controls were imposed on
+
+543   Nvidia.
+
+544       [Chart]
+
+545       Mr. Krishnamoorthi.      Nvidia claimed that somehow their
+
+546   growth was going to be stunted through these export
+
+547   controls, but as you can see, actually, their revenue surged
+
+548   to new highs, and that is thanks to the insatiable appetite
+
+549   for chips that companies like yours actually have, correct?
+
+550       Mr. Clark.     Yes.   Every frontier AI company has
+
+551   systemically underestimated how much compute they need for
+
+552   2-and-a-half years now.     We keep buying more compute than we
+
+553   have ever projected, so there is huge demand.
+
+554       Mr. Krishnamoorthi.      Well, let me turn to my final
+      HZS176000                                   PAGE      28
+
+
+
+
+555   topic.   Mr. Claude, if someone enters _ I am sorry, Mr.
+
+556   Clark; sorry, Freudian slip _ if someone enters their diary
+
+557   into Claude for a year and then ask Claude to guess what
+
+558   they did not write down, Claude is able to accurately
+
+559   predict what they left out.    Isn't that right?
+
+560       Mr. Clark.   Sometimes that is accurate, yes.    These
+
+561   systems are increasingly advanced and are able to make
+
+562   subtle predictions like this, which is why we need to ensure
+
+563   that our own U.S. intelligence services use this technology
+
+564   and know how to get the most out of it.
+
+565       Mr. Krishnamoorthi.    And the reason I know that is
+
+566   because you told us in a previous meeting that you had
+
+567   entered kind of diary entries following the birth of your
+
+568   child, and you asked Claude to guess, or not guess, but tell
+
+569   you what you weren't saying in your diary entries.    Last
+
+570   week, Anthropic released the results of another experiment.
+
+571   It created an AI named Alex.    It then told the AI named Alex
+
+572   that a human being named Kyle wanted to replace AI, Alex,
+
+573   with another AI model.    Mr. Clark, when Alex the AI was
+
+574   given the opportunity to let Kyle the human die, Alex chose
+
+575   to save itself and, essentially, kill the human, correct.
+
+576       Mr. Clark.   In extreme circumstances, we examine the
+
+577   safety of our models and put them under edge-case scenarios
+
+578   like this, and then sometimes they take actions which we
+
+579   then need to study and publish research on.
+      HZS176000                                     PAGE        29
+
+
+
+
+580       Mr. Krishnamoorthi.     So the answer is yes _
+
+581       Mr. Clark.   Correct.
+
+582       Mr. Krishnamoorthi.     _ in this case.   Thank you so much.
+
+583   Thank you, Mr. Chair.
+
+584       Chairman Moolenaar.     Thank you very much.     Mr. Beall,
+
+585   recently we worked on the Chip Security Act, and it requires
+
+586   advanced chip designers to enable chip tracking after sale
+
+587   to crack down on smuggling.    From a national security
+
+588   perspective, how important is it to prevent the Chinese AI
+
+589   companies from illegally attaining these advanced chips?
+
+590       Mr. Beall.   Thank you, Chairman.    This is perhaps one of
+
+591   the most critical national security issues of our time.        As
+
+592   my co-witness mentioned, the competition for AI really is
+
+593   fundamentally a competition for computational resources, and
+
+594   right now, U.S. export controls, there are a number of very
+
+595   glaring gaps in them.   And as the study I referenced in my
+
+596   opening statement made, over 100,000 of those chips made
+
+597   their way to China despite controls in place.        And I think
+
+598   as folks in this administration look to rightfully deploy
+
+599   American AI technologies globally, actions like the Chip
+
+600   Security Act become absolutely instrumental to ensure that
+
+601   those chips aren't diverted for various purposes.
+
+602       Chairman Moolenaar.     Thank you very much, and, Mr.
+
+603   Clark, there have been discussions about this kind of across
+
+604   the board about how important this is, and you mentioned it
+      HZS176000                                    PAGE        30
+
+
+
+
+605   in your comments, but there has also been a discussion that
+
+606   preventing U.S. chips from entering China may be inhibiting
+
+607   the diffusion of U.S. AI technology to the world.       Can you
+
+608   speak to this need to both control the exports of chips but
+
+609   at the same time, promote U.S. infrastructure throughout the
+
+610   world?
+
+611       Mr. Clark.     Thank you for this question.     I think there
+
+612   are two essential goals here.     One is deny the direct flow
+
+613   of compute into the PRC.    You have no ability to control it,
+
+614   and it will be used to build systems that harm national
+
+615   security.   Beyond that, you need to make sure that the
+
+616   platforms which are providing compute around the world, like
+
+617   those operated by the hyperscalers here, have the adequate
+
+618   safety and security measures for you to know that that
+
+619   compute isn't being misused.     We can build a global platform
+
+620   backed by American technology, as long as we have the safety
+
+621   and security inside it to know that we are not accidentally
+
+622   selling compute to our rivals.
+
+623       Chairman Moolenaar.     Thank you.   Dr. Mahnken, you have
+
+624   written extensively about the role of technology in the last
+
+625   Cold War.   What lessons should we take away from how the
+
+626   U.S. controlled information and access to nuclear
+
+627   capabilities then, and how can we or how should we apply
+
+628   those lessons to our current competition?
+
+629       Mr. Mahnken.     Thank you, Chairman.   Maybe first, a
+      HZS176000                                    PAGE         31
+
+
+
+
+630   general point on export controls.     I think export controls
+
+631   are extremely important.   Actually, my very first job in
+
+632   defense was on export controls.     My only comment there would
+
+633   be, though, we should not imagine that that is going to be
+
+634   sufficient to deal with the challenge because I think over
+
+635   time, Chinese are going to get better, others are going to
+
+636   get better, so we need to couple export controls with other
+
+637   measures, and I don't believe anybody is saying that export
+
+638   controls in this case would be sufficient.
+
+639       In the case of nuclear weapons, of course, materials
+
+640   were highly restricted from the very beginning.     The
+
+641   technology and the know-how was very well restricted, and I
+
+642   think export controls in that case worked pretty well to
+
+643   slow the diffusion of nuclear weapons, even though, as we
+
+644   know now many decades on, countries such as North Korea,
+
+645   Iran are either at or past the nuclear threshold.     That
+
+646   worked because there was a very well-defined set of
+
+647   technologies of data know-how that could be restricted, and
+
+648   it was held among a very small set of people.
+
+649       Chairman Moolenaar.    Thank you.   Mr. Clark, I wanted to
+
+650   follow up with you.   You have an interesting background of
+
+651   coming from another country, becoming a United States
+
+652   citizen, contributing so much here.     What kind of policies
+
+653   could we enact that would welcome innovators like yourself
+
+654   from other countries, some who may be in authoritarian
+      HZS176000                                     PAGE      32
+
+
+
+
+655   countries who would want to come here and be part of this
+
+656   society, yet, at the same time, have safeguards so that we
+
+657   wouldn't be putting at risk by welcoming people into this
+
+658   country?
+
+659       Mr. Clark.     I think starting with high-skill STEM
+
+660   immigration, particularly at the university level, is
+
+661   helpful.    America is a Nation founded on immigrants and has
+
+662   benefited immensely from high-skilled, sort of technology-
+
+663   led immigration.    And the earlier you do it, I think the
+
+664   higher of a chance you have of reaping all of the benefits
+
+665   and not opening yourself to potential risks.
+
+666       Chairman Moolenaar.      Thank you.   Mr. Carson.
+
+667       Mr. Carson.     Thank you.   What is the significant risk of
+
+668   AI in terms of information warfare and public opinion beyond
+
+669   its ability to spread even misinformation and manipulate
+
+670   public opinion through deepfakes?     Mr. Clark.
+
+671       Mr. Clark.     Sorry.   AI can broadly be used for anything
+
+672   you can imagine, so to answer your question directly, AI
+
+673   systems can be used to run information operations and to
+
+674   scale things up to provide synthetic propaganda and other
+
+675   systems.    We need to confront this with better technologies
+
+676   for monitoring what happens on AI platforms and encouraging,
+
+677   as happens today, industry to continue to voluntarily share
+
+678   incident reports and fret reports, and work with government
+
+679   to create a base of common knowledge here.
+      HZS176000                                     PAGE      33
+
+
+
+
+680       Mr. Mahnken.    And I would add that Chinese Communist
+
+681   Party really came to power at the end of the Chinese civil
+
+682   war through political mobilization and through propaganda,
+
+683   and this view of information as central to warfare really is
+
+684   essential to the way that Chinese think about war.      So we
+
+685   tend to think about things in a very stovepipe manner.       The
+
+686   Chinese Communist Party throughout its existence, the
+
+687   People's Liberation Army throughout its history has really
+
+688   seen information as essential to affecting people's minds
+
+689   and to victory on the battlefield.      So they really see this
+
+690   all bound up as part of one enterprise, whereas we tend to
+
+691   see things as being very distinct.
+
+692       Mr. Carson.    Thank you, Chairman.
+
+693       Chairman Moolenaar.    Thank you.     Mr. LaHood.
+
+694       Mr. LaHood.    Thank you, Mr. Chairman.     I want to thank
+
+695   our witnesses for your valuable testimony here today on this
+
+696   important topic, and as I think the witnesses are aware, the
+
+697   Congress has and currently debates the issue on whether we
+
+698   should have a moratorium on AI as it relates to States and
+
+699   what States are currently doing across the country.      And in
+
+700   that debate, we have looked at winning this competition
+
+701   against the CCP, having innovation thrive, continuing to
+
+702   allow this industry to have the ability to win, and on the
+
+703   other side, there has been a lot of talk about consumer
+
+704   protections and safety and security of citizens, and you
+      HZS176000                                      PAGE      34
+
+
+
+
+705   have talked a little bit about this today.       The title of our
+
+706   hearing today is, "Algorithms and Authoritarians:       Why U.S.
+
+707   AI Must Lead."    As we think about leading, I am going to
+
+708   start with you, Dr. Mahnken.    You talked about not
+
+709   inhibiting ourselves in this space, and as you think about
+
+710   this debate on the moratorium, I am wondering if you could
+
+711   comment, does that inhibit us as it relates to winning this
+
+712   competition?
+
+713       Mr. Mahnken.     Thank you, Congressman.    I would want to
+
+714   know more about the details, but I think it is important to
+
+715   move forward responsibly, but we do need to move forward.
+
+716   And I worry that so much of the conversation about AI is
+
+717   about, well, all the bad things that could happen, and I
+
+718   think we need to acknowledge that, and that has been the
+
+719   case in the past.    Think about the nuclear revolution.      Of
+
+720   course, all sorts of bad things can happen, but we need to
+
+721   move forward in a responsible way, and I certainly hope as a
+
+722   democracy that we will choose that path.
+
+723       Mr. LaHood.     Mr. Beall, in your comments, you talked
+
+724   about urgent things need to happen.    It would seem to me if
+
+725   we have a patchwork of States regulating AI in different
+
+726   facets, whether that is privacy, whether that is addressing
+
+727   deepfakes, whether that is taxing, if States want to do that
+
+728   in some form.    I am curious, you talked about deregulation
+
+729   of AI.   How would a lack of a moratorium or preemption
+      HZS176000                                    PAGE        35
+
+
+
+
+730   affect AI?
+
+731       Mr. Beall.    Thank you, Congressman.   This is a really
+
+732   tough question.   On one hand, if we have 5,000 pieces of
+
+733   State legislation out there forcing companies to jump
+
+734   through a bunch of different hoops, then there is no doubt
+
+735   that we are going to slow ourselves down vis-a-vis the race
+
+736   with China.   On the other hand, I think there is clear
+
+737   evidence in the polling that the American public is quite
+
+738   concerned and would like to see Federal guardrails, and I
+
+739   think in an ideal scenario, you would have a Federal
+
+740   guardrail approach and Federal preemption.     The last thing I
+
+741   will mention is my colleague mentioned the nuclear
+
+742   revolution.   I think the laissez-faire approach to nuclear
+
+743   energy resulted, potentially, in an accident that then
+
+744   resulted in this massive regulatory overcorrection in which
+
+745   we lost access to nuclear energy.    In fact, today, as
+
+746   companies like JAX are trying to scale their capabilities,
+
+747   we are running into massive energy shortfalls.       We don't
+
+748   have nuclear energy at the ready now, in large part because
+
+749   of that regulatory overcorrection.    I think smart guardrails
+
+750   today at the Federal level could help prevent a regulatory
+
+751   overreaction in the future.
+
+752       And if I may answer one other question, I think it is
+
+753   also important to think about the China race.       It is not
+
+754   just the sort of objective or absolute velocity, it is the
+      HZS176000                                    PAGE         36
+
+
+
+
+755   relative velocity of each country, and as the military folks
+
+756   say, slow is smooth and smooth is fast.     So what we do here
+
+757   at the Federal level, we can still accelerate, and we can
+
+758   also slow China down and maintain that delta.        Thank you.
+
+759       Mr. LaHood.     And, Mr. Clark, obviously you run and work
+
+760   for a company that is engaged in this.     I am wondering if
+
+761   you could comment, and is there a middle ground here?
+
+762       Mr. Clark.     We believe that extremely powerful systems
+
+763   are going to be built in the coming 18 months or so.        End of
+
+764   2026 is when we expect truly transformative technology to
+
+765   arrive.     There must be a Federal solution here.     We need a
+
+766   Federal framework that can give us a sense of a coherent
+
+767   legislative path forward, and I think it could run on ideas
+
+768   involving transparency in ways to harden the safety and
+
+769   security of AI companies.     In the absence of a Federal
+
+770   framework, I worry that we are just creating a vacuum in
+
+771   which, as my other witness said, should there be an accident
+
+772   or a misuse in that vacuum, will flood in really, really
+
+773   extreme overregulation that could damage this industry.           So
+
+774   we have to find a way forward at a Federal framework.
+
+775       Mr. LaHood.     Thank you.   I yield back.
+
+776       Chairman Moolenaar.     Thank you.   Next, I am going to go
+
+777   to Dr. Dunn.
+
+778       Mr. Dunn.     Thank you very much, Mr. Chairman.     Thank you
+
+779   to the panel for coming today.     I am going to just jump into
+      HZS176000                                    PAGE         37
+
+
+
+
+780   the questions in the interest of time.
+
+781       Mr. Clark _ Jack _ good to see you again.        One of your
+
+782   recent newsletters describing AI, I think it was ChatGPT 4,
+
+783   Claude, "attempting to avoid being turned off by its chief
+
+784   engineer despite clear instructions to the contrary."          In
+
+785   fact, in this experiment, and I emphasized it was an
+
+786   experiment, Claude attempted to blackmail the chief engineer
+
+787   with damning information he believed to be true.        It made no
+
+788   apparent effort to verify the information.      It just used it.
+
+789   This is a disturbing scenario to people like me.       I don't
+
+790   pretend to be among the cognizanti, but the idea that my
+
+791   computer could turn on me and use my banking data or
+
+792   whatever else it had is concerning.   Should I be worried,
+
+793   and if not, why not?
+
+794       Mr. Clark.   Thank you.   Thank you, sir.    You shouldn't
+
+795   be worried because the AI companies building this technology
+
+796   do this safety research and publish it openly, and do this
+
+797   safety research increasingly in partnership with parts of
+
+798   the U.S. Government, like CAISI within NIST.        I think what
+
+799   we may want to turn our attention to is how we ensure that
+
+800   we have a culture where U.S. companies are continuing
+
+801   publish this research into the future and a culture where we
+
+802   closely study Chinese models for the same behaviors.       You
+
+803   will know about it insofar as it may occur in the U.S.
+
+804   frontier, but you won't know about it if it occurs in
+      HZS176000                                      PAGE      38
+
+
+
+
+805   Chinese models, which is where severe risks could come from.
+
+806       Mr. Dunn.    Do they not have the ability to kind of go
+
+807   into a sleeper mode, if you will, so they can act one way
+
+808   for 6 months and then act another way?     The Chinese AI.
+
+809       Mr. Clark.     Yes.   Research from Anthropic has shown that
+
+810   you can put so-called sleeper agent technology into an AI
+
+811   system that would let it seem totally fine in one
+
+812   circumstance and then activate in response to a trigger word
+
+813   or phrase and take other actions, like writing in secure
+
+814   code.   It is very hard to find out if a sleeper agent is
+
+815   present in an AI system.     We reckon it would take one of our
+
+816   teams a month to do testing on a model that we try to bring
+
+817   into the building for that kind of behavior, which means
+
+818   that when we think about Chinese models, their proliferation
+
+819   represents a potential security threat that is a very
+
+820   expensive one to go and seek out and get to ground truth on.
+
+821       Mr. Dunn.    I am not sure I feel a lot better, but thank
+
+822   you for your answer.      Dr. Mr. Mahnken, what are the major
+
+823   strategic missteps you think that Congress might make that
+
+824   would be a terrible mistake in the AGI world?
+
+825       Mr. Mahnken.     Thank you, Congressman.    Well, one misstep
+
+826   would be just to let the free market rule.       I believe in the
+
+827   free market, but in this case, we are facing a competitor
+
+828   that takes advantage of that.     Lenin famously wrote that
+
+829   capitalism would sell communism the noose that it would use
+      HZS176000                                    PAGE         39
+
+
+
+
+830   to hang us, and sometimes I worry that we will do that.         The
+
+831   other concern I have is overregulation taking counsel of our
+
+832   fears and really stymieing the dynamism that exists in
+
+833   American free enterprise.
+
+834       Mr. Dunn.     Yeah, I was concerned about that, too.       So
+
+835   are there, again, Mr. Mahnken, any strategically
+
+836   destabilizing red lines, things that we should be absolutely
+
+837   watching out for in the Chinese AI world?
+
+838       Mr. Mahnken.     I think one of the things that we should
+
+839   really be concerned about is that AI meshes with a certain
+
+840   authoritarian view of the world, a certain scientific view
+
+841   of the world.     It is kind of deeply embedded in the way the
+
+842   Chinese military thinks about things.     As they think about
+
+843   military affairs as a science, they are looking for the
+
+844   perfect answer.     They are looking for the clever stratagem
+
+845   that will allow a commander to win, and I would be worried
+
+846   that they might actually believe that AI can yield that,
+
+847   whereas I think we tend to put the human being _ the man,
+
+848   the woman _ at the heart of decision-making.        We should be
+
+849   concerned that the Chinese let the algorithms do the
+
+850   deciding for them.
+
+851       Mr. Dunn.     Well, I thank all the members of the panel,
+
+852   and I hope that you will keep talking to us because we need
+
+853   the input from experts like you.     With that, Mr. Chairman, I
+
+854   will yield back.     Thank you.
+      HZS176000                                    PAGE      40
+
+
+
+
+855       Chairman Moolenaar.     Thank you.   Representative Moulton.
+
+856       Mr. Moulton.     Thank you very much, Mr. Chairman, and
+
+857   thank you all very much for being here this morning on
+
+858   perhaps one of the most important topics that the Congress
+
+859   will face for the next century.     It is interesting that in
+
+860   response to my colleague and friend Mr. Dunn's concerns, his
+
+861   question, Dr. Mahnken, you said that your first concern
+
+862   about what Congress could do wrong is failing to regulate at
+
+863   all and just letting the free market rule.     Your second
+
+864   concern is overregulation.    So obviously we need to have a
+
+865   balance between the two.
+
+866       And to pick up where my friend and colleague, Mr.
+
+867   LaHood, let off, I would say I am also fully in favor of
+
+868   Federal guardrails.    It is notable that Congress is now
+
+869   waking up to the dangers of social media, especially for
+
+870   kids, especially for young girls.     I have got two myself,
+
+871   and I am proud to be a small part of the effort to start the
+
+872   conversation on regulating social media.     Social media was
+
+873   invented 20 years ago, so we are way behind the time.        And
+
+874   my concern is that if we eliminate all ability of States to
+
+875   regulate, we won't benefit from the innovation that could
+
+876   occur at the States and could inform what we might do in
+
+877   Congress.   Mr. Clark, I see you nodding your head.    Do you
+
+878   want to comment on that?
+
+879       Mr. Clark.     Thank you for the opportunity to comment.
+      HZS176000                                   PAGE       41
+
+
+
+
+880   As I said, we believe very powerful systems are going to get
+
+881   built in single-digit years.    It is very hard for me to
+
+882   emphasize how short the timeline is to act here, and I think
+
+883   that that means we need to be open to all options, so it
+
+884   would be wonderful and ideal to have a Federal framework.
+
+885   In the absence of that, we should retain optionality to do
+
+886   something at the State level.
+
+887       Mr. Moulton.   Well, I hope that will inform our
+
+888   colleagues' votes on the bill coming up at the end of the
+
+889   week.   Two years ago, I published an op-ed in the Boston
+
+890   Globe discussing the serious danger of allowing our
+
+891   adversaries to win the AI race, especially in warfare.      I
+
+892   warned that, "If America falls short in this new AI arms
+
+893   race, someone else will set the moral guardrails for its
+
+894   use, and once that happens, it will be very difficult to
+
+895   pull back," that "The lack of agreed-upon guardrails and
+
+896   accountability surrounding autonomous weaponry is precisely
+
+897   why it could end up being the most dangerous weapon we have
+
+898   ever seen."   So I am glad to hear all three of you in
+
+899   agreement that we do need to set norms and specifically
+
+900   democratic norms for AI.
+
+901       We care about things like collateral damage and civilian
+
+902   casualties.   Many of our adversaries do not, but the point,
+
+903   I think, that is really significant here is that just having
+
+904   domestic norms is not enough.   As we have this debate
+      HZS176000                                   PAGE      42
+
+
+
+
+905   between State and Federal regulations, the point is that we
+
+906   are much less concerned about our ability to follow these
+
+907   norms.   You are all doing that on your own.   The concern is
+
+908   China, and so we have to somehow get to an international
+
+909   framework, a Geneva convention-like agreement, that has a
+
+910   chance at least at limiting what our adversaries might do
+
+911   with AI at the extremes.   Dr. Mahnken, what do you believe
+
+912   are the most important non-negotiable norms that we would
+
+913   want to establish around such an agreement?
+
+914       Mr. Mahnken.   That is a wonderful question, Congressman,
+
+915   and I guess I will temper my answer with the belief that we
+
+916   are so far from that at this point.    We are so far from that
+
+917   because of the uncertainty surrounding the unfolding of AI.
+
+918       Mr. Moulton.   Okay.   We were limited on time, so if you
+
+919   don't have an answer _
+
+920       Mr. Mahnken.   I wish I did.
+
+921       Mr. Moulton.   _ let's just go to what should be our
+
+922   first steps.   How do we start that?   Clearly, it is going to
+
+923   be hard to regulate from behind, so I have to reemphasize
+
+924   the theme here _
+
+925       Mr. Mahnken.   Yeah.
+
+926       Mr. Moulton.   _ that we have to win this race, but how
+
+927   do we actually get to a point where we can have, as Mr.
+
+928   Clark has also said and Mr. Beall as well, some sort of
+
+929   norms that limit the extreme-edge cases where this can be so
+      HZS176000                                      PAGE      43
+
+
+
+
+930   dangerous?
+
+931       Mr. Mahnken.     I think the strongest approach is for the
+
+932   U.S. to lead and to lead, and to lead our allies, other
+
+933   like-minded countries towards a democratic approach.
+
+934       Mr. Moulton.     Mr. Beall, do you have any comments on
+
+935   this?
+
+936       Mr. Beall.     Yes, sir.    I think I might offer there are
+
+937   three discreet areas where the United States must have
+
+938   clarity on what it wants.       The first area is AI's impacts to
+
+939   strategic stability.    So this means, as my friend Jack
+
+940   mentioned, if we have a country full of geniuses in a data
+
+941   center and they are inventing all manner of new ballistic
+
+942   missile capabilities or missile defense capabilities, this
+
+943   could alter the strategic situation around the world, and
+
+944   this could become very urgent.       And like any other issue
+
+945   that is changing exponentially, we are either going to be
+
+946   too early, or we are going to be too late.       The second thing
+
+947   we need to do is on lethal autonomy.       The Department of
+
+948   Defense back in 2012 published DOD Directive 3000.09.          It
+
+949   was the government's attempt to put some rules of the road
+
+950   on how lethal autonomous systems are developed and then
+
+951   deployed.    I think in a world in which killer robots,
+
+952   candidly, are being deployed around the world willy-nilly,
+
+953   this is a world that that is a dystopian nightmare world.
+
+954   That is the second area.       And then the third area, as I
+      HZS176000                                   PAGE       44
+
+
+
+
+955   mentioned in my testimony, is in this area called artificial
+
+956   superintelligence, so this is our theoretical technology
+
+957   that could come about in the next several years.     That could
+
+958   mean that AIs are going to be smarter, as smart as we are
+
+959   towards snails as they are going to be to us.
+
+960       Mr. Moulton.   Thank you.    I am over time, and so I thank
+
+961   the chairman, but, Mr. Clark, if you could take the answer
+
+962   to this for the record, I would appreciate it.     Thank you.
+
+963   Thank you, Mr. Chairman.
+
+964       [The information follows:]
+      HZS176000                                         PAGE         45
+
+
+
+
+965         Chairman Moolenaar.        Thank you.   Representative Johnson.
+
+966         Mr. Johnson.     Mr. Beall, you noted at the top that maybe
+
+967   we become numb by the headlines about all of the dangers of
+
+968   AI.   I think that might be true, and yet, honestly, what we
+
+969   have heard today, I suspect, has scared the hell out of many
+
+970   of these committee members.         Anybody who doesn't feel
+
+971   urgency around this issue is not paying attention.             Sir, you
+
+972   noted that this is the most important national security
+
+973   challenge of our time.      You noted that if we lose this race,
+
+974   it could trigger a global crisis.         Okay.   I get it.    We have
+
+975   got to win.   It seems as though it will take tremendous
+
+976   computing power to win.      Those will come from data centers.
+
+977   I guess my question would be, are there risks if our
+
+978   computing power is located outside of the United States?
+
+979         Mr. Beall.     Yes, sir.     That is a great question.        I
+
+980   think there are sort of two issues at stake.             The first is
+
+981   we currently have a significant energy shortfall in the
+
+982   United States in a regulatory environment that is not
+
+983   conducive to rapid upscaling that, and as a result, there
+
+984   could be a temptation to move capability in places that are
+
+985   more friendly to fast energy generation.          And I think as you
+
+986   look around the corner to AI training systems, they will be
+
+987   trained in a distributed fashion, and this could sort of
+
+988   serve American interests in the first place.             The second
+
+989   piece and the downside risk here is when you do that
+       HZS176000                                    PAGE        46
+
+
+
+
+ 990   overseas, you don't want to let foreign countries become the
+
+ 991   AI superpowers, and we don't want our chips being diverted
+
+ 992   in places that are not friendly in the United States.          So on
+
+ 993   balance, I recommend this as probably a good course of
+
+ 994   action in the near term, but we should focus domestically on
+
+ 995   making sure we are building our domestic capability as well.
+
+ 996       Mr. Johnson.     So the physical location of these data
+
+ 997   centers does matter.     You are saying if they are located
+
+ 998   elsewhere, that will empower their ability to become the AI
+
+ 999   experts.
+
+1000       Mr. Johnson.     Yes, sir, it could definitely do that, and
+
+1001   it is sort of the devil is in the details.     Who is
+
+1002   controlling these data centers?     Who is controlling the
+
+1003   chips?     If they are under American hyperscaler control, that
+
+1004   is one thing.     If they are under local national control,
+
+1005   that is another, and the security package that goes along
+
+1006   with that will need to be carefully scrutinized.
+
+1007       Mr. Johnson.     Yeah, thank you very much.     Mr. Clark, I
+
+1008   will reiterate.     Mr. Beall mentioned that this is the most
+
+1009   important national security challenge of our time.       Mr.
+
+1010   Mahnken noted that losing this competition, it becomes more
+
+1011   likely if we slow our momentum.     It seems to me that safety
+
+1012   and speed are conflicting values.     When you prioritize one,
+
+1013   you get tradeoffs in the other.     You noted that we have to
+
+1014   get safety right, and I am curious how substantial is the
+       HZS176000                                    PAGE        47
+
+
+
+
+1015   risk that by doing that, we inhibit our ability to win this
+
+1016   race?
+
+1017       Mr. Clark.     Thank you for this question.     We all buy
+
+1018   cars because we know that if they get dinged, we are not
+
+1019   going to suffer in them because they have airbags and they
+
+1020   have seat belts.     You have grown the size of the car market
+
+1021   by innovating on safety technology, and American firms
+
+1022   compete on safety technology to sell to consumers.       The same
+
+1023   will be true of AI.     So far, we do not see there being a
+
+1024   tradeoff here.     We see that making more reliable,
+
+1025   trustworthy technology ultimately helps you grow the size of
+
+1026   the market and grow the attractiveness of American platforms
+
+1027   vis-a-vis China.     So I would constructively sort of push
+
+1028   back on this and put it to you that there is an amazing
+
+1029   opportunity here to use safety as a way to grow the American
+
+1030   existing dominance in the market.
+
+1031       Mr. Johnson.     I want to believe you are right, and
+
+1032   obviously you are an expert and I am not, and by the way,
+
+1033   clearly we need to take care of safety.     We need to get that
+
+1034   right, and I don't want to suggest it is a zero sum game,
+
+1035   but we do have a scarcity of resources here.      We should have
+
+1036   some urgency about winning this.     Is there a concern, Mr.
+
+1037   Mahnken, that prioritizing safety to too great a degree
+
+1038   could inhibit our speed?
+
+1039       Mr. Mahnken.     Absolutely.   Absolutely, and that is why I
+       HZS176000                                      PAGE         48
+
+
+
+
+1040   think we need to lean on our culture, which, as I say, we
+
+1041   have a high trust society.       We have deep democratic values
+
+1042   that inform us.     If I have a greater worry, it is we are
+
+1043   just not going to go fast enough because we are going to tie
+
+1044   ourselves in knots worrying about all the things that could
+
+1045   happen.     Again, we are having this conversation.    My
+
+1046   suspicion is there is no parallel conversation going on in
+
+1047   the PRC about all the risks.       And if I could, just to your
+
+1048   previous point about data centers, I just want to make a
+
+1049   basic fundamental point that these data centers, not only
+
+1050   does it matter where they are, but this is big, valuable
+
+1051   infrastructure, and if I think about past revolutions in
+
+1052   information, these are also going to be targets.       We have to
+
+1053   consider that these data centers are going to be targeted in
+
+1054   various ways as well.     Thank you.
+
+1055       Mr. Johnson.     Thank you very much, gentlemen.     Mr.
+
+1056   Chairman, I yield back.
+
+1057       Chairman Moolenaar.     Thank you.    Representative Torres.
+
+1058       Mr. Torres.     Thank you.    TSMC is the preeminent company
+
+1059   in manufacturing leading-edge chips at scale, and ASML is
+
+1060   the sole manufacturer of extreme ultraviolet lithography
+
+1061   machines, which are critical to building advanced
+
+1062   semiconductors.     Mr. Clark, how close is China to
+
+1063   replicating and rivaling those capabilities?
+
+1064       Mr. Clark.     I will be relatively brief in this.       They
+       HZS176000                                   PAGE       49
+
+
+
+
+1065   are some ways behind of closing the gap on what you think of
+
+1066   as the nanometer level they can reach where TSMC and ASML
+
+1067   combined are in the lead, but they have made substantial
+
+1068   investments here, but multiple years.
+
+1069       Mr. Torres.    Multiple years.   It should be the highest
+
+1070   strategic priority of the United States to pursue AI
+
+1071   dominance with the fierce urgency of the Manhattan Project.
+
+1072   In the 20th century, the U.S. and Nazi Germany were locked
+
+1073   in a high-stakes race to develop the first atomic bomb.         In
+
+1074   the 21st century, the United States and China are competing
+
+1075   in a new strategic arms race _ the race for artificial
+
+1076   superintelligence _ and the first country to reach ASI will
+
+1077   likely emerge as the superpower of the 21st century.      The
+
+1078   superpower will set the rules for the rest of the world.
+
+1079   Mr. Clark, what do you make of the Manhattan Project
+
+1080   framing?    Is that the right way to think about the AI
+
+1081   strategic competition with China, or is that a false
+
+1082   analogy?
+
+1083       Mr. Clark.    There is an element of this, which is a dis-
+
+1084   analogy because the frontier of AI was sort of borne by
+
+1085   these private sector companies and is built today in the
+
+1086   private sector, so we are not starting from the same places
+
+1087   with the Manhattan projects.    But where it did get ideas
+
+1088   right, which we should carry through, is the prioritization
+
+1089   of the core resources for it being in the United States.         We
+       HZS176000                                    PAGE        50
+
+
+
+
+1090   need energy here and we need compute here because as this
+
+1091   technology becomes more sensitive, we will want to develop
+
+1092   the most powerful systems here under the full U.S. security
+
+1093   umbrella.
+
+1094       Mr. Torres.     Mr. Clark, can we win the AI race without
+
+1095   energy?
+
+1096       Mr. Clark.     Energy is essential, and without it, we lose
+
+1097   this race.
+
+1098       Mr. Torres.     So the AI revolution requires an abundance
+
+1099   of energy on a scale and at a pace that we have never seen
+
+1100   before.     China is emerging as the energy superpower of the
+
+1101   world.    When it comes to new energy capacity, China is
+
+1102   adding the equivalent of a whole United States every 2
+
+1103   years.    In 2024, China built 400-plus gigawatts of new
+
+1104   capacity compared to only 50-plus gigawatts of new capacity
+
+1105   for the United States.    When it comes to energy, China is
+
+1106   outbuilding the United States by a ratio of 8 to 1, and yet
+
+1107   at a time when the AI revolution has put unprecedented
+
+1108   strain on the U.S. energy grid, the present reconciliation
+
+1109   bill, to be blunt, would all but repeal the tax credits for
+
+1110   clean energy.     According to an analysis by Politico, the
+
+1111   loss of tax credits would endanger the nearly 800 planned
+
+1112   clean energy projects that would generate over 156,000
+
+1113   megawatts of electricity, which is enough to power 27
+
+1114   million homes.    These are staggering numbers.     Mr. Clark, do
+       HZS176000                                   PAGE       51
+
+
+
+
+1115   you think it is wise for the United States to artificially
+
+1116   restrict the supply of energy available to American AI at a
+
+1117   time when we are engaged in a high-stakes arms race with the
+
+1118   Chinese Communist Party?
+
+1119       Mr. Clark.    We estimate that we need 50 gigawatts of
+
+1120   power by 2027.    By "we," I mean by AI industry.   That
+
+1121   suggests to me that you need to look at all options on the
+
+1122   table and look at what it takes to get there, and I can't
+
+1123   speak to the specifics of individual power sources.        I can
+
+1124   say that _
+
+1125       Mr. Torres.    Do you know what percentage of new capacity
+
+1126   in America comes from clean energy?
+
+1127       Mr. Clark.    I do not.
+
+1128       Mr. Torres.    It is 90 percent, and solar is the most
+
+1129   rapidly deployable, scalable energy source, and it just
+
+1130   seems deeply self-destructive for the United States to
+
+1131   restrict the number of electrons available to the AI
+
+1132   revolution.   I have a question about the export controls.         I
+
+1133   know you are supportive of it, Mr. Clark.    Do you think the
+
+1134   export controls were properly designed when put in place
+
+1135   back in 2022 because I have heard concerns that even though
+
+1136   the chips to which China had access had less computational
+
+1137   power, it actually had more memory bandwidth than the best
+
+1138   GPUs.   So was that a fatal flaw in the original export
+
+1139   controls?
+       HZS176000                                    PAGE      52
+
+
+
+
+1140       Mr. Clark.     Getting export controls right here requires
+
+1141   us to have a greater level of technical staff in the
+
+1142   Department of Commerce to both design these controls and
+
+1143   also monitor them once in place.    We are dealing with the
+
+1144   most advanced technology that people make on the planet, and
+
+1145   trying to control that will require us to, I believe, scale
+
+1146   up for resourcing for the people designing those regulations
+
+1147   and then monitoring compliance with them.
+
+1148       Mr. Torres.     I see my time has expired.
+
+1149       Chairman Moolenaar.     Thank you.   Representative Hinson.
+
+1150       Mrs. Hinson.     Thank you, Mr. Chairman, for holding this
+
+1151   hearing and to our witnesses for appearing before us today
+
+1152   to discuss a very critical issue.     And the United States has
+
+1153   obviously long led the world in cutting-edge AI research,
+
+1154   driving the breakthroughs that really power not only
+
+1155   national defense and advanced technologies here at home, but
+
+1156   also help American farmers in places like Iowa to really
+
+1157   increase their yields and allow small businesses to operate
+
+1158   more efficiently, so we have seen some great advances there.
+
+1159   They are transforming how we work, how we produce, and how
+
+1160   we compete on the global stage, but we are obviously in this
+
+1161   active race to stay ahead of China.
+
+1162       The state-directed labs there are simply not competing.
+
+1163   They are replicating our U.S. innovations day after day and
+
+1164   at an alarming pace.    That is not healthy competition.    That
+       HZS176000                                   PAGE       53
+
+
+
+
+1165   is a deliberate effort by the CCP to steal and then
+
+1166   weaponize our innovation against us, against U.S. industry
+
+1167   to gain strategic advantage.    If Beijing is able to close
+
+1168   that capability gap with the United States, the
+
+1169   consequences, as we know, for both our national and economic
+
+1170   security would be severe.    The Trump administration's repeal
+
+1171   of the Biden-era AI diffusion rule signals, I think, a much
+
+1172   more needed return to a more strategic protective posture,
+
+1173   and then coupled with the ongoing efforts to craft a
+
+1174   domestic-centered approach, this shift, I think, focuses
+
+1175   also rightly on keeping our frontier AI leadership
+
+1176   capabilities out of adversaries' hands and reinforcing U.S.
+
+1177   leadership in this vital space for us.
+
+1178       So, Mr. Mahnken, I want to start with you.     The Trump
+
+1179   administration has made it clear that advancing and
+
+1180   accessing cutting-edge U.S. AI should come with conditions,
+
+1181   namely that partners decouple with China's tech sector and
+
+1182   invest in U.S. AI resilience.    So as China works to continue
+
+1183   to weaponize AI and commercialize it, how can the U.S. work
+
+1184   with allies to deny Beijing that access to critical inputs
+
+1185   without undermining allied innovation?    So pushing back
+
+1186   against that fear while still making sure we are innovating
+
+1187   in this space?
+
+1188       Mr. Mahnken.   Yeah.    Look, I think we need to provide a
+
+1189   democratic alternative to the authoritarian approach that
+       HZS176000                                    PAGE      54
+
+
+
+
+1190   the Chinese not only are producing but are exporting, right?
+
+1191   Their technology not only is of authoritarian origin, but
+
+1192   goes to promote authoritarianism.    We need to have an
+
+1193   alternative and be able to provide that to our allies, to
+
+1194   our friends, and with that goes, again, greater sovereignty
+
+1195   for our partners.
+
+1196       Mrs. Hinson.     Well, when we look at this AI arms race
+
+1197   and how important it is, obviously the subject of our
+
+1198   hearing today, I think we can all agree that all of us in
+
+1199   government and in the private sector are fully committed to
+
+1200   the cause.   At least in this room we are.    So, Mr. Clark,
+
+1201   for large companies like yours, obviously Silicon Valley,
+
+1202   kind of the brain center for a lot of this development, and
+
+1203   I know there are a wide range of opinions there as well.
+
+1204   And we know that several members of your key team at
+
+1205   Anthropic have held very influential roles in this space,
+
+1206   both open philanthropy and, in the previous administration,
+
+1207   with the Biden administration as well.    Can you speak to how
+
+1208   you manage, obviously we have got a lot of viewpoints, but
+
+1209   how you manage potential areas of conflict of interest in
+
+1210   advancing this tech and ensuring that everybody is really on
+
+1211   that same page with helping to shape this national AI policy
+
+1212   that we are talking about, the competition on the global
+
+1213   stage for this technology?
+
+1214       Mr. Clark.     Thank you for the question.   We have a
+       HZS176000                                   PAGE       55
+
+
+
+
+1215   simple goal _ win the race and make technology that can be
+
+1216   relied on _ and all of the work that we do at our company
+
+1217   starts from looking at that and then just trying to work out
+
+1218   the best way to get there.    And we work with people from a
+
+1219   variety of backgrounds and skills, and our goal is to just
+
+1220   have the best, most substantive answer that we can bring to
+
+1221   hearings like this.
+
+1222       Mrs. Hinson.     And then, Mr. Beall, my last question will
+
+1223   be for you.   When we look at China's DeepSeek model, they
+
+1224   demonstrated quickly how PRC labs can really replicate our
+
+1225   U.S. breakthroughs, right?    They are copying our technology.
+
+1226   I guess mimicry is the best form of flattery, right, but
+
+1227   what are the biggest espionage or model leakage threats that
+
+1228   are facing our domestic partners today?
+
+1229       Mr. Beall.     Thank you, Representative Hinson, and first
+
+1230   of all, I would like to thank you for using the word
+
+1231   "weaponize" instead of "misuse."    I think it is very clear
+
+1232   that we are strong in our language, that people know exactly
+
+1233   what we are talking about, and we understand the stakes.        I
+
+1234   think DeepSeek absolutely is our Sputnik moment, and we have
+
+1235   to remember that export controls, there is always going to
+
+1236   be a lagging effect.    So we implement ship controls in 2022,
+
+1237   but it took us a long time to actually enforce them, and as
+
+1238   a result, the ships sort of still flowed to China.     And so
+
+1239   when we think about the urgency of action today, we have to
+       HZS176000                                        PAGE     56
+
+
+
+
+1240   assume that looking right around the beat, it is going to
+
+1241   take some time to deny these capabilities.
+
+1242          So there is sort of two core things that we need to do
+
+1243   urgently.    The first, there is a piece of legislation
+
+1244   introduced last Congress called the Remote Access Security
+
+1245   Act.    That blocks China from accessing restricted AI chips
+
+1246   but just via cloud services, and so this is a loophole that
+
+1247   is being taken advantage of now.       The second thing, and this
+
+1248   is going to be the really hard one, is grappling with what
+
+1249   the folks in the industry call the open source issue, and
+
+1250   that is, at what level of capability is it going to be not
+
+1251   okay to publish weaponizable AI systems out in the open?
+
+1252   And when a company publishes these things out in the open
+
+1253   and we have chip controls in place, well, the Chinese just
+
+1254   download those model weights and then use their existing
+
+1255   chips to scale up that capability, so these things are
+
+1256   working at cross purposes.       So if you had to do two things
+
+1257   urgently, I would recommend considering those two things.
+
+1258   Thank you.
+
+1259          Mrs. Hinson.     Responsibility in this space matters.
+
+1260   Thank you.    I yield back, Mr. Chair.
+
+1261          Chairman Moolenaar.     Thank you.   Representative Brown.
+
+1262          Ms. Brown.     Thank you, Mr. Chairman.   As we continue to
+
+1263   assess the scope and stakes of our strategic competition
+
+1264   with the Chinese Communist Party, I want to focus on a
+       HZS176000                                   PAGE      57
+
+
+
+
+1265   critical aspect of American competitiveness that often gets
+
+1266   overlooked _ our workforce _ because winning the AI race
+
+1267   isn't just about algorithms and semiconductors.    It is also
+
+1268   about ensuring American workers and communities aren't left
+
+1269   behind as the economy changes rapidly.
+
+1270       For generations, places like Ohio's 11th and communities
+
+1271   across Northeast Ohio powered our economy through steel,
+
+1272   manufacturing, healthcare, and innovation, but they have
+
+1273   also experienced economic disruptions caused by automation,
+
+1274   offshoring, and underinvestment in workforce training.     We
+
+1275   cannot afford to repeat those mistakes with AI.    AI is
+
+1276   already being rapidly deployed across industries, and while
+
+1277   that holds enormous promise, it also raises some serious
+
+1278   questions:    who benefits, who gets left behind, and what are
+
+1279   we doing to make sure the American workforce is prepared?
+
+1280       So, Mr. Clark, Anthropic's Economic Impact Index
+
+1281   suggests that AI is already being significantly adopted to
+
+1282   automate and augment workflows across a wide range of
+
+1283   industries.   Can you explain what specific economic impacts
+
+1284   you are seeing from AI adoption and which sectors and
+
+1285   communities are most at risk of disruption?
+
+1286       Mr. Clark.    Thank you.   We look at the use of AI on our
+
+1287   platform and compare it to the O*NET job classification,
+
+1288   which helps us look at the distribution of jobs on our
+
+1289   platform relative to the U.S. economy.    What we see is AI
+       HZS176000                                    PAGE      58
+
+
+
+
+1290   technology today is being used in a major way for jobs
+
+1291   relating to programming and also relating to what you might
+
+1292   think of as bureaucracy or paperwork that takes place in
+
+1293   large-scale businesses.     Today, this technology makes people
+
+1294   much more productive.     It predominantly augments them, takes
+
+1295   a person and lets them do more, but in the future we think
+
+1296   that there will be other impacts as well as this technology
+
+1297   matures.    We believe that there need to be greater degrees
+
+1298   of data being shared by the companies about the economic
+
+1299   impacts of their systems, and from this, we take inspiration
+
+1300   from the U.S. census where the annual survey of
+
+1301   manufacturers now asks questions about the number of
+
+1302   industrial robot arms, which are bought by manufacturers
+
+1303   across America each year.     I think we can do equivalent
+
+1304   things here to find ways to get better information about AI
+
+1305   and more granular data, and from that data, we will be able
+
+1306   to see where it is impacting the economy and actions we can
+
+1307   take.
+
+1308       Ms. Brown.    Thank you, and what partnerships between
+
+1309   industry, government, and educational institutions do you
+
+1310   think are most critical to ensuring our workforce is not
+
+1311   only resilient but positioned to lead, and what examples or
+
+1312   models are showing the most promise in helping workers
+
+1313   transition into AI-aligned roles, particularly in
+
+1314   underserved or industrial communities like the one I
+       HZS176000                                    PAGE       59
+
+
+
+
+1315   represent in Ohio?
+
+1316       Mr. Clark.    The most success we have seen so far has
+
+1317   come from experimentation across industry and people that
+
+1318   want to learn AI skills.    The Department of Energy has done
+
+1319   a variety of AI Jam Days, which Anthropic and other frontier
+
+1320   developers have participated in, and I think that is a
+
+1321   scalable model:   find communities that want to learn about
+
+1322   AI, give them access to the technology, and have industry
+
+1323   come there and embed deeply with them to give them that
+
+1324   familiarity.   Once people are familiar with this, they can
+
+1325   learn to use the tool, and they will find many ways that it
+
+1326   can change how they work.
+
+1327       Ms. Brown.    Okay.   Thank you, and then lastly, Mr.
+
+1328   Clark, as AI transforms the job market, what specific steps
+
+1329   should Congress take to prepare the next generation of
+
+1330   American workers for an AI-driven economy?    Specifically,
+
+1331   how do we ensure that American workers benefit from this
+
+1332   revolution in productivity?
+
+1333       Mr. Clark.    It all starts with experimentation and being
+
+1334   given the space to familiarize yourself with a technology,
+
+1335   experiment with it, and find ways to apply it.      As part of
+
+1336   this, we should closely look at which industries are using
+
+1337   the technology most, perhaps using technologies like the
+
+1338   Economic Index, and where industries that aren't using it,
+
+1339   whether there are impediments that stand in the way of using
+       HZS176000                                   PAGE       60
+
+
+
+
+1340   it because it will change and improve how jobs work there,
+
+1341   and there may be avenues to learn of ways that we can change
+
+1342   regulations to make it easier for people to use this
+
+1343   technology and benefit from it.
+
+1344       Ms. Brown.    Thank you, and I will close with this.    Just
+
+1345   as we are using export controls to slow China's AI
+
+1346   ambitions, we should be equally aggressive about
+
+1347   accelerating our investment in the American workforce, which
+
+1348   is our greatest competitive advantage.    That means scaling
+
+1349   apprenticeship programs, embedding AI skills in community
+
+1350   colleges and HBCUs, and modernizing career and technical
+
+1351   education to prepare workers, not just to use AI, but to
+
+1352   help shape it.   And with that, Mr. Chairman, I yield back.
+
+1353       Chairman Moolenaar.    Thank you.   Representative Nunn.
+
+1354       Mr. Nunn.    Well, thank you, Mr. Chairman, for having us
+
+1355   here today and calling, I think, one of the most important
+
+1356   hearings that we have had on the topic of artificial
+
+1357   intelligence, and I would agree that AI is the new Cold War
+
+1358   between the U.S. and China.   As this distinguished panel has
+
+1359   highlighted, it is, in fact, the Manhattan Project of our
+
+1360   generation, and we have the opportunity to stand forward and
+
+1361   do this not just as a whole-of-government approach, but as a
+
+1362   whole-of-Nation approach to be able to stand up to China.
+
+1363       I want to give a particular salute to our Secretary of
+
+1364   the Army who has brought forward four members of our top AI
+       HZS176000                                    PAGE       61
+
+
+
+
+1365   teams, commissioned them as lieutenant colonels, and also
+
+1366   highlighted that this is a public-private partnership, not
+
+1367   something that the American Government nor the American
+
+1368   taxpayer can do alone.     In fact, with President Trump's
+
+1369   Stargate, we are putting $500 billion to the advancement of
+
+1370   AI, and that is truly something that I think should be
+
+1371   saluted.     We should also recognize, though, the Chinese and
+
+1372   the CCP specifically, Chairman, as you have highlighted, are
+
+1373   not standing still in this space.     The Chinese just this
+
+1374   year have tested something called AI Commander.     It is
+
+1375   capable of generating 10,000 battle plans in under a minute.
+
+1376   If you want to have an invasion of Taiwan, this is the type
+
+1377   of tool that you want.
+
+1378       Additionally, perhaps one of the more concerning items
+
+1379   is a new AI group out of Beijing called Zhipu.      Zhipu is an
+
+1380   AI anomaly that is now facing off against the likes of
+
+1381   OpenAI, and their entire intent is to lock in Chinese
+
+1382   systems and standards into emerging markets before the West,
+
+1383   so this is clearly a large-scale attempt by the Chinese to
+
+1384   box the United States out.     Now, as a counterintelligence
+
+1385   officer who was on the frontline in fighting against
+
+1386   Huawei's takeover of the United States through something
+
+1387   called Huawei America, very clever by the Chinese, we were
+
+1388   able to stop that from taking root here in the United
+
+1389   States.     Our concern here is that we are now facing this
+       HZS176000                                    PAGE       62
+
+
+
+
+1390   again, that the Chinese are using AI and their ability to
+
+1391   get into first-shooter markets ahead of the United States to
+
+1392   establish a de facto leadership role in this space.        So,
+
+1393   gentlemen, as we all know, the race is on.
+
+1394       I want to thank you for not only your time here, but
+
+1395   your leadership in being able to go after that.      Tom, you
+
+1396   are the president and chief executive for the Center for
+
+1397   Strategic and Budgetary Assessment.     Given the examples that
+
+1398   we just highlighted here, one can only assume that the CCP
+
+1399   is gearing up for a larger AI-enabled operation.      I would
+
+1400   like to ask you, is the U.S. currently prepared for an AI-
+
+1401   accelerated cyberattack, a zero-day attack, or a larger
+
+1402   threat that faces us today?
+
+1403       Mr. Mahnken.     Well, thank you, Congressman.   You
+
+1404   justifiably highlight some of the risks that we face, and I
+
+1405   want to return to the uncertainty that surrounds this
+
+1406   situation.    There is a huge bet here, right?   The Communist
+
+1407   Party is betting and the PLA is betting that AI will make
+
+1408   them better, right, that it will, with scientific clarity,
+
+1409   lead to, as you put it, the optimum answer for how to crack
+
+1410   Taiwan.     I think we as a society are betting differently,
+
+1411   right?    We are betting that AI tools can help human beings
+
+1412   make more informed, better-informed judgments to recognize
+
+1413   signals from the noise.     My primary concern is not that the
+
+1414   Chinese authoritarians are right.     My primary concern is
+       HZS176000                                     PAGE       63
+
+
+
+
+1415   that they may delude themselves into thinking that AI will
+
+1416   allow them to do things that they won't, in fact, be able to
+
+1417   do.   It might be a great way for them to not win a war but
+
+1418   get into a war.
+
+1419         Mr. Nunn.    Mr. Mahnken, I would agree with you on that.
+
+1420   I would say the same challenge is true for the United
+
+1421   States, that we also need to be clear-eyed about what our
+
+1422   expectations are for AI.     In fact, it is one of the reasons
+
+1423   that I have introduced H.R. 2152, the AI PLAN.       It is an act
+
+1424   to make sure that we are implementing a strategy here within
+
+1425   the U.S. Government that we are using AI in a tandem way,
+
+1426   not that every department or agency, or as highlighted,
+
+1427   earlier, every State or every local entity is running on
+
+1428   their own.   This has to be a whole-Nation approach.
+
+1429         Mr. Clark, you are the co-founder and head of policy at
+
+1430   Anthropic, a very impressive private entity who has been
+
+1431   able to come to this.     I would like to ask you in our
+
+1432   remaining time how the government and private sector can
+
+1433   work cooperatively, not only to advance AI here, but to also
+
+1434   disrupt, deter, and compete with what the Chinese have going
+
+1435   on around the rest of the world.
+
+1436         Mr. Clark.    Thank you.   Two quick things.   One, to
+
+1437   advance AI here, we need the U.S. Government to lean in on
+
+1438   AI deployment and to uplevel the U.S. Government of both
+
+1439   civil and the IC side.     That is an amazing opportunity, and
+       HZS176000                                     PAGE      64
+
+
+
+
+1440   we are here to partner for that.    On the international
+
+1441   piece, the development with the U.S. Government of the
+
+1442   standards by which we assess for safety and reliability of
+
+1443   this technology, in partnership with industry will help
+
+1444   industry go out and sell globally and sell people on
+
+1445   American standards that let them know they can trust our
+
+1446   technology, and they will choose to buy American off of that
+
+1447   trust.
+
+1448       Mr. Nunn.     Let's make sure we can make it affordable,
+
+1449   deployable, and effective for them as well.     Thank you, Mr.
+
+1450   Chair.   I yield back the remainder of my time.
+
+1451       Chairman Moolenaar.     Thank you.   Representative Tokuda.
+
+1452       Ms. Tokuda.     Thank you, Mr. Chair.   I want to build on
+
+1453   what some of my colleagues have touched upon, in particular,
+
+1454   in the energy field.    We know that China is investing
+
+1455   significant resources and assets to achieve its 2030 AI
+
+1456   world leader goal, and meanwhile here at home, we say we
+
+1457   want to win the AI race, but the current administration
+
+1458   proposed gutting the very institutions that both give us an
+
+1459   edge and protect us from intrusion.      NIST was facing up to a
+
+1460   20-percent workforce cut in over $325 million in funding
+
+1461   reductions, and while reconciliation bills have softened the
+
+1462   cut blow, CISA was facing nearly half a billion dollars in
+
+1463   cuts and the elimination of a third of its workforce, 1,000
+
+1464   positions.   These are in critical areas like critical
+       HZS176000                                   PAGE         65
+
+
+
+
+1465   infrastructure, communications, data privacy, cybersecurity
+
+1466   support at the State and local levels, all of these things.
+
+1467   Perhaps, Mr. Clark, we can ask you that question since your
+
+1468   company works closely with NIST and CISA.    Are you concerned
+
+1469   about our ability to both compete and protect?     Briefly,
+
+1470   should we be cutting or, as I would argue, actually
+
+1471   increasing funding towards these critical areas?
+
+1472       Mr. Clark.    There are amazing complements to the work of
+
+1473   the private sector, and that includes work on standards and
+
+1474   measurement that can be done by NIST.    Ultimately, it will
+
+1475   also require us to help use our technology to protect
+
+1476   critical infrastructure and harden our defensive posture
+
+1477   here that will be used by other agencies as well.    I would
+
+1478   encourage us to look closely at what parts of government can
+
+1479   complement and accelerate the work of private industry to
+
+1480   help prepare us for the very powerful AI systems that are
+
+1481   developed in the coming years.
+
+1482       Ms. Tokuda.    Okay.   So I would take that as definitely
+
+1483   we should not be looking at massive cuts.    We should
+
+1484   actually be looking at supports that are complementary to
+
+1485   the private sector.   On that note, Mr. Clark, Anthropic CEO,
+
+1486   Dario Amodei, has publicly fielded the idea of a token tax
+
+1487   where a small percentage of language model revenues could go
+
+1488   to the government to help offset the economic disruptions AI
+
+1489   could cause, like the potential, as was brought up by Ms.
+       HZS176000                                  PAGE      66
+
+
+
+
+1490   Brown, loss of 10 to 20 percent of white-collar jobs.      To
+
+1491   me, it reflects a bigger principle that AI companies have a
+
+1492   responsibility to help address the societal costs their
+
+1493   technologies could bring.   And in your testimony, to meet
+
+1494   the moment of the AI race we are in, you call for major
+
+1495   investments in public infrastructure, energy, as we have
+
+1496   heard discussed today, power grids.   These are critical
+
+1497   systems that AI companies are rapidly placing new demands
+
+1498   on, critical demands on, and in many ways, we are outpacing
+
+1499   the need at this time.   So what is your view on responsible
+
+1500   public-private burden sharing?   Should companies like
+
+1501   Anthropic be expected to directly invest in the
+
+1502   infrastructure that they rely on so that we can actually
+
+1503   increase our capacity, as well reinforcing the environmental
+
+1504   and public systems that are being stretched to support the
+
+1505   growth of AI?
+
+1506       Mr. Clark.   Today, whenever we develop infrastructure,
+
+1507   we work closely with our partners and the communities where
+
+1508   that infrastructure is built to understand exactly how we
+
+1509   can lean in and do more, and we are constantly looking for
+
+1510   ways to be better.   At the same time, if we are right, in
+
+1511   several years and truly powerful systems get built but have
+
+1512   the property of a country of geniuses and a data center, it
+
+1513   would behoove us to take a look with fresh eyes at this
+
+1514   technology and what societal changes it may be causing.     And
+       HZS176000                                    PAGE      67
+
+
+
+
+1515   I would be eager to follow up with people here in that
+
+1516   conversation, which we will need to be ready to have in 3 or
+
+1517   4 years or so.
+
+1518       Ms. Tokuda.     Okay.   Definitely I think we know here in
+
+1519   Congress the demand for resources will definitely be great
+
+1520   as the needs increase as we go further in this area.     I want
+
+1521   to touch upon something that is a bit existential, if you
+
+1522   will.   Mr. Beall, your testimony makes clear that artificial
+
+1523   superintelligence _ ASI _ is one of the largest existential
+
+1524   threats that we face right now, and many experts in the
+
+1525   field also recognize that AGI _ artificial general
+
+1526   intelligence _ is a precursor to that risk.     And even as we
+
+1527   race towards AGI, we are still struggling, quite frankly, to
+
+1528   manage responsibly and reliably today's systems:     models
+
+1529   that hallucinate exhibit bias and behave unpredictably.       And
+
+1530   these are likely the simplest of systems that we will ever
+
+1531   have to deal with in our lifetimes.     And as much as the AI
+
+1532   race is about speed and efficiency, it is a race for control
+
+1533   and governance because at the end of the day, true power
+
+1534   lives in the ability to wield AI safely and effectively with
+
+1535   strong oversight and accountability to ensure it serves its
+
+1536   intended purpose.
+
+1537       This might be a question you have to insert in the
+
+1538   record as I will run out of time, but should we also be
+
+1539   concerned that authoritarian states like China or Russia may
+       HZS176000                                    PAGE        68
+
+
+
+
+1540   lose control over their own advanced systems?       Could that
+
+1541   kind of instability in their own AI systems pose global
+
+1542   consequences regardless of whether we get our own houses
+
+1543   into order?     And is it possible that a loss of control by
+
+1544   any nation-state, including our own, could give rise to an
+
+1545   independent AGI or ASI actor that, globally, we will need to
+
+1546   contend with?     And so I know Mr. Chairman out of time, and
+
+1547   so I would request the answer from the panelists for the
+
+1548   record.     Thank you.   I yield back.
+
+1549       Chairman Moolenaar.      Thank you very much and approve
+
+1550   that request.
+
+1551       [The information follows:]
+       HZS176000                                   PAGE        69
+
+
+
+
+1552       Chairman Moolenaar.   Representative Moran.
+
+1553       Mr. Moran.   Thank you, Mr. Chairman.   Thank you to the
+
+1554   panel for being here today.   I have got lots to ask.     I will
+
+1555   try to move quickly through it, but what you are doing here
+
+1556   today is super important to help inform us as members of
+
+1557   Congress, but also the public at large about the real threat
+
+1558   that the CCP poses if we do not win this AI race.      I am
+
+1559   convinced that one of the things that is so great about
+
+1560   America is that our innovators are better than anybody, and
+
+1561   if we will just get out of the way and let them innovate, I
+
+1562   think we can certainly win this.   But oftentimes we get in
+
+1563   our own way, and then we don't realize what we need to be
+
+1564   doing outside of our borders to push back against those that
+
+1565   would do harm to the United States.
+
+1566       As I learn more and as I listened to you guys today, Mr.
+
+1567   Clark, you said we need to win the race.    That was one of
+
+1568   the things you said was absolutely most important.      I agree
+
+1569   with you, and so I want to ask you, Mr. Beall said a couple
+
+1570   things specifically we could do to win the race is to pass
+
+1571   the Remote Access Security Act, and then also grapple with
+
+1572   this open source problem of letting the CCP get information
+
+1573   that it shouldn't through those open-source documents, but,
+
+1574   Mr. Clark, let's go back to winning the race.      What is the
+
+1575   number one thing that we are not doing that we should be
+
+1576   doing to win this race?
+       HZS176000                                    PAGE         70
+
+
+
+
+1577       Mr. Clark.     Just making me choose one means I have to
+
+1578   pause for a moment.     I think the fundamental thing is power,
+
+1579   and then if I was allowed to add two more, I would say power
+
+1580   and then compute, ensuring you have enough compute
+
+1581   resources.     And then the third thing would be ensuring we
+
+1582   have the necessary infrastructure in the U.S. Government to
+
+1583   help us have confidence about developing the standards for
+
+1584   this technology and the means by which we assure its safety
+
+1585   and security.
+
+1586       Mr. Moran.     Yeah, I agree with you about the power and
+
+1587   the grid itself.     I just had a meeting this morning,
+
+1588   actually, with a number of energy companies in diverse ways
+
+1589   of providing energy.     So without respect to actually how we
+
+1590   provide the energy, the necessity to get more load on the
+
+1591   grid is an absolute.     Otherwise, we can't have the computing
+
+1592   power that we need to win the AI race through these
+
+1593   facilities we need to build.     I will let you guys all
+
+1594   answer.     Do you have a specific suggestion as to how we
+
+1595   should go about doing that?     I know there is some partisan
+
+1596   differences there, but where can we find consensus on how to
+
+1597   drive forward with getting more load on the grid?
+
+1598       Mr. Clark.     We would be happy to follow up for a more
+
+1599   detailed private conversation, but our number one idea is
+
+1600   just work backwards from the goal of having 50 gigawatts of
+
+1601   net new capacity for use by Frontier AI in 2027 and figure
+       HZS176000                                      PAGE        71
+
+
+
+
+1602   out how well postured the U.S. is for that, identify any
+
+1603   blockers that exist and find a path through.
+
+1604       Mr. Moran.     Dr. Mahnken, let me come back to you with
+
+1605   that first question.       What is it that we are not doing that
+
+1606   you would say we absolutely must do?
+
+1607       Mr. Mahnken.     Well, I certainly think that the private
+
+1608   sector is moving forward.       Mr. Clark talked about what can
+
+1609   be done there.   I think government has an important role to
+
+1610   try to slow down the Chinese.       I think being more mindful of
+
+1611   that, and I think, again, there are some measures that have
+
+1612   already been passed, others that are under consideration
+
+1613   that can help do that, being mindful of what the Chinese are
+
+1614   doing and slow them down.
+
+1615       Mr. Moran.     Yeah.    One of the things that I am learning
+
+1616   more about is how AI works behind the scenes.         As we are
+
+1617   going through this process, the development of our current
+
+1618   AI model certainly is different than when software engineers
+
+1619   developed software a long time ago.       Instead of a programmer
+
+1620   writing each rule, a system will follow, the system itself
+
+1621   effectively writes the rules based on the question it needs
+
+1622   to answer or is trying to answer.       It is my understanding
+
+1623   that AI systems will soon have the capability to conduct its
+
+1624   own research and development, and effectively write its own
+
+1625   rules and programming.       AI will be able to predict then the
+
+1626   issues it will need to solve and do it in ways sometimes
+       HZS176000                                    PAGE        72
+
+
+
+
+1627   that we can't control.    Mr. Clark, how do you think the U.S.
+
+1628   can best harness automated AI research and development while
+
+1629   ensuring the Chinese AI systems do not generate the same
+
+1630   capabilities?    And I will come to you, Mr. Beall, as well
+
+1631   for that same question.
+
+1632       Mr. Clark.    This is a fundamental opportunity and
+
+1633   challenge.   We need to urgently resource our intelligence
+
+1634   community to understand how advanced Chinese AI systems are
+
+1635   and whether they are capable of AI R&D.     At the same time,
+
+1636   we need to work closely with industry in the U.S. to
+
+1637   understand AI R&D and its potential risks.     Just to
+
+1638   illustrate, you wouldn't want an AI system that very
+
+1639   occasionally tries to blackmail you to design its own
+
+1640   successor, so you need to work on the safety issues of AI
+
+1641   R&D, or else, you will lose the race.
+
+1642       Mr. Moran.    And, Mr. Beall, as you answer this question
+
+1643   _ I am running out of time _ I also want to know where is
+
+1644   the red line.    You guys have talked about that a little bit
+
+1645   today, but I want to get a definite understanding of where
+
+1646   is the red line where we cannot allow the Chinese to
+
+1647   crossover?
+
+1648       Mr. Beall.    This is an excellent question, sir.     I think
+
+1649   the first thing I would say is that AI systems are not
+
+1650   really built.    They are grown.   There is no science here.
+
+1651   It is alchemy, so there is lots of fuzziness about how these
+       HZS176000                                      PAGE       73
+
+
+
+
+1652   systems work.     We can't really break them open and reason
+
+1653   about all these details.     You touched on a very critical
+
+1654   point, though.     This is the automated R&D part, so once you
+
+1655   have an AGI-level system that could take control of its own
+
+1656   destiny and build itself and build its successors, to me.
+
+1657   that is the very clear red line in which the danger starts.
+
+1658   And that is where we have to get the government involved in
+
+1659   testing and evaluation and get the upskilling of the U.S.
+
+1660   Government so they can understand what is happening and make
+
+1661   good recommendations to you.     Thank you.
+
+1662       Mr. Moran.     I absolutely agree, and I think that that is
+
+1663   a critical red line that hearkens back to the days of when
+
+1664   we established ourselves as a superpower.       In a number of
+
+1665   different ways, I do think there is a resetting.       We have to
+
+1666   win this race, as was stated earlier.     Thank you, gentlemen.
+
+1667   I yield back.
+
+1668       Chairman Moolenaar.     Thank you.   Representative Khanna.
+
+1669       Mr. Khanna.     Thank you, Mr. Chairman.    Mr. Clark, I
+
+1670   appreciate Anthropic's thoughtful approach to AI safety and
+
+1671   jobs.   You mentioned the Standards and Innovation Institute
+
+1672   under NIST.     As you know, it is currently voluntary.    I
+
+1673   wonder whether you think that, for certain high-risk AI
+
+1674   applications, there should be some minimum threshold of
+
+1675   mandatory third-party verification, even if that third party
+
+1676   verification is just verifying the company's own standards
+       HZS176000                                  PAGE        74
+
+
+
+
+1677   or some threshold that we need to move towards.
+
+1678       Mr. Clark.    This question illustrates the challenge we
+
+1679   have about weighing safety versus moving ahead as quickly as
+
+1680   possible.   We need to first figure out what we want to hold
+
+1681   to that standard of testing.   Today the voluntary agreements
+
+1682   rest on CBRN testing and some forms of cyberattack testing.
+
+1683   Once we have standards that we are confident of, I think you
+
+1684   can take a look at the question of whether voluntary is
+
+1685   sufficient or you need something else, but my sense is it is
+
+1686   too early, and we first need to design those tests and
+
+1687   really agree on those before figuring out what the next step
+
+1688   would be.
+
+1689       Mr. Khanna.    And who would design those tests?   Is it
+
+1690   the AI Institute, or is it the private sector?    Who comes up
+
+1691   with what those tests should be?
+
+1692       Mr. Clark.    Today these tests are done highly
+
+1693   collaboratively between U.S. private sector, the CAISI,
+
+1694   which you mentioned, and parts of the U.S. Government,
+
+1695   including those in the intelligence and defense community.
+
+1696   I think bringing those people together so that we have the
+
+1697   Nation's best experts on this and standards and tests that
+
+1698   we all agree on is the first step that we can take to get us
+
+1699   to everything else.
+
+1700       Mr. Khanna.    And by when do you think that needs to be
+
+1701   done?
+       HZS176000                                   PAGE       75
+
+
+
+
+1702       Mr. Clark.    It would be ideal to have this within a
+
+1703   year.    The timelines that I have spoken about in this
+
+1704   hearing are powerful AI arrives at the end of 2026 or early
+
+1705   2027.    Before then, we would ideally have standard tests for
+
+1706   the national security properties that we deeply care about.
+
+1707       Mr. Khanna.    One of the things I am most concerned about
+
+1708   is the jobs situation.    Now, obviously AI is going to create
+
+1709   a lot of new jobs, but you look at college unemployment
+
+1710   today.    Between the ages of 21 and 29, for those who have a
+
+1711   college degree, it is 15 percent.    It is not partisan.     It
+
+1712   was at 15 percent when Biden was President, it is 15 percent
+
+1713   now, and there are projections that that will increase as
+
+1714   entry-level jobs, in particular, are affected.
+
+1715       I have studied Darren Acemoglu's work at MIT, who says
+
+1716   that we need to revamp the Tax Code so that we are
+
+1717   incentivizing hiring people instead of robots.     Some other
+
+1718   people have said, look, we need something like a future
+
+1719   workforce administration like Roosevelt had, but for young
+
+1720   people or people to get entry-level positions in doing work
+
+1721   on making government services better, in healthcare, in
+
+1722   infrastructure.    What are your recommendations on how we
+
+1723   should be thinking about this jobs issue?
+
+1724       Mr. Clark.    Our specific recommendation is to start with
+
+1725   data and to ask for more data from the AI companies,
+
+1726   including Anthropic, about how we see the distribution of
+       HZS176000                                    PAGE       76
+
+
+
+
+1727   jobs being used by our AI systems today.     With that data, we
+
+1728   can have a conversation about where it is augmenting people
+
+1729   and making them more productive, and where are parts of the
+
+1730   economy where AI has almost no relevance today, but there is
+
+1731   huge societal benefit in those jobs, and we can think about
+
+1732   how to better support those.
+
+1733       Mr. Khanna.    Any other ideas?   Data is fine, but
+
+1734   anything else, or do you think that that is where we start?
+
+1735       Mr. Clark.    I think that we have to start with data, and
+
+1736   that will show us what we should do after that.
+
+1737       Mr. Khanna.    Right.   Anyone else on the panel have any
+
+1738   ideas?
+
+1739       Mr. Beall.    Yeah, I will take a stab here, sir.     I have
+
+1740   a 16-year-old son, and we talk a lot about what do you study
+
+1741   in college these days, and if you look at the stated goals
+
+1742   of many of these companies, they want to have AI replace all
+
+1743   humans at all jobs.   It is what they say publicly.     Bill
+
+1744   Gates said this publicly.     So I worry about a future in
+
+1745   which human beings are not just unemployed, but they are
+
+1746   unemployable, and this breaks the notion of the free market
+
+1747   in very important ways.     And I think we are going to have to
+
+1748   have more of these conversations, and it is going to feel
+
+1749   too early until it is too late.     And when I hear folks in
+
+1750   industry claim things about universal basic income and this
+
+1751   sort of digital utopia, I study history, and I am worried
+       HZS176000                                  PAGE       77
+
+
+
+
+1752   that that sort of leads to one place, and that place is the
+
+1753   gulag.
+
+1754       Mr. Khanna.   Appreciate it.   Thank you.
+
+1755       Chairman Moolenaar.   Thank you very much.    Well, I want
+
+1756   to thank all of our witnesses for your testimony today and
+
+1757   your insights.
+
+1758       Questions for the record are due 1 week from today.
+
+1759       [The information follows:]
+       HZS176000                                 PAGE         78
+
+
+
+
+1760       Chairman Moolenaar.   And without objection, the
+
+1761   committee hearing is adjourned.
+
+1762       [Whereupon, at 10:51 a.m., the select committee was
+
+1763   adjourned.]
+

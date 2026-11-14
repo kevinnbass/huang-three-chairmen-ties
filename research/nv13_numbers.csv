@@ -1,0 +1,87 @@
+key,row_id,value,words,src,q
+emp:anthropic:mast,CN01,43000,Anthropic employees' gifts to committees tied to Mast,table:nv13_numbers.csv#emp:anthropic:mast,43000
+emp_people:anthropic:mast,CN02,5,people who gave them,table:nv13_numbers.csv#emp_people:anthropic:mast,5
+emp:nvidia:mast,CN03,0,Nvidia employees' gifts to committees tied to Mast,table:nv13_numbers.csv#emp:nvidia:mast,0
+receipts:mast,CN04,5097731.89,"Mast's campaign receipts, 2026 cycle through Oct 14, 2026",table:nv13_numbers.csv#receipts:mast || fec-bulk-weball26-20261113,"5097731.89 || CAND_ID=H6FL18097; CAND_NAME=MAST, BRIAN; TTL_RECEIPTS=5097731.89"
+share:mast,CN05,0.8,the Anthropic employees' gifts as a percentage of those receipts,table:nv13_numbers.csv#share:mast,0.8
+fl21_zip_areas,CN06,38,zip-code areas wholly or partly in FL-21 (Census Bureau),table:nv13_numbers.csv#fl21_zip_areas || census-cd119-zcta-20261113,38 || Congressional District 21
+fl21_zip_areas_shared,CN07,11,"of those, areas that also lie in another district",table:nv13_numbers.csv#fl21_zip_areas_shared,11
+lob:anthropic:mast:total,CN08,0,gifts naming Mast from lobbyists or PACs of firms registered for anthropic,table:nv13_numbers.csv#lob:anthropic:mast:total,0
+lob:anthropic:mast:named,CN09,0,of which from lobbyists listed for the client,table:nv13_numbers.csv#lob:anthropic:mast:named,0
+lob:anthropic:mast:items,CN10,0,gifts,table:nv13_numbers.csv#lob:anthropic:mast:items,0
+lob:network:mast:total,CN11,4500,gifts naming Mast from lobbyists or PACs of firms registered for network,table:nv13_numbers.csv#lob:network:mast:total,4500
+lob:network:mast:named,CN12,1000,of which from lobbyists listed for the client,table:nv13_numbers.csv#lob:network:mast:named,1000
+lob:network:mast:items,CN13,3,gifts,table:nv13_numbers.csv#lob:network:mast:items,3
+lob:nvidia:mast:total,CN14,13625,gifts naming Mast from lobbyists or PACs of firms registered for nvidia,table:nv13_numbers.csv#lob:nvidia:mast:total,13625
+lob:nvidia:mast:named,CN15,1500,of which from lobbyists listed for the client,table:nv13_numbers.csv#lob:nvidia:mast:named,1500
+lob:nvidia:mast:items,CN16,16,gifts,table:nv13_numbers.csv#lob:nvidia:mast:items,16
+emp:anthropic:moolenaar,CN17,28000,Anthropic employees' gifts to committees tied to Moolenaar,table:nv13_numbers.csv#emp:anthropic:moolenaar,28000
+emp_people:anthropic:moolenaar,CN18,4,people who gave them,table:nv13_numbers.csv#emp_people:anthropic:moolenaar,4
+emp:nvidia:moolenaar,CN19,0,Nvidia employees' gifts to committees tied to Moolenaar,table:nv13_numbers.csv#emp:nvidia:moolenaar,0
+receipts:moolenaar,CN20,2068418.39,"Moolenaar's campaign receipts, 2026 cycle through Oct 14, 2026",table:nv13_numbers.csv#receipts:moolenaar || fec-bulk-weball26-20261113,"2068418.39 || CAND_ID=H4MI04126; CAND_NAME=MOOLENAAR, JOHN MR.; TTL_RECEIPTS=2068418.39"
+share:moolenaar,CN21,1.4,the Anthropic employees' gifts as a percentage of those receipts,table:nv13_numbers.csv#share:moolenaar,1.4
+lob:anthropic:moolenaar:total,CN22,0,gifts naming Moolenaar from lobbyists or PACs of firms registered for anthropic,table:nv13_numbers.csv#lob:anthropic:moolenaar:total,0
+lob:anthropic:moolenaar:named,CN23,0,of which from lobbyists listed for the client,table:nv13_numbers.csv#lob:anthropic:moolenaar:named,0
+lob:anthropic:moolenaar:items,CN24,0,gifts,table:nv13_numbers.csv#lob:anthropic:moolenaar:items,0
+lob:network:moolenaar:total,CN25,1500,gifts naming Moolenaar from lobbyists or PACs of firms registered for network,table:nv13_numbers.csv#lob:network:moolenaar:total,1500
+lob:network:moolenaar:named,CN26,500,of which from lobbyists listed for the client,table:nv13_numbers.csv#lob:network:moolenaar:named,500
+lob:network:moolenaar:items,CN27,2,gifts,table:nv13_numbers.csv#lob:network:moolenaar:items,2
+lob:nvidia:moolenaar:total,CN28,2875,gifts naming Moolenaar from lobbyists or PACs of firms registered for nvidia,table:nv13_numbers.csv#lob:nvidia:moolenaar:total,2875
+lob:nvidia:moolenaar:named,CN29,2625,of which from lobbyists listed for the client,table:nv13_numbers.csv#lob:nvidia:moolenaar:named,2625
+lob:nvidia:moolenaar:items,CN30,4,gifts,table:nv13_numbers.csv#lob:nvidia:moolenaar:items,4
+emp:anthropic:crawford,CN31,7000,Anthropic employees' gifts to committees tied to Crawford,table:nv13_numbers.csv#emp:anthropic:crawford,7000
+emp_people:anthropic:crawford,CN32,1,people who gave them,table:nv13_numbers.csv#emp_people:anthropic:crawford,1
+emp:nvidia:crawford,CN33,0,Nvidia employees' gifts to committees tied to Crawford,table:nv13_numbers.csv#emp:nvidia:crawford,0
+receipts:crawford,CN34,1135655.28,"Crawford's campaign receipts, 2026 cycle through Oct 14, 2026",table:nv13_numbers.csv#receipts:crawford || fec-bulk-weball26-20261113,"1135655.28 || CAND_ID=H0AR01083; CAND_NAME=CRAWFORD, ERIC ALAN RICK; TTL_RECEIPTS=1135655.28"
+share:crawford,CN35,0.6,the Anthropic employees' gifts as a percentage of those receipts,table:nv13_numbers.csv#share:crawford,0.6
+lob:anthropic:crawford:total,CN36,6000,gifts naming Crawford from lobbyists or PACs of firms registered for anthropic,table:nv13_numbers.csv#lob:anthropic:crawford:total,6000
+lob:anthropic:crawford:named,CN37,3500,of which from lobbyists listed for the client,table:nv13_numbers.csv#lob:anthropic:crawford:named,3500
+lob:anthropic:crawford:items,CN38,2,gifts,table:nv13_numbers.csv#lob:anthropic:crawford:items,2
+lob:network:crawford:total,CN39,0,gifts naming Crawford from lobbyists or PACs of firms registered for network,table:nv13_numbers.csv#lob:network:crawford:total,0
+lob:network:crawford:named,CN40,0,of which from lobbyists listed for the client,table:nv13_numbers.csv#lob:network:crawford:named,0
+lob:network:crawford:items,CN41,0,gifts,table:nv13_numbers.csv#lob:network:crawford:items,0
+lob:nvidia:crawford:total,CN42,1000,gifts naming Crawford from lobbyists or PACs of firms registered for nvidia,table:nv13_numbers.csv#lob:nvidia:crawford:total,1000
+lob:nvidia:crawford:named,CN43,0,of which from lobbyists listed for the client,table:nv13_numbers.csv#lob:nvidia:crawford:named,0
+lob:nvidia:crawford:items,CN44,1,gifts,table:nv13_numbers.csv#lob:nvidia:crawford:items,1
+emp:anthropic:three,CN45,78000,Anthropic employees' gifts to committees tied to the three chairmen,table:nv13_numbers.csv#emp:anthropic:three,78000
+emp:anthropic:three:window,CN46,62000,"of which dated Apr 29 to May 20, 2026",table:nv13_numbers.csv#emp:anthropic:three:window,62000
+lob:anthropic:three,CN47,6000,"lobbyists' and firm PACs' gifts to the three, firms registered for anthropic",table:nv13_numbers.csv#lob:anthropic:three,6000
+lob:network:three,CN48,6000,"lobbyists' and firm PACs' gifts to the three, firms registered for network",table:nv13_numbers.csv#lob:network:three,6000
+lob:nvidia:three,CN49,17500,"lobbyists' and firm PACs' gifts to the three, firms registered for nvidia",table:nv13_numbers.csv#lob:nvidia:three,17500
+rate:anthropic:members,CN50,134,"sitting members with a gift from someone who gave Anthropic as employer, since Jan 2025",table:nv13_numbers.csv#rate:anthropic:members || table:employee_gift_rates.csv#anthropic,134 || 134
+rate:anthropic:usd,CN51,3481696,dollars in those gifts,table:nv13_numbers.csv#rate:anthropic:usd,3481696
+rate:anthropic:parties,CN52,"82 Democrats, 51 Republicans, 1 independent",by party,table:nv13_numbers.csv#rate:anthropic:parties,"82 Democrats, 51 Republicans, 1 independent"
+rank:mast,CN53,26,rank by dollars among the 134 (members with more: 25; with the same: 0),table:nv13_numbers.csv#rank:mast,26
+rank:moolenaar,CN54,joint 46,rank by dollars among the 134 (members with more: 45; with the same: 4),table:nv13_numbers.csv#rank:moolenaar,joint 46
+rank:crawford,CN55,joint 89,rank by dollars among the 134 (members with more: 88; with the same: 6),table:nv13_numbers.csv#rank:crawford,joint 89
+rate:nvidia:members,CN56,63,"sitting members with a gift from someone who gave Nvidia as employer, since Jan 2025",table:nv13_numbers.csv#rate:nvidia:members || table:employee_gift_rates.csv#nvidia,63 || 63
+rate:nvidia:usd,CN57,155789,dollars in those gifts,table:nv13_numbers.csv#rate:nvidia:usd,155789
+rate:nvidia:parties,CN58,"58 Democrats, 3 Republicans, 2 independents",by party,table:nv13_numbers.csv#rate:nvidia:parties,"58 Democrats, 3 Republicans, 2 independents"
+pfa_page_members,CN59,11,"House members listed on Public First Action's announcement of Jul 17, 2026 (it speaks of 12)",table:nv13_numbers.csv#pfa_page_members || art-pfa-conservative,11 || highlighting the strong records of 12 Republican members of Congress
+pac:anthropic:members,CN60,78,sitting members with money from AnthroPAC,table:nv13_numbers.csv#pac:anthropic:members || table:pac_base_rates.csv#anthropic,78 || 78
+pac:anthropic:usd,CN61,190250,dollars from AnthroPAC to sitting members,table:nv13_numbers.csv#pac:anthropic:usd,190250
+pac:anthropic:through,CN62,2026-09-30,date of the latest AnthroPAC line counted,table:nv13_numbers.csv#pac:anthropic:through,2026-09-30
+pac:nvidia:members,CN63,0,sitting members with money from Nvidia's employee PAC,table:nv13_numbers.csv#pac:nvidia:members || table:pac_base_rates.csv#nvidia,0 || 0
+lob:nvidia:mast:window,CN64,10125,"gifts naming Mast from lobbyists and a PAC at Nvidia's firms dated Nov 17 to Dec 31, 2025",table:nv13_numbers.csv#lob:nvidia:mast:window,10125
+ari_pac_candidates,CN65,115,"candidates whose campaign committees ARI's PACs gave to, Feb 2025 to Sep 2026 (FEC committee-to-candidate file)",table:nv13_numbers.csv#ari_pac_candidates,115
+ari_pac_usd,CN66,279000,dollars in those gifts,table:nv13_numbers.csv#ari_pac_usd,279000
+pfa_google_entries,CN67,20,"ad entries by Public First Action in Google's political-ads report (saved Sep 16, 2026)",table:nv13_numbers.csv#pfa_google_entries || google-political-ads-pfa-20260916,20 || Public First Action Inc
+trade:nvidia:mast,CN68,4500,"gifts to Mast from PACs of trade groups that list Nvidia and not Anthropic (SIA, ITI)",table:nv13_numbers.csv#trade:nvidia:mast,4500
+trade:nvidia:moolenaar,CN69,0,"gifts to Moolenaar from PACs of trade groups that list Nvidia and not Anthropic (SIA, ITI)",table:nv13_numbers.csv#trade:nvidia:moolenaar,0
+trade:nvidia:crawford,CN70,0,"gifts to Crawford from PACs of trade groups that list Nvidia and not Anthropic (SIA, ITI)",table:nv13_numbers.csv#trade:nvidia:crawford,0
+trade:nvidia:three,CN71,4500,gifts to the three from PACs of trade groups that list Nvidia and not Anthropic,table:nv13_numbers.csv#trade:nvidia:three,4500
+trade:technet:three,CN72,0,"gifts to the three from the PAC of TechNet, which lists both companies",table:nv13_numbers.csv#trade:technet:three,0
+trade:sia:members,CN73,108,members on Semiconductor Industry Association's list as saved,table:nv13_numbers.csv#trade:sia:members || art-sia-members,108 || (108 names;
+trade:sia:candidates,CN74,11,"candidates the PAC of Semiconductor Industry Association gave to, 2026 cycle",table:nv13_numbers.csv#trade:sia:candidates,11
+trade:iti:members,CN75,81,members on Information Technology Industry Council's list as saved,table:nv13_numbers.csv#trade:iti:members || art-iti-members,81 || (81 names;
+trade:iti:candidates,CN76,35,"candidates the PAC of Information Technology Industry Council gave to, 2026 cycle",table:nv13_numbers.csv#trade:iti:candidates,35
+trade:technet:members,CN77,107,members on TechNet's list as saved,table:nv13_numbers.csv#trade:technet:members || art-technet-members-all,107 || (107 names;
+trade:technet:candidates,CN78,36,"candidates the PAC of TechNet gave to, 2026 cycle",table:nv13_numbers.csv#trade:technet:candidates,36
+glance:lines:aside,CN79,12,lines of the at-a-glance table on the side of Anthropic and the groups in the key,table:nv13_numbers.csv#glance:lines:aside,12
+glance:held:aside:mast,CN80,9,"of those lines, the ones that hold a record for Mast (a dash, $0 or ""none found"" is not a record)",table:nv13_numbers.csv#glance:held:aside:mast,9
+glance:held:aside:moolenaar,CN81,8,"of those lines, the ones that hold a record for Moolenaar (a dash, $0 or ""none found"" is not a record)",table:nv13_numbers.csv#glance:held:aside:moolenaar,8
+glance:held:aside:crawford,CN82,4,"of those lines, the ones that hold a record for Crawford (a dash, $0 or ""none found"" is not a record)",table:nv13_numbers.csv#glance:held:aside:crawford,4
+glance:lines:nvidia,CN83,7,lines of the at-a-glance table on Nvidia's side,table:nv13_numbers.csv#glance:lines:nvidia,7
+glance:held:nvidia:mast,CN84,4,"of those lines, the ones that hold a record for Mast (a dash, $0 or ""none found"" is not a record)",table:nv13_numbers.csv#glance:held:nvidia:mast,4
+glance:held:nvidia:moolenaar,CN85,2,"of those lines, the ones that hold a record for Moolenaar (a dash, $0 or ""none found"" is not a record)",table:nv13_numbers.csv#glance:held:nvidia:moolenaar,2
+glance:held:nvidia:crawford,CN86,1,"of those lines, the ones that hold a record for Crawford (a dash, $0 or ""none found"" is not a record)",table:nv13_numbers.csv#glance:held:nvidia:crawford,1
