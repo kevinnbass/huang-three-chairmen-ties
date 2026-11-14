@@ -29,11 +29,11 @@ lob:network:moolenaar:items,CN27,2,gifts,table:nv13_numbers.csv#lob:network:mool
 lob:nvidia:moolenaar:total,CN28,2875,gifts naming Moolenaar from lobbyists or PACs of firms registered for nvidia,table:nv13_numbers.csv#lob:nvidia:moolenaar:total,2875
 lob:nvidia:moolenaar:named,CN29,2625,of which from lobbyists listed for the client,table:nv13_numbers.csv#lob:nvidia:moolenaar:named,2625
 lob:nvidia:moolenaar:items,CN30,4,gifts,table:nv13_numbers.csv#lob:nvidia:moolenaar:items,4
-emp:anthropic:crawford,CN31,7000,Anthropic employees' gifts to committees tied to Crawford,table:nv13_numbers.csv#emp:anthropic:crawford,7000
-emp_people:anthropic:crawford,CN32,1,people who gave them,table:nv13_numbers.csv#emp_people:anthropic:crawford,1
+emp:anthropic:crawford,CN31,42000,Anthropic employees' gifts to committees tied to Crawford,table:nv13_numbers.csv#emp:anthropic:crawford,42000
+emp_people:anthropic:crawford,CN32,2,people who gave them,table:nv13_numbers.csv#emp_people:anthropic:crawford,2
 emp:nvidia:crawford,CN33,0,Nvidia employees' gifts to committees tied to Crawford,table:nv13_numbers.csv#emp:nvidia:crawford,0
 receipts:crawford,CN34,1135655.28,"Crawford's campaign receipts, 2026 cycle through Oct 14, 2026",table:nv13_numbers.csv#receipts:crawford || fec-bulk-weball26-20261113,"1135655.28 || CAND_ID=H0AR01083; CAND_NAME=CRAWFORD, ERIC ALAN RICK; TTL_RECEIPTS=1135655.28"
-share:crawford,CN35,0.6,the Anthropic employees' gifts as a percentage of those receipts,table:nv13_numbers.csv#share:crawford,0.6
+share:crawford,CN35,3.7,the Anthropic employees' gifts as a percentage of those receipts,table:nv13_numbers.csv#share:crawford,3.7
 lob:anthropic:crawford:total,CN36,6000,gifts naming Crawford from lobbyists or PACs of firms registered for anthropic,table:nv13_numbers.csv#lob:anthropic:crawford:total,6000
 lob:anthropic:crawford:named,CN37,3500,of which from lobbyists listed for the client,table:nv13_numbers.csv#lob:anthropic:crawford:named,3500
 lob:anthropic:crawford:items,CN38,2,gifts,table:nv13_numbers.csv#lob:anthropic:crawford:items,2
@@ -43,20 +43,20 @@ lob:network:crawford:items,CN41,0,gifts,table:nv13_numbers.csv#lob:network:crawf
 lob:nvidia:crawford:total,CN42,1000,gifts naming Crawford from lobbyists or PACs of firms registered for nvidia,table:nv13_numbers.csv#lob:nvidia:crawford:total,1000
 lob:nvidia:crawford:named,CN43,0,of which from lobbyists listed for the client,table:nv13_numbers.csv#lob:nvidia:crawford:named,0
 lob:nvidia:crawford:items,CN44,1,gifts,table:nv13_numbers.csv#lob:nvidia:crawford:items,1
-emp:anthropic:three,CN45,78000,Anthropic employees' gifts to committees tied to the three chairmen,table:nv13_numbers.csv#emp:anthropic:three,78000
+emp:anthropic:three,CN45,113000,Anthropic employees' gifts to committees tied to the three chairmen,table:nv13_numbers.csv#emp:anthropic:three,113000
 emp:anthropic:three:window,CN46,62000,"of which dated Apr 29 to May 20, 2026",table:nv13_numbers.csv#emp:anthropic:three:window,62000
 lob:anthropic:three,CN47,6000,"lobbyists' and firm PACs' gifts to the three, firms registered for anthropic",table:nv13_numbers.csv#lob:anthropic:three,6000
 lob:network:three,CN48,6000,"lobbyists' and firm PACs' gifts to the three, firms registered for network",table:nv13_numbers.csv#lob:network:three,6000
 lob:nvidia:three,CN49,17500,"lobbyists' and firm PACs' gifts to the three, firms registered for nvidia",table:nv13_numbers.csv#lob:nvidia:three,17500
-rate:anthropic:members,CN50,134,"sitting members with a gift from someone who gave Anthropic as employer, since Jan 2025",table:nv13_numbers.csv#rate:anthropic:members || table:employee_gift_rates.csv#anthropic,134 || 134
-rate:anthropic:usd,CN51,3481696,dollars in those gifts,table:nv13_numbers.csv#rate:anthropic:usd,3481696
-rate:anthropic:parties,CN52,"82 Democrats, 51 Republicans, 1 independent",by party,table:nv13_numbers.csv#rate:anthropic:parties,"82 Democrats, 51 Republicans, 1 independent"
-rank:mast,CN53,26,rank by dollars among the 134 (members with more: 25; with the same: 0),table:nv13_numbers.csv#rank:mast,26
-rank:moolenaar,CN54,joint 46,rank by dollars among the 134 (members with more: 45; with the same: 4),table:nv13_numbers.csv#rank:moolenaar,joint 46
-rank:crawford,CN55,joint 89,rank by dollars among the 134 (members with more: 88; with the same: 6),table:nv13_numbers.csv#rank:crawford,joint 89
-rate:nvidia:members,CN56,63,"sitting members with a gift from someone who gave Nvidia as employer, since Jan 2025",table:nv13_numbers.csv#rate:nvidia:members || table:employee_gift_rates.csv#nvidia,63 || 63
-rate:nvidia:usd,CN57,155789,dollars in those gifts,table:nv13_numbers.csv#rate:nvidia:usd,155789
-rate:nvidia:parties,CN58,"58 Democrats, 3 Republicans, 2 independents",by party,table:nv13_numbers.csv#rate:nvidia:parties,"58 Democrats, 3 Republicans, 2 independents"
+rate:anthropic:members,CN50,151,"sitting members with a gift from someone who gave Anthropic as employer, since Jan 2025",table:nv13_numbers.csv#rate:anthropic:members || table:employee_gift_rates.csv#anthropic,151 || 151
+rate:anthropic:usd,CN51,4529249,dollars in those gifts,table:nv13_numbers.csv#rate:anthropic:usd,4529249
+rate:anthropic:parties,CN52,"87 Democrats, 63 Republicans, 1 independent",by party,table:nv13_numbers.csv#rate:anthropic:parties,"87 Democrats, 63 Republicans, 1 independent"
+rank:mast,CN53,36,rank by dollars among the 151 (members with more: 35; with the same: 0),table:nv13_numbers.csv#rank:mast,36
+rank:moolenaar,CN54,joint 66,rank by dollars among the 151 (members with more: 65; with the same: 4),table:nv13_numbers.csv#rank:moolenaar,joint 66
+rank:crawford,CN55,37,rank by dollars among the 151 (members with more: 36; with the same: 0),table:nv13_numbers.csv#rank:crawford,37
+rate:nvidia:members,CN56,65,"sitting members with a gift from someone who gave Nvidia as employer, since Jan 2025",table:nv13_numbers.csv#rate:nvidia:members || table:employee_gift_rates.csv#nvidia,65 || 65
+rate:nvidia:usd,CN57,172590,dollars in those gifts,table:nv13_numbers.csv#rate:nvidia:usd,172590
+rate:nvidia:parties,CN58,"58 Democrats, 5 Republicans, 2 independents",by party,table:nv13_numbers.csv#rate:nvidia:parties,"58 Democrats, 5 Republicans, 2 independents"
 pfa_page_members,CN59,11,"House members listed on Public First Action's announcement of Jul 17, 2026 (it speaks of 12)",table:nv13_numbers.csv#pfa_page_members || art-pfa-conservative,11 || highlighting the strong records of 12 Republican members of Congress
 pac:anthropic:members,CN60,78,sitting members with money from AnthroPAC,table:nv13_numbers.csv#pac:anthropic:members || table:pac_base_rates.csv#anthropic,78 || 78
 pac:anthropic:usd,CN61,190250,dollars from AnthroPAC to sitting members,table:nv13_numbers.csv#pac:anthropic:usd,190250

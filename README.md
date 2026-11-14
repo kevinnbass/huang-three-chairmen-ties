@@ -28,7 +28,7 @@ does not draw it, and [What the figure leaves out](#what-the-figure-leaves-out) 
 
 | Whose | Record | Rep. Brian Mast | Rep. John Moolenaar | Rep. Rick Crawford |
 |---|---|---|---|---|
-| Anthropic | Its employees' own gifts | $43,000 · 5 people | $28,000 · 4 people | $7,000 · 1 person |
+| Anthropic | Its employees' own gifts | $43,000 · 5 people | $28,000 · 4 people | $42,000 · 2 people |
 | Anthropic | AnthroPAC, its political committee | $2,500 | – | $1,000 |
 | Anthropic | Its lobbying reports naming a chip bill he sponsors | 8 reports | 1 report | – (cosponsors both) |
 | Anthropic | Its co-founder testifying to his committee | – | Jun 25, 2025 | – |
@@ -46,7 +46,7 @@ does not draw it, and [What the figure leaves out](#what-the-figure-leaves-out) 
   controls on advanced chips" and "tell him to keep fighting to keep advanced chips from going to our enemies". Its
   Arkansas ads name Sen. Tom Cotton, not Crawford.
 - **Employees' own money.** People who gave Anthropic as their employer gave committees tied to the three chairmen
-  $78,000; $62,000 of it is dated Apr 29 to May 20, 2026.
+  $113,000; $62,000 of it is dated Apr 29 to May 20, 2026.
 - **Lobbyists' own money.** Lobbyists at firms then registered to lobby for Anthropic gave $6,000, all of it to Crawford;
   lobbyists and a PAC at firms registered for groups Open Philanthropy has funded gave $6,000.
 - **Public support.** ARI, a group Open Philanthropy has funded, is named among the backers of Mast's bill in his
@@ -77,12 +77,12 @@ wrote down.
 
 | Chairman | From Anthropic employees | People | Dates | Share of his campaign's receipts (Jan 2025 to Oct 14, 2026) | Rank by dollars from Anthropic employees |
 |---|---|---|---|---|---|
-| Rep. Brian Mast | $43,000 | 5 | Oct 6, 2025 to May 4, 2026 | 0.8% of $5.1 million | 26 of 134 |
-| Rep. John Moolenaar | $28,000 | 4 | Sep 29, 2025 to May 20, 2026 | 1.4% of $2.1 million | joint 46 of 134 |
-| Rep. Rick Crawford | $7,000 | 1 | Sep 11, 2025 | 0.6% of $1.1 million | joint 89 of 134 |
+| Rep. Brian Mast | $43,000 | 5 | Oct 6, 2025 to May 4, 2026 | 0.8% of $5.1 million | 36 of 151 |
+| Rep. John Moolenaar | $28,000 | 4 | Sep 29, 2025 to May 20, 2026 | 1.4% of $2.1 million | joint 66 of 151 |
+| Rep. Rick Crawford | $42,000 | 2 | Sep 11, 2025 to Oct 5, 2026 | 3.7% of $1.1 million | 37 of 151 |
 
-These gifts are common. Since January 2025, 134 of the 535 sitting members received a gift from
-someone who gave Anthropic as employer ($3.5 million in 660 gifts from 65 people; 82 Democrats, 51 Republicans, 1 independent).
+These gifts are common. Since January 2025, 151 of the 535 sitting members received a gift from
+someone who gave Anthropic as employer ($4.5 million in 771 gifts from 70 people; 87 Democrats, 63 Republicans, 1 independent).
 
 **Lobbyists' own gifts.** Each is reported by the lobbyist, or by the firm for its PAC, as the giver's own contribution. The
 reports do not show whether a client asked for it. In brackets: the part given by lobbyists listed for that client.
@@ -171,7 +171,7 @@ Congress. A grant total is what was awarded over the years given; it does not sh
 - Any contact between these members and Anthropic about Huang, or why any of them signed the letters.
 - Any contact between the members themselves and Nvidia beyond the letters. The letter of Nov 12 mentions a "conversation
   with NVIDIA staff yesterday" and does not say who took part.
-- Why any donor or lobbyist gave, or whether a client asked a lobbyist to give. Anthropic employees gave to 134
+- Why any donor or lobbyist gave, or whether a client asked a lobbyist to give. Anthropic employees gave to 151
   members of both parties.
 - Which offices a lobbying report's lobbyists visited, or what they asked for.
 - Which of Public First Action's donors paid for the ads. Anthropic says its money to the group cannot be used to influence
@@ -217,8 +217,8 @@ python3 scripts/verify_nv13.py
 ```
 
 recomputes the counts, sums, dates, shares and ranks the figure states from the tables in `research/` and the copies in
-`sources/`, checks the two ads against Google's report and the Census Bureau's table, and looks up each of the 283
-passages whose source is copied here. It needs only Python. The other 168 passages are a link and the words to find
+`sources/`, checks the two ads against Google's report and the Census Bureau's table, and looks up each of the 286
+passages whose source is copied here. It needs only Python. The other 169 passages are a link and the words to find
 there (`research/evidence.tsv`).
 
 **One employee's gift.** `research/employee_gifts.csv` has one row per FEC line counted: the committee, the date, the amount,
@@ -244,7 +244,7 @@ python3 scripts/build_nv13.py        # writes figures/nv13-three-chairmen.html, 
    receiving committee is tied to a sitting member: his principal or authorised campaign committee by the FEC's own
    committee-candidate links, a joint fundraising committee linked to that one candidate, or a joint or leadership
    committee the builder's evidence set had tied to him (`research/committee_keys.csv` gives the basis for each of the
-   224 committees). The same rule, the same files and the same code for both companies.
+   265 committees). The same rule, the same files and the same code for both companies.
 2. **The sources.** The FEC's bulk file of itemised individual contributions for the 2026 cycle, downloaded Nov 13, 2026
    (36,691,128 lines scanned; sha256 of the file `436528f8563dbafaa6dd2e21f885d923fe67097e6adf0d2b517cafb92b83ab7c`), and the
    same lines read from the FEC's API to the end for both companies. The API holds 51 Anthropic and 21 Nvidia lines the
@@ -253,7 +253,7 @@ python3 scripts/build_nv13.py        # writes figures/nv13-three-chairmen.html, 
    reported on the committee's original second-quarter report with ANTHROPIC as the donors' employer. Its amended report
    (FEC file 2011599) leaves the employer empty on those lines and keeps the occupation. They are counted here from the
    earlier capture and marked `earlier-capture`; each row gives the page image of both filings (`fec_page_url`,
-   `amended_fec_page_url`). Without them the Anthropic total is $3.5 million in 651 gifts; the number of members is unchanged.
+   `amended_fec_page_url`). Without them the Anthropic total is $4.5 million in 762 gifts; the number of members is unchanged.
    The builder holds no earlier capture of a Nvidia line, so a Nvidia line blanked the same way would be missed.
 4. **Limits.** A gift to a committee not tied to one member (a party committee, most PACs) is not counted. A line whose
    employer field does not begin with the company's name is not counted. People are counted by name. The bulk file
@@ -308,7 +308,7 @@ No audit fetched the originals again, so a source that has changed since it was 
 | `research/nv13_key.csv`, `grants_cited.csv` | the key's 25 lines, and the grant rows behind its totals |
 | `research/nv13_stake.csv`, `nv13_events.csv` | the 10 lines on what is at stake, and the dated events on the timeline |
 | `research/nv13_numbers.csv`, `nv13_glance.csv` | every number computed for the figure, and the at-a-glance table |
-| `research/employee_gifts.csv` | all 1,170 counted gift lines, both companies, with FEC identifiers and a link to each page image; no names |
+| `research/employee_gifts.csv` | all 1,304 counted gift lines, both companies, with FEC identifiers and a link to each page image; no names |
 | `research/lobbyist_gifts.csv` | the 31 counted gifts by lobbyists and firm PACs, with a link to each report; no names |
 | `research/trade_pac_gifts.csv` | gifts to the three from the PACs of trade groups whose member lists were read, with a link to each FEC page |
 | `research/employee_gift_rates.csv`, `committee_keys.csv` | the totals across the 535 members; each committee and the member it is tied to |

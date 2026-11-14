@@ -73,18 +73,21 @@ WHAT = {  # what each kind of evidence-set table is, in a reader's words
     'congress/research/member_statements.csv': 'Search of the member\'s official X account (a bounded search; see the row\'s words)', 'congress/research/timeline.csv': 'FEC filing',
     'congress/research/entities.csv': 'FEC line giving the person\'s employer and title as filed', 'congress/research/interlocks.csv': 'IRS Form 990 (officers and directors; related organisations), as published by ProPublica',
     'lineage/research/flows_annual.csv': 'Grant awards by year, summed from the funder\'s published grant records or a foundation\'s tax filing', 'lineage/research/tenures.csv': 'Published statement of a post held (the organisation\'s page, the person\'s own post, or a news report)',
+    'lineage/research/people.csv': 'An organisation\'s published team page naming a person and post',
     'lineage/research/equity.csv': 'Anthropic\'s own announcement of its funding round', 'toner/research/people_graph.csv': 'Organisation page describing a person\'s posts',
     'evaluators-deep/research/people_edges.csv': 'Organisation release naming a person\'s former post',
     'lineage/research/flows_named.csv': 'One grant award, or one grant line of a foundation\'s tax filing',
     'congress/research/super_pac_c4.csv': 'Money into a political group: the giver\'s own announcement, a press report, or a bounded search that found none',
-    'congress/research/lb_network_windows.csv': 'A firm\'s lobbying registration for a client (dates), from the U.S. Senate lobbying records'}
+    'congress/research/lb_network_windows.csv': 'A firm\'s lobbying registration for a client (dates), from the U.S. Senate lobbying records',
+    'toner/research/cset_people.csv': 'A person\'s post at a research centre, from the centre\'s or the person\'s own page', 'toner/research/cset_money.csv': 'A grant to a research centre, from the funder\'s published grant record'}
 TABLE_WHAT = {'employee_gift_rates.csv': 'This repository\'s count of employees\' gifts across the 535 sitting members (research/employee_gift_rates.csv, from research/employee_gifts.csv)',
               'pacs_by_member.csv': 'This repository\'s table of company PAC money by member, from FEC filings', 'lobbying_bill_reports.csv': 'This repository\'s count of lobbying reports naming each bill, from the Senate\'s lobbying records',
               'chip_bills.csv': 'This repository\'s table of chip-export bills, from the bills\' records at govinfo', 'chip_bill_backers.csv': 'This repository\'s table of sponsors and cosponsors, from the bills\' records at govinfo',
               'nv13_numbers.csv': 'This repository\'s table of the numbers computed for the figure (research/nv13_numbers.csv; scripts/verify_nv13.py recomputes them)',
               'lobbyist_gifts.csv': 'This repository\'s table of lobbyists\' and firm PACs\' gifts naming the three chairmen, from the contribution reports (form LD-203) filed with the U.S. Senate',
               'pac_base_rates.csv': 'This repository\'s count of each company PAC\'s gifts across the 535 sitting members, from FEC filings',
-              'trade_pac_gifts.csv': 'This repository\'s table of gifts to the three chairmen from the PACs of three trade groups, from the FEC\'s committee-to-candidate file'}
+              'trade_pac_gifts.csv': 'This repository\'s table of gifts to the three chairmen from the PACs of three trade groups, from the FEC\'s committee-to-candidate file',
+              'anthropac_by_recipient.csv': 'This repository\'s table of AnthroPAC\'s contributions by recipient committee, from the committee\'s FEC filings'}
 
 
 DESCR = {'anthropic-ltbt': 'Anthropic: its page on the Long-Term Benefit Trust', 'anthropic-pfa-1': 'Anthropic: announcement of its first $20 million gift to Public First Action (Feb 12, 2026)',
@@ -99,10 +102,11 @@ DESCR = {'anthropic-ltbt': 'Anthropic: its page on the Long-Term Benefit Trust',
          'fec-sched_a-employer-anthropic-2026': 'FEC API, Schedule A receipts, employer ANTHROPIC, 2026 cycle', 'fec-sched_a-employer-nvidia-2026': 'FEC API, Schedule A receipts, employer NVIDIA, 2026 cycle'}
 
 
-def evidence():
-    """One line per (row, cited source): where a reader can check it. Never a donor's or a lobbyist's name."""
+def evidence(rows=None):
+    """One line per (row, cited source): where a reader can check it. Never a donor's or a lobbyist's name.
+    rows: another figure's rows (row_id, src, q); by default this figure's."""
     out = []
-    for r in figure_rows():
+    for r in (figure_rows() if rows is None else rows):
         for n, (s, q) in enumerate(zip(r['src'], r['q']), 1):
             e = {'row_id': r['row_id'], 'n': n, 'source_ref': s, 'passage': q, 'kind': '', 'what': '', 'url': '', 'retrieved_utc': '', 'copy_in_repo': ''}
             if s.startswith('pack:'):

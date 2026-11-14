@@ -2,6 +2,23 @@
 
 This file lists what changed between drafts and every error found on the way, with what was done about it.
 
+## Correction of Nov 14, 2026: gifts to a joint fundraising committee had been missed
+
+- **Crawford's line and the title's sum were too low.** The table that ties committees to members had been built from the
+  FEC's committee-to-candidate links, and most joint fundraising committees have none. Crawford Victory Committee, a joint
+  committee whose statement of organisation lists Crawford for Congress, his leadership PAC and the NRCC, received $35,000
+  on Oct 5, 2026 from one person who gave Anthropic as employer (two lines, $20,000 and $15,000). It is now counted:
+  Crawford's line rose from $7,000 from one person to $42,000 from two people, and the sum for the three chairmen from
+  $78,000 to $113,000. The line says that a joint committee's money is shared with its other participants and that the
+  records do not show how much of it reached the campaign. Mast's and Moolenaar's lines did not change.
+- **The counts across Congress changed with it.** The statement of organisation of each of 58 joint committees and the FEC
+  record of each of 49 leadership PACs was read. A joint committee is tied to a member only when that member is the one
+  sitting member among its participants; nine are attributed to no one. Members with a gift from someone who gave
+  Anthropic as employer rose from 134 to 151 of 535 ($3,481,696 to $4,529,249), and the three chairmen's ranks among them
+  were recomputed. The same rule applied to Nvidia's employees moved its count from 63 to 65 members.
+- The builder found this itself while pulling October's lines for another figure. The corrected version was checked by
+  script only; no auditor has read it.
+
 ## The published figure (Nov 14, 2026): the ties to Anthropic
 
 - **Nvidia's side is no longer drawn.** The version the audits read set the same records for Nvidia beside Anthropic's

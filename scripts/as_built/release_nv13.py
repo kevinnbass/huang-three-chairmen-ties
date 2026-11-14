@@ -62,7 +62,7 @@ def private_names():
     for d in ('fec-bulk-indiv26-employers-20261113', 'fec-bulk-indiv26-banks-amended-20261113'):
         it = iter((PRIMARY / d / 'lines.txt').read_text(encoding='utf-8').splitlines()); cols = next(it).split('|')
         raw.update(dict(zip(cols, l.split('|')))['NAME'] for l in it)
-    for d in ('fec-sched_a-employer-anthropic-2026', 'fec-sched_a-employer-nvidia-2026'):
+    for d in sorted(x.name for x in PRIMARY.glob('fec-sched_a-employer-*') if x.is_dir()):       # every pull of employer lines, the later ones included
         for f in sorted((PRIMARY / d).glob('page-*.json')):
             raw.update((r.get('contributor_name') or '') for r in json.loads(f.read_text()).get('results') or [])
     for path, col in (('congress/research/hard_money.csv', 'payer'), ('congress/research/lobbyist_contributions.csv', 'payer')):

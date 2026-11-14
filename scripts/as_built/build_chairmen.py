@@ -218,6 +218,7 @@ def main():
         bits = [f'{money(sum(float(g["usd"]) for g in c))} on {span([g["date"] for g in c])}' for c in cl]
         when = bits[0] if len(bits) == 1 else ', '.join(bits[:-1]) + ' and ' + bits[-1]
         jf = [g for g in gs if g['committee_kind'] != 'campaign committee' and 'VICTORY' in g['committee']]
+        assert len({g['committee_id'] for g in jf}) <= 1, (m, 'more than one joint committee: word each')
         joint = f' ({money(sum(float(g["usd"]) for g in jf))} of it to {jf[0]["committee"].title()}, a joint fundraising committee)' if jf else ''
         share = usd / tot[m]['receipts']
         o = ty(m, 'employee_gifts'); s0, q0 = [], []
@@ -226,8 +227,9 @@ def main():
                 s0, q0 = sq(r)
         assert abs(usd - float(next(r['usd'] for r in TY if r['member'] == m and r['type'] == 'employee_gifts' and r['side'] == 'anthropic'))) < 0.5
         s0 += ['fec-bulk-weball26-20261113']; q0 += [tot[m]['q']]
-        if jf:
-            s0 += ['fec-committee-c00583161-20261113']; q0 += [has('fec-committee-c00583161-20261113', 'designation_full: Joint fundraising committee')]
+        if jf:                                         # the joint committee's own FEC record, saved for this figure
+            jsrc = sorted(x.name for x in P.glob(f"fec-committee-{jf[0]['committee_id'].lower()}-*"))[0]
+            s0 += [jsrc]; q0 += [has(jsrc, 'designation_full: Joint fundraising committee')]
         tie(m, 'anthropic', 'employee_gifts', 'A', 'Employees\' own gifts',
             f'{money(usd)} from {NUM[people] if people > 1 else "one"} {"people" if people > 1 else "person"} who gave Anthropic as employer, in {NUM[len(gs)]} contributions to committees tied to him: {when}{joint}. '
             f'Their own money, not the company\'s. For scale, it equals {share * 100:.1f}% of the {money(tot[m]["receipts"])} his campaign reported raising from Jan 2025 to Oct 14, 2026'

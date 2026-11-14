@@ -26,11 +26,28 @@ FIRST = {'Warren': ['Elizabeth'], 'Coons': ['Chris', 'Christopher'], 'Cramer': [
          'Cornyn': ['John'], 'Kennedy': ['John'], 'Thune': ['John'], 'Mast': ['Brian'], 'Crawford': ['Rick'], 'Meeks': ['Gregory', 'Greg'],
          'Himes': ['Jim'], 'Huizenga': ['Bill'], 'Moolenaar': ['John'], 'Jeffries': ['Hakeem'], 'Magaziner': ['Seth'],
          'Subramanyam': ['Suhas'], 'Bacon': ['Don'],
-         'Johnson': ['Mike'], 'Blumenthal': ['Richard', 'Dick'], 'Wyden': ['Ron'], 'Ricketts': ['Pete'], 'McCaul': ['Michael', 'Mike'], 'Warner': ['Mark']}
+         'Johnson': ['Mike'], 'Blumenthal': ['Richard', 'Dick'], 'Wyden': ['Ron'], 'Ricketts': ['Pete'], 'McCaul': ['Michael', 'Mike'], 'Warner': ['Mark'],
+         'Cotton': ['Tom']}                 # drawn in the map since Nov 14, 2026: named for his letter of Oct 2025 on Megaspeed (an act on the matter before these days)
 # Surnames shared with another current member: only the full name counts ("Speaker Johnson" is taken as him, "Sen. Johnson" is not).
 FULL_ONLY = {'Johnson': r"(?:Speaker\s+(?:Mike\s+)?|Mike\s+)Johnson"}
 # Surnames met after a title that are not members of Congress, or are members named only in passing lists; read by hand.
 NOT_MEMBER = set()
+
+
+# Members named on three or more pages for other things, so not drawn: first names; True = a title then the surname also counts
+# (no other member shares it); what the pages name them for (read on Nov 14, 2026).
+NOT_DRAWN = {'Jordan': (['Jim'], False, 'his election as House minority leader'), 'Stevens': (['Haley'], False, 'an endorsement and an absence from a vote'),
+             'Massie': (['Thomas'], True, 'his bid to impeach the defense secretary'), 'Garcia': (['Robert'], False, 'other inquiries he plans as incoming oversight chair'),
+             'Hyde-Smith': (['Cindy'], True, 'losing her Senate race'), 'Sanders': (['Bernie', 'Bernard'], True, 'the Senate leadership contest and his own AI bill')}
+# other words met after a congressional title on three or more pages that are not a searched name: what each is
+NOT_A_MEMBER = {'Jamieson': 'the U.S. trade representative', 'Greer': 'the U.S. trade representative', 'Eric': 'a former member (Swalwell)', 'Swalwell': 'a former member',
+                'Anthony': 'a former member (Weiner)', 'Weiner': 'a former member', 'Harvey': "Nvidia's board chair", 'Jones': "Nvidia's board chair",
+                'Jensen': 'Huang ("Nvidia Leader ... Jensen Huang")', 'Tae-won': 'the chairman of a Korean company'}
+
+
+def not_drawn_re(s):
+    firsts, by_title, _ = NOT_DRAWN[s]
+    return re.compile(rf"\b(?:{'|'.join(firsts)})\s+(?:[A-Z]\.\s+)?{s}\b" + (rf"|{TITLE}\s+(?:[A-Z][\w.'’-]*\s+){{0,2}}{s}\b" if by_title else ''))
 
 
 def pages():
@@ -85,15 +102,13 @@ def main():
         for s in FIRST:
             f.write(f'{s}\t{len(hit[s])}\n')
     # page-level list, so each count can be checked page by page (audit1b): drawn members, then the members named that often for other things
-    NOT_DRAWN = {'Jordan': (['Jim'], False), 'Stevens': (['Haley'], False), 'Massie': (['Thomas'], True), 'Garcia': (['Robert'], False), 'Cotton': (['Tom'], True),
-                 'Hyde-Smith': (['Cindy'], True), 'Sanders': (['Bernie', 'Bernard'], True)}       # first names; True = a title then the surname also counts (no other member shares it)
     texts = list(pages())
     with open(R / 'member_mentions_pages.tsv', 'w') as f:
         f.write('# one line per member: the saved pages that name them (ids under research/primary)\nsurname\tdrawn\tpages\tpage_ids\n')
         for s in FIRST:
             f.write(f"{s}\t{'yes' if len(hit[s]) >= 3 else 'no'}\t{len(hit[s])}\t{' '.join(hit[s])}\n")
-        for s, (firsts, by_title) in NOT_DRAWN.items():
-            rx = re.compile(rf"\b(?:{'|'.join(firsts)})\s+(?:[A-Z]\.\s+)?{s}\b" + (rf"|{TITLE}\s+(?:[A-Z][\w.'’-]*\s+){{0,2}}{s}\b" if by_title else ''))
+        for s in NOT_DRAWN:
+            rx = not_drawn_re(s)
             ids = [pid for pid, t in texts if rx.search(t)]
             f.write(f"{s}\tno (named for other things)\t{len(ids)}\t{' '.join(ids)}\n")
     cand = sorted(((len(v), k) for k, v in other.items() if len(v) >= 4), reverse=True)

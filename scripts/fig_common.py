@@ -1,6 +1,7 @@
 """Shared render and tokens for the figure: warm paper background, spaced-caps kicker, bold title, grey subtitle,
 legend chips, footnote under a rule. Row ids ride only in an HTML comment.
 The page grows to fit its content; the PNG is cut at the measured height."""
+import io
 from pathlib import Path
 import re
 from playwright.sync_api import sync_playwright
@@ -65,7 +66,16 @@ def render(stem, document, width):
         assert ov['w'] <= width, (stem, 'content wider than the page', ov)
         clipped = pg.evaluate('''() => [...document.querySelectorAll('[data-fit]')].filter(e => e.scrollWidth > e.clientWidth + 1 || e.scrollHeight > e.clientHeight + 1).map(e => e.textContent.slice(0, 60))''')
         assert not clipped, (stem, 'text overflows its box', clipped)
-        pg.set_viewport_size({'width': width, 'height': ov['h']})
-        pg.screenshot(path=str(FIGURES / (stem + '.png')), full_page=True); b.close()
-    im = Image.open(FIGURES / (stem + '.png')).convert('RGB'); im.save(FIGURES / (stem + '.jpg'), quality=92)
+        # The picture is taken in tiles and joined: one screenshot of a page taller or wider than about 16,000 device
+        # pixels comes back with blank bands (found Nov 14, 2026 on a figure 20,832 pixels tall).
+        TW, TH = min(width, 3400), 1600; pg.set_viewport_size({'width': TW, 'height': TH})
+        im = Image.new('RGB', (width * 2, ov['h'] * 2), 'white')
+        for y in range(0, ov['h'], TH):
+            for x in range(0, width, TW):
+                w_, h_ = min(TW, width - x), min(TH, ov['h'] - y)
+                tile = Image.open(io.BytesIO(pg.screenshot(clip={'x': x, 'y': y, 'width': w_, 'height': h_}, full_page=True))).convert('RGB')
+                assert tile.size == (w_ * 2, h_ * 2), (stem, 'a tile of the picture has the wrong size', (x, y), tile.size)
+                im.paste(tile, (x * 2, y * 2))
+        b.close()
+    im.save(FIGURES / (stem + '.png')); im.save(FIGURES / (stem + '.jpg'), quality=92)
     print('rendered', stem, im.size)
