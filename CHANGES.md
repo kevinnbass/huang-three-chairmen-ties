@@ -20,7 +20,9 @@ This file lists what changed between drafts and every error found on the way, wi
   (was 36th of 151), Crawford 39th (was 37th) and Moolenaar joint 69th (was joint 66th). Nvidia's figures did not change.
 - The note on where the gift lines come from now says 80 lines are taken from the FEC's API because its bulk file does
   not hold them yet (it said 51): the gifts to the 13 committees found only in the API pages are among them.
-- Negative receipt lines (refunds and chargebacks) are now listed in the tables and are not taken off the sums.
+- `research/employee_gift_rates.csv` now gives, for each company, the number and the sum of negative receipt lines
+  (refunds and chargebacks) on the same committees. They are not taken off the sums. The line-by-line list and the table
+  of joint committees are published with the companion figure, not here.
 
 ## Correction of Nov 14, 2026: gifts to a joint fundraising committee had been missed
 
