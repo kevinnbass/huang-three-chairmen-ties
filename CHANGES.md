@@ -2,6 +2,26 @@
 
 This file lists what changed between drafts and every error found on the way, with what was done about it.
 
+## Correction of Nov 15, 2026: the count across all 535 members, after every joint committee's statement was read
+
+- **What was wrong.** On Nov 14 the rule for joint fundraising committees (a committee is tied to a member only when that
+  member is the one sitting member among the participants its statement of organisation lists) was applied to the joint
+  committees that had no tie before. An independent audit of a companion figure found that 44 joint committees tied
+  earlier, by the FEC's own link or by an earlier review, had never been read against their statements, and that 13 more
+  committees held gifts only in the FEC's API pages and were in no table.
+- **What was done.** The statements of all 57 were pulled from the FEC, with the sponsors of 88 leadership PACs, and every
+  such committee is now judged from its own statement. Mast Victory Committee was one of the 44: its statement lists
+  three participants and one sitting member, so the $17,000 counted for Mast stands. Four committees no longer count for
+  any member (one is shared by at least 15 sitting members; two list a participant that is not in the FEC's committee
+  list; one filed its statement on paper, which could not be read) and nine enter the count.
+- **What moved in this figure.** No chairman's line and not the title's sum ($113,000). The comparison across all 535
+  sitting members did: gifts from people who gave Anthropic as employer now reach 154 members and $4,623,749 (was 151
+  and $4,529,249), 89 Democrats, 64 Republicans and 1 independent (was 87, 63 and 1). By dollars Mast is 38th of the 154
+  (was 36th of 151), Crawford 39th (was 37th) and Moolenaar joint 69th (was joint 66th). Nvidia's figures did not change.
+- The note on where the gift lines come from now says 80 lines are taken from the FEC's API because its bulk file does
+  not hold them yet (it said 51): the gifts to the 13 committees found only in the API pages are among them.
+- Negative receipt lines (refunds and chargebacks) are now listed in the tables and are not taken off the sums.
+
 ## Correction of Nov 14, 2026: gifts to a joint fundraising committee had been missed
 
 - **Crawford's line and the title's sum were too low.** The table that ties committees to members had been built from the

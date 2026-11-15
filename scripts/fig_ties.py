@@ -309,7 +309,9 @@ def fig_ties(KICKER, DRAFT, partial=False, scope='both', stem=None):
     assert old in basis
     basis = basis.replace(old, 'This project holds no earlier copy of a Nvidia line, so a Nvidia line blanked that way would be missed; that is the one place the two counts differ.')
     if not NV:
-        for a_, b_ in (('Both companies\' lines come from', 'The employees\' gift lines come from'), (': 51 for Anthropic, 21 for Nvidia.', ': 51 of them.'),
+        import re as _re
+        m_ = _re.search(r': (\d+) for Anthropic, \d+ for Nvidia\.', basis); assert m_, 'the basis sentence no longer gives the two counts of API lines'
+        for a_, b_ in (('Both companies\' lines come from', 'The employees\' gift lines come from'), (m_.group(0), f': {m_.group(1)} of them.'),
                        (' This project holds no earlier copy of a Nvidia line, so a Nvidia line blanked that way would be missed; that is the one place the two counts differ.', '')):
             assert basis.count(a_) == 1, a_
             basis = basis.replace(a_, b_)

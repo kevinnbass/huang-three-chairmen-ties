@@ -1,7 +1,7 @@
 row_id,id,card,label,words,audit,src,q
 CK01,article,context,,"An article on X on Nov 12, 2026 alleged that ""Anthropic's people overlap with the think tanks, ex-officials and forums behind this coverage.""",B-04 A-TL01,x-dream1984-article,"Anthropic's people overlap with the think tanks, ex-officials and forums behind this coverage"
 CK02,anthropic,anthropic,Anthropic,"An AI company. It says it supports ""smart export controls on AI chips"".",,anthropic-pfa-1,Supporting smart export controls on AI chips
-CK03,employees,anthropic,Its employees,A gift from an employee is that person's own money. The FEC record shows the employer the donor wrote down.,,table:employee_gift_rates.csv#anthropic,151
+CK03,employees,anthropic,Its employees,A gift from an employee is that person's own money. The FEC record shows the employer the donor wrote down.,,table:employee_gift_rates.csv#anthropic,154
 CK04,anthropac,anthropic,AnthroPAC,"Anthropic's own political committee, registered with the FEC on Apr 3, 2026.",,pack:congress/research/timeline.csv#TL111 || pack:congress/research/timeline.csv#TL111,naming Anthropic PBC as the connected organization || 2026-04-03
 CK05,lobbyists,anthropic,Its lobbyists,Anthropic and the firms it hires report each quarter which bills they lobbied on.,,table:lobbying_bill_reports.csv#anthropic:H.R. 6875,8
 CK06,clark,anthropic,Jack Clark,Listed as Anthropic's co-founder and head of policy on his testimony of Jun 2025.,B-30 A-TL06,pack:congress/research/travel.csv#TV2012 || house-hrg-zs00-20250625-clark-statement,"Co-Founder and Head of Policy; Anthropic || Co-Founder and Head of Policy, Anthropic"

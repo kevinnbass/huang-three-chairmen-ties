@@ -48,12 +48,12 @@ emp:anthropic:three:window,CN46,62000,"of which dated Apr 29 to May 20, 2026",ta
 lob:anthropic:three,CN47,6000,"lobbyists' and firm PACs' gifts to the three, firms registered for anthropic",table:nv13_numbers.csv#lob:anthropic:three,6000
 lob:network:three,CN48,6000,"lobbyists' and firm PACs' gifts to the three, firms registered for network",table:nv13_numbers.csv#lob:network:three,6000
 lob:nvidia:three,CN49,17500,"lobbyists' and firm PACs' gifts to the three, firms registered for nvidia",table:nv13_numbers.csv#lob:nvidia:three,17500
-rate:anthropic:members,CN50,151,"sitting members with a gift from someone who gave Anthropic as employer, since Jan 2025",table:nv13_numbers.csv#rate:anthropic:members || table:employee_gift_rates.csv#anthropic,151 || 151
-rate:anthropic:usd,CN51,4529249,dollars in those gifts,table:nv13_numbers.csv#rate:anthropic:usd,4529249
-rate:anthropic:parties,CN52,"87 Democrats, 63 Republicans, 1 independent",by party,table:nv13_numbers.csv#rate:anthropic:parties,"87 Democrats, 63 Republicans, 1 independent"
-rank:mast,CN53,36,rank by dollars among the 151 (members with more: 35; with the same: 0),table:nv13_numbers.csv#rank:mast,36
-rank:moolenaar,CN54,joint 66,rank by dollars among the 151 (members with more: 65; with the same: 4),table:nv13_numbers.csv#rank:moolenaar,joint 66
-rank:crawford,CN55,37,rank by dollars among the 151 (members with more: 36; with the same: 0),table:nv13_numbers.csv#rank:crawford,37
+rate:anthropic:members,CN50,154,"sitting members with a gift from someone who gave Anthropic as employer, since Jan 2025",table:nv13_numbers.csv#rate:anthropic:members || table:employee_gift_rates.csv#anthropic,154 || 154
+rate:anthropic:usd,CN51,4623749,dollars in those gifts,table:nv13_numbers.csv#rate:anthropic:usd,4623749
+rate:anthropic:parties,CN52,"89 Democrats, 64 Republicans, 1 independent",by party,table:nv13_numbers.csv#rate:anthropic:parties,"89 Democrats, 64 Republicans, 1 independent"
+rank:mast,CN53,38,rank by dollars among the 154 (members with more: 37; with the same: 0),table:nv13_numbers.csv#rank:mast,38
+rank:moolenaar,CN54,joint 69,rank by dollars among the 154 (members with more: 68; with the same: 3),table:nv13_numbers.csv#rank:moolenaar,joint 69
+rank:crawford,CN55,39,rank by dollars among the 154 (members with more: 38; with the same: 0),table:nv13_numbers.csv#rank:crawford,39
 rate:nvidia:members,CN56,65,"sitting members with a gift from someone who gave Nvidia as employer, since Jan 2025",table:nv13_numbers.csv#rate:nvidia:members || table:employee_gift_rates.csv#nvidia,65 || 65
 rate:nvidia:usd,CN57,172590,dollars in those gifts,table:nv13_numbers.csv#rate:nvidia:usd,172590
 rate:nvidia:parties,CN58,"58 Democrats, 5 Republicans, 2 independents",by party,table:nv13_numbers.csv#rate:nvidia:parties,"58 Democrats, 5 Republicans, 2 independents"

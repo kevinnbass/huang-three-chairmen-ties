@@ -53,7 +53,7 @@ def span(ds):
 
 # Clients of lobbying firms, as the lobbyists' gift lines name them (audit of Nov 14, 2026: "the network" named no one)
 LOBBY_CLIENT = [('ANTHROPIC', 'Anthropic'), ('OPEN PHILANTHROPY ACTION FUND', "Open Philanthropy's action fund"), ('AMERICANS FOR RESPONSIBLE INNOVATION', 'Americans for Responsible Innovation'),
-                ('CENTER FOR AI SAFETY ACTION FUND', "the Center for AI Safety's action fund"), ('ENCODE AI', 'Encode AI'), ('FATHOM', 'Fathom'), ('FUTURE OF LIFE INSTITUTE', 'the Future of Life Institute'), ('IFP ACTION', 'IFP Action')]
+                ('CENTER FOR AI SAFETY ACTION FUND', "the Center for AI Safety's action fund"), ('ENCODE AI', 'Encode AI (no Open Philanthropy award on record)'), ('FATHOM', 'Fathom (no grant on record here)'), ('FUTURE OF LIFE INSTITUTE', 'the Future of Life Institute'), ('IFP ACTION', 'IFP Action')]
 
 
 def lobby_words(lc, LOB, usd, yrs):
@@ -114,9 +114,13 @@ def main():
                 if ds_ in ('P', 'A'):
                     cand.setdefault(c_, b_)
 
+    jkey = {}; jread = set()            # filled further down from the statements of organisation read
+
     def member_of(cmte):
         """(bioguide, kind) for a committee: a member's own campaign committee; a joint committee linked to that one candidate
         only; or a joint committee or leadership PAC the congress pack keyed to one member."""
+        if cmte in jread:                                # its statement of organisation has been read: that reading decides
+            return jkey.get(cmte, (None, ''))
         ls = link.get(cmte, set())
         own = {cand[c] for c, tp, ds in ls if ds in ('P', 'A') and tp in ('H', 'S', 'P') and c in cand}
         if len(own) == 1:
@@ -144,6 +148,7 @@ def main():
     # Source 2: the same lines paged from the FEC's API (newest first), used as the check on source 1 and for any line
     # the weekly bulk file does not hold yet.
     cands = []                                   # every line that passes the rule, from either source
+    negs = {}                                    # the same rule's negative lines (refunds, chargebacks), by SUB_ID: not netted, listed
     BULK = sorted(PRIMARY.glob('fec-bulk-indiv26-employers-*'))
     bulk_meta = json.loads((BULK[-1] / 'meta.json').read_text()) if BULK else None
     if BULK:
@@ -151,6 +156,8 @@ def main():
         for ln in it:
             r = dict(zip(cols, ln.split('|')))
             side = next((s_ for s_, _ in SIDES if EMP_OK[s_].search(r['EMPLOYER'])), None)
+            if side and r['ENTITY_TP'] == 'IND' and r['MEMO_CD'] != 'X' and float(r['TRANSACTION_AMT'] or 0) < 0 and len(r['TRANSACTION_DT']) == 8:
+                d_ = r['TRANSACTION_DT']; negs[r['SUB_ID']] = {'side': side, 'committee_id': r['CMTE_ID'], 'date': f'{d_[4:]}-{d_[:2]}-{d_[2:4]}', 'usd': float(r['TRANSACTION_AMT']), 'sub_id': r['SUB_ID'], 'source': BULK[-1].name}
             if side is None or r['ENTITY_TP'] != 'IND' or r['MEMO_CD'] == 'X' or float(r['TRANSACTION_AMT'] or 0) <= 0 or len(r['TRANSACTION_DT']) != 8:
                 continue
             dt = r['TRANSACTION_DT']
@@ -166,6 +173,8 @@ def main():
             for ln in json.loads(f.read_text()).get('results') or []:
                 if not EMP_OK[side].search(ln.get('contributor_employer') or '') or (ln.get('entity_type') or 'IND') != 'IND':
                     continue
+                if ln.get('memo_code') != 'X' and float(ln.get('contribution_receipt_amount') or 0) < 0 and ln.get('contribution_receipt_date'):
+                    negs.setdefault(str(ln['sub_id']), {'side': side, 'committee_id': ln['committee_id'], 'date': ln['contribution_receipt_date'][:10], 'usd': float(ln['contribution_receipt_amount']), 'sub_id': str(ln['sub_id']), 'source': d.name})
                 if ln.get('memo_code') == 'X' or float(ln.get('contribution_receipt_amount') or 0) <= 0 or not ln.get('contribution_receipt_date'):
                     continue
                 cands.append({'key': ln['sub_id'], 'side': side, 'committee_id': ln['committee_id'], 'date': ln['contribution_receipt_date'][:10], 'usd': float(ln['contribution_receipt_amount']),
@@ -201,7 +210,11 @@ def main():
             return next(iter(hit)), True
         return None, not same
 
-    JP = list(csv.DictReader(open(R / 'jfc_participants.csv', newline=''))) if (R / 'jfc_participants.csv').exists() else []
+    # three pulls of statements of organisation: committees that had no key at all (Nov 14); committees whose gifts sit only in the
+    # FEC's API pulls; and joint committees that had been tied to a member by the FEC's link or the pack's review without a reading
+    # of the statement (the last two found by the second audit, Nov 15, 2026)
+    JP = [r for name in ('jfc_participants.csv', 'jfc_participants_api_only.csv', 'jfc_participants_keyed.csv') if (R / name).exists() for r in csv.DictReader(open(R / name, newline=''))]
+    keyed_before = {r['committee_id']: r.get('keyed_to', '') for r in JP if r.get('keyed_to')}
     SP = {r['committee_id']: r['sponsor_candidate_ids'].split() for r in csv.DictReader(open(R / 'lpac_sponsors.csv', newline=''))} if (R / 'lpac_sponsors.csv').exists() else {}
     for r in JP:
         if r['designation'] == 'D':
@@ -230,7 +243,7 @@ def main():
             return 'another joint committee', '', False
         return 'other committee', '', True
 
-    jkey = {}; JOINT = []
+    JOINT = []
     byj = defaultdict(list)
     for r in JP:
         byj[r['committee_id']].append(r)
@@ -248,17 +261,34 @@ def main():
             members = sorted({b for _, _, _, b, _ in parts if b}); unread = [x for x in parts if not x[4]]
             if len(members) == 1 and not unread:
                 jkey[cid] = (members[0], 'joint fundraising committee'); out_ = 'tied to the one sitting member among its participants'
+            elif len(members) > 1:
+                out_ = f'not attributed: {"at least " if unread else ""}{len(members)} sitting members share it'
             elif unread:
                 out_ = 'not attributed: a participant could not be settled'
-            elif len(members) > 1:
-                out_ = f'not attributed: {len(members)} sitting members share it'
             else:
                 out_ = 'no sitting member among its participants'
+            jread.add(cid)
+            was = keyed_before.get(cid, '')
+            if was and jkey.get(cid, ('',))[0] != was:
+                print(f'  A JOINT COMMITTEE TIED BEFORE ITS STATEMENT WAS READ NO LONGER COUNTS FOR {was}: {cid} {r0["committee"]}: {out_}; sitting members: {members}')
         JOINT.append({'committee_id': cid, 'committee': r0['committee'], 'kind': 'leadership PAC' if r0['designation'] == 'D' else 'joint fundraising committee', 'participants': len(parts) or '',
                       'sitting_members': '; '.join(MB[b]['member_name'] for b in members), 'outcome': out_, 'member_bioguide': jkey[cid][0] if cid in jkey else '',
                       'other_participants': '; '.join(sorted({cname.get(i, n_) for i, n_, _, b, _ in parts if not b})) if len(parts) <= 12 else f'{sum(1 for x in parts if not x[3])} other committees',
                       'not_settled': '; '.join(sorted(f'{cname.get(i, n_)} ({w})' for i, n_, w, _, s in parts if not s)),
                       'statement_of_organisation': r0['f1_file'], 'source': r0['source']})
+    # a joint committee whose statement of organisation could not be read (filed on paper, or not served) is tied to no one:
+    # the rule asks for the statement, and an earlier key (the FEC's link, the pack's review) does not stand in for it
+    for name in ('jfc_participants_gaps.csv', 'jfc_participants_api_only_gaps.csv', 'jfc_participants_keyed_gaps.csv'):
+        for g in (csv.DictReader(open(R / name, newline='')) if (R / name).exists() else ()):
+            cid = g['committee_id']
+            if cid in byj or cid in jread:
+                continue
+            was = member_of(cid)[0]; jread.add(cid)
+            out_ = 'not attributed: its statement of organisation could not be read (' + ('filed on paper; the FEC queue does not serve the image' if 'paper' in g['what_failed'] else 'the record was not served') + ')'
+            if was:
+                print(f'  A JOINT COMMITTEE TIED BEFORE ITS STATEMENT WAS READ NO LONGER COUNTS FOR {was}: {cid} {cname.get(cid, g.get("committee", ""))}: {out_}')
+            JOINT.append({'committee_id': cid, 'committee': cname.get(cid, g.get('committee', '')), 'kind': 'joint fundraising committee', 'participants': '', 'sitting_members': '', 'outcome': out_,
+                          'member_bioguide': '', 'other_participants': '', 'not_settled': 'its statement of organisation', 'statement_of_organisation': '', 'source': ''})
     gifts, basis, unkeyed, seen = [], {}, Counter(), {}
     in_bulk = {c['key'] for c in cands if c['source'].startswith('fec-bulk')}; in_api = defaultdict(set)
     for c in cands:
@@ -345,7 +375,7 @@ def main():
                 o = re.search(r'occupation=([^;]+);', r['note']); dn = nhash(r['payer'])
                 gifts.append({'key': r['row_id'], 'side': 'anthropic', 'bioguide': b, 'member': L.KEY_MAP.get(b, ''), 'date': r['date'], 'usd': f"{float(r['amount_usd']):.2f}", 'committee_id': r['payee_id'],
                               'committee': r['payee'], 'committee_kind': 'candidate committee' if r['payee_type'] == 'candidate_committee' else 'joint committee or leadership PAC',
-                              'employer_as_filed': 'ANTHROPIC', 'occupation': o.group(1) if o else '', 'donor': donor_of.get(dn, 'p' + dn[:9]), 'dn': dn,
+                              'employer_as_filed': (re.search(r'filed=\s*([^;|]+)', r['note']) or [0, 'ANTHROPIC'])[1].strip(), 'occupation': o.group(1) if o else '', 'donor': donor_of.get(dn, 'p' + dn[:9]), 'dn': dn,
                               'source': 'pack:congress/research/hard_money.csv#' + r['row_id'], 'page': '', 'note': 'employer given on an earlier capture of the report; not on the line in today\'s FEC data',
                               'sub_id': sub(r), 'tran_id': '', 'file_num': (re.search(r'FILE_NUM=(\d+)', r['note']) or [None, ''])[1], 'image_num': (re.search(r'fecimg/\?(\d+)', r['url']) or [None, ''])[1]})
                 added[r['payee']] += 1
@@ -414,6 +444,12 @@ def main():
                     b_ = member_of(m_.group(1))[0] if m_ else None
                     if b_ in L.KEY_MAP:
                         conduit[side]['drawn'][L.KEY_MAP[b_]][0] += 1; conduit[side]['drawn'][L.KEY_MAP[b_]][1] += v_
+    NEG = []
+    for n_ in sorted(negs.values(), key=lambda n_: (n_['side'], n_['date'], n_['sub_id'])):
+        b_, _k = member_of(n_['committee_id'])
+        if b_ in sitting:
+            NEG.append({'side': n_['side'], 'member': L.KEY_MAP.get(b_, ''), 'bioguide': b_, 'date': n_['date'], 'usd': f"{n_['usd']:.2f}", 'committee_id': n_['committee_id'],
+                        'committee': cname.get(n_['committee_id'], ''), 'sub_id': n_['sub_id'], 'source': n_['source']})
     rates = []
     for side, label in SIDES:
         tot = defaultdict(float)
@@ -421,7 +457,9 @@ def main():
             if g['side'] == side:
                 tot[g['bioguide']] += float(g['usd'])
         order = sorted(tot, key=lambda b: -tot[b]); mine = [g for g in gifts if g['side'] == side]
+        neg_side = [n_ for n_ in NEG if n_['side'] == side]
         rates.append({'side': side, 'sitting_members': 535, 'members_with_a_gift': len(tot), 'usd': f'{sum(tot.values()):.2f}', 'lines': len(mine), 'donors': len({g['dn'] for g in mine}),
+                      'negative_lines_not_netted': len(neg_side), 'negative_usd_not_netted': f"{sum(float(n_['usd']) for n_ in neg_side):.2f}",
                       'democrats': sum(MB[b]['party'] == 'D' for b in tot), 'republicans': sum(MB[b]['party'] == 'R' for b in tot),
                       'latest_line': max((g['date'] for g in mine), default=''), 'read_through': read_through, 'last_candidate_committee_line': last_own,
                       'conduit_lines_after': conduit[side]['lines'], 'conduit_usd_after': f"{conduit[side]['usd']:.2f}",
@@ -429,6 +467,8 @@ def main():
                       'ranks': ' '.join(f'{L.KEY[b]}:{order.index(b) + 1}' for b in order if b in L.KEY)})
     with open(R / 'employee_gift_rates.csv', 'w', newline='') as f:
         w = csv.DictWriter(f, fieldnames=list(rates[0].keys()), lineterminator='\n'); w.writeheader(); w.writerows(rates)
+    with open(R / 'employee_gift_negatives.csv', 'w', newline='') as f:
+        w = csv.DictWriter(f, fieldnames=['side', 'member', 'bioguide', 'date', 'usd', 'committee_id', 'committee', 'sub_id', 'source'], lineterminator='\n'); w.writeheader(); w.writerows(NEG)
 
     # ------------------------------------------------------------ the ties, member by member
     T = []
@@ -465,8 +505,9 @@ def main():
         for side, pac, label in (('anthropic', 'anthropic', 'AnthroPAC'), ('nvidia', 'nvidia', 'Nvidia\'s PAC')):
             r = pacs.get((bg, pac))
             if r:
-                tie(key, 'company_pac', side, 'AnthroPAC' if side == 'anthropic' else '', 'money', f'{label}: {money(float(r["net_usd"]))} · {mon(r["first_date"])}',
-                    f'{label}, {"Anthropic" if side == "anthropic" else "Nvidia"}\'s own political committee, gave {money(float(r["net_usd"]))} on {mon(r["first_date"])}.', f'table:pacs_by_member.csv#{bg}:{pac}', r['net_usd'],
+                when = mon(r['first_date']) if r['first_date'] == r['last_date'] else f'{r["lines"]} contributions, {mon(r["first_date"])} and {mon(r["last_date"])}' if r['lines'] == '2' else f'{r["lines"]} contributions, {mon(r["first_date"])} to {mon(r["last_date"])}'
+                tie(key, 'company_pac', side, 'AnthroPAC' if side == 'anthropic' else '', 'money', f'{label}: {money(float(r["net_usd"]))} · {when}',
+                    f'{label}, {"Anthropic" if side == "anthropic" else "Nvidia"}\'s own political committee, gave {money(float(r["net_usd"]))}{" on " + when if r["first_date"] == r["last_date"] else " in " + when}.', f'table:pacs_by_member.csv#{bg}:{pac}', r['net_usd'],
                     usd=r['net_usd'], n=r['lines'], first=r['first_date'], last=r['last_date'], draw='held' if side == 'anthropic' else 'words')
         # 3. the PAC of Americans for Responsible Innovation
         ari = [HM[i] for i in m['t2_ids'].split() if i in HM and 'RESPONSIBLE INNOVATION' in HM[i]['payer']]
@@ -601,7 +642,18 @@ def main():
             f'"Call Congressman {name}. Tell him to keep fighting to keep advanced chips from going to our enemies."',
             src, q, n=r['Num_of_Days'], first=d0, last=d1, draw='words')
     T.sort(key=lambda t: ([k for k, _, _ in L.MAP_MEMBERS].index(t['member']), t['type'], t['side']))
-    T = [{'row_id': f'TY{i:03d}', **t} for i, t in enumerate(T, 1)]          # the id rides in the table, so a subset keeps its ids
+    # Row ids are registered (research/member_tie_ids.csv, seeded on Nov 15, 2026 from the table two audits had read): a line keeps
+    # its id whatever is added around it, a new line takes the next free number, and a registered line may not vanish.
+    regp = R / 'member_tie_ids.csv'
+    reg = {r['key']: r['row_id'] for r in csv.DictReader(open(regp, newline=''))}
+    gone = sorted(set(reg) - {t['key'] for t in T}); assert not gone, ('a registered member line is no longer built', gone)
+    for t in T:
+        if t['key'] not in reg:
+            reg[t['key']] = f"TY{max(int(v[2:]) for v in reg.values()) + 1:03d}"; print('  new member line:', reg[t['key']], t['key'])
+    assert len(set(reg.values())) == len(reg), 'two member lines share an id'
+    with open(regp, 'w', newline='') as f:
+        w = csv.writer(f, lineterminator='\n'); w.writerow(['key', 'row_id']); w.writerows(sorted(reg.items(), key=lambda kv: kv[1]))
+    T = [{'row_id': reg[t['key']], **t} for t in T]                           # the id rides in the table, so a subset keeps its ids
     with open(R / 'member_ties.csv', 'w', newline='') as f:
         w = csv.DictWriter(f, fieldnames=list(T[0].keys()), lineterminator='\n'); w.writeheader(); w.writerows(T)
     # the header facts of the three-chairmen figure, as a table (so the figure builds from tables alone)
