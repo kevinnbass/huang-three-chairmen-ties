@@ -87,6 +87,11 @@ def windows():
     return w
 
 
+# The three-chairmen figure states its window: gifts dated Jan 2024 to Jun 2026. Reports for 2020 to 2023 were saved later for the companion map
+# figure (scripts/build_lobbyist_gifts_map.py reads them); without this floor a rebuild on Nov 16, 2026 took in two gifts of 2023.
+FROM = '2024-01-01'
+
+
 def items():
     seen, out, dup, variants = set(), [], 0, defaultdict(Counter)
     for d in sorted(P.glob('lda-gov-contrib-*')):
@@ -102,6 +107,8 @@ def items():
                         if SURNAME[m].search(hon):
                             variants[m][(hon.strip(), bool(rx.search(hon)))] += 1
                         if not rx.search(hon):
+                            continue
+                        if (it.get('date') or '') < FROM:           # this table's window, as the figure's notes state it
                             continue
                         key = (r['registrant']['id'], lob, m, norm(it.get('payee_name')), it.get('date'), it.get('amount'))
                         if key in seen:
@@ -191,6 +198,17 @@ def main():
             print(f'  new line since the register was made: {item} {r["side"]} {r["member"]} {r["date"]} ${float(r["amount_usd"]):,.0f} {r["measure"]}')
         r['item'], r['lobbyist_no'] = reg[k]
     gone = [v[0] for k, v in reg.items() if k not in set(keys)]; assert not gone, ('a registered line is no longer in the table', gone)
+    # Whose money each line is (added Nov 16, 2026). A lobbyist's report also lists contributions of committees: a firm's PAC, a PAC the lobbyist
+    # serves, a campaign committee. A reading of the companion map figure found one line of this table, a campaign committee's $1,000, worded here
+    # as a lobbyist's own gift. The rule is the one written for that figure's wider table, applied to every member alike: the report says SELF or
+    # gives the filer's own name and nothing else (scripts/build_lobbyist_gifts_map.py, whose(); run that script first). The two columns are
+    # copied from that table by the line's key; no line, id or measure of this table changes.
+    wide = {KEY(r): r for r in csv.DictReader((ROOT / 'research' / 'lobbyist_gifts_map.csv').open(newline=''))}
+    for r, k in zip(rows, keys):
+        assert k in wide, ('a line of this table is not in the wider table', r['item'])
+        r['own_money'] = wide[k]['own_money']; r['contributor'] = wide[k]['contributor']
+        assert r['own_money'] in ('yes', 'no') and (r['own_money'] == 'yes') == (not r['contributor']), r['item']
+        assert r['own_money'] == 'no' or r['lobbyist_no'], ('a line counted as a lobbyist\'s own money has no lobbyist', r['item'])
     rows.sort(key=lambda r: r['item'])
     with regp.open('w', newline='') as f:
         w = csv.writer(f, lineterminator='\n'); w.writerow(['key', 'item', 'lobbyist_no']); w.writerows([k, v[0], v[1]] for k, v in sorted(reg.items(), key=lambda kv: kv[1][0]))

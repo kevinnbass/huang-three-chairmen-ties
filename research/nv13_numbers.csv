@@ -9,7 +9,7 @@ fl21_zip_areas_shared,CN07,11,"of those, areas that also lie in another district
 lob:anthropic:mast:total,CN08,0,gifts naming Mast from lobbyists or PACs of firms registered for anthropic,table:nv13_numbers.csv#lob:anthropic:mast:total,0
 lob:anthropic:mast:named,CN09,0,of which from lobbyists listed for the client,table:nv13_numbers.csv#lob:anthropic:mast:named,0
 lob:anthropic:mast:items,CN10,0,gifts,table:nv13_numbers.csv#lob:anthropic:mast:items,0
-lob:network:mast:total,CN11,4500,gifts naming Mast from lobbyists or PACs of firms registered for network,table:nv13_numbers.csv#lob:network:mast:total,4500
+lob:network:mast:total,CN11,4500,gifts naming Mast from lobbyists or PACs of firms registered for network (of it 1000 a campaign committee's contribution that a lobbyist's report lists),table:nv13_numbers.csv#lob:network:mast:total,4500
 lob:network:mast:named,CN12,1000,of which from lobbyists listed for the client,table:nv13_numbers.csv#lob:network:mast:named,1000
 lob:network:mast:items,CN13,3,gifts,table:nv13_numbers.csv#lob:network:mast:items,3
 lob:nvidia:mast:total,CN14,13625,gifts naming Mast from lobbyists or PACs of firms registered for nvidia,table:nv13_numbers.csv#lob:nvidia:mast:total,13625

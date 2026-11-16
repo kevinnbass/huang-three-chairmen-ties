@@ -107,7 +107,14 @@ def lobby_words(rows):
         when = f'from {MON[int(since[5:7]) - 1] if since[:4] == end[:4] else day(since)} to {day(end)}' if end else f'since {day(since)}'
         parts = []
         for measure, how in (('named', 'listed there for ' + cl), ('firm_only', 'not listed for ' + cl), ('firm_only_not_classified', 'there (whether listed for that client was not checked)'), ('firm_pac', '')):
-            ms = [r for r in rs if r['measure'] == measure]
+            # a committee's contribution that a lobbyist's report lists is said as that, not as the lobbyist's own gift (corrected Nov 16, 2026)
+            com = [r for r in rs if r['measure'] == measure and measure != 'firm_pac' and r['own_money'] == 'no']
+            if com:
+                assert all(r['contributor'].startswith('a campaign committee') for r in com), [r['item'] for r in com]
+                cds = [r['date'] for r in com]; assert len(com) == 1
+                parts.append(f'{money(sum(float(r["amount_usd"]) for r in com))} from a campaign committee that a lobbyist there lists in a contribution report and that carries that lobbyist\'s name '
+                             f'(the committee\'s money, not the lobbyist\'s own), on {span(cds)}')
+            ms = [r for r in rs if r['measure'] == measure and r not in com]
             if not ms:
                 continue
             usd = sum(float(r['amount_usd']) for r in ms); n = len({r['lobbyist_no'] for r in ms}); ds = [r['date'] for r in ms]
@@ -122,6 +129,11 @@ def lobby_words(rows):
                 parts.append(f'{money(usd)} from {k} {how}{gifts}, {on}{to}')
         out.append(f'{f[0].upper() + f[1:]} (registered for {cl} {when}): ' + '; '.join(parts) + '.')
     return ' '.join(out)
+
+
+def committee_lines(rows):
+    """The lines that are a committee's contribution listed in a lobbyist's report (not the lobbyist's own money, and not the firm's PAC)."""
+    return [r for r in rows if r['measure'] not in ('firm_pac', 'own_pac') and r['own_money'] == 'no']
 
 
 def givers(rows):
@@ -360,7 +372,7 @@ def main():
         if ln:
             u = sum(float(r['amount_usd']) for r in ln)
             tie(m, 'network', 'lobbyists', 'G', 'Lobbyists and a PAC at these groups\' firms' if any(r['measure'] == 'firm_pac' for r in ln) else 'Lobbyists at these groups\' firms',
-                f'{money(u)} in {NUM[len(ln)]} gift{"s" if len(ln) != 1 else ""} from {givers(ln)} then registered to lobby for one of these groups. ' + lobby_words(ln) + NOTE,
+                f'{money(u)} in {NUM[len(ln)]} gift{"s" if len(ln) != 1 else ""} {"reported by" if committee_lines(ln) else "from"} {givers(ln)} then registered to lobby for one of these groups. ' + lobby_words(ln) + NOTE,
                 *lob_src(ln, 'network'), usd=f'{u:.2f}', first=min(r['date'] for r in ln), last=max(r['date'] for r in ln), audit='B-14 B-15 B-16 A-TY056 A-TY089')
         # ===== said in public at the time (Mast's bill)
         if m == 'mast':
@@ -438,7 +450,9 @@ def main():
                 ['google-ads-creative-ar-20261113', 'google-ads-creative-ar2-20261113'], [has('google-ads-creative-ar-20261113', 'CALL TOM COTTON'), has('google-ads-creative-ar2-20261113', 'CALL TOM COTTON')])
         for side in ('anthropic', 'network', 'nvidia'):
             rs = lob(side, m)
-            num(f'lob:{side}:{m}:total', f'{sum(float(r["amount_usd"]) for r in rs):.0f}', f'gifts naming {last} from lobbyists or PACs of firms registered for {side}')
+            num(f'lob:{side}:{m}:total', f'{sum(float(r["amount_usd"]) for r in rs):.0f}', f'gifts naming {last} from lobbyists or PACs of firms registered for {side}'
+                + (f' (of it {sum(float(r["amount_usd"]) for r in committee_lines(rs)):.0f} a campaign committee\'s contribution that a lobbyist\'s report lists)' if committee_lines(rs) else ''))
+            assert not committee_lines(rs) or (side, m) == ('network', 'mast'), ('a committee\'s line on a side whose panel does not say so', side, m)
             num(f'lob:{side}:{m}:named', f'{sum(float(r["amount_usd"]) for r in rs if r["measure"] == "named"):.0f}', 'of which from lobbyists listed for the client')
             num(f'lob:{side}:{m}:items', len(rs), 'gifts')
 
@@ -698,7 +712,7 @@ def main():
     glance('network', 'ARI\'s PAC', lambda m: next((usd(t['usd']) + (' (to a joint committee)' if 'joint' in t['words'] else '') for t in T(m, 'network', 'ari_pac')), '–'))
     glance('network', 'Fellows, advisers and former staff', lambda m: (lambda n: f'{n} record{"s" if n != 1 else ""}' if n else '–')(len(T(m, 'network', 'fellow') + T(m, 'network', 'advisor') + T(m, 'network', 'left') + T(m, 'network', 'aide'))))
     glance('network', 'Witnesses listed for his committee\'s hearings', lambda m: '6 people' if T(m, 'network', 'net_witness') else '–')
-    glance('network', 'Gifts from lobbyists and PACs of their firms', lambda m: usd(N[f'lob:network:{m}:total']))
+    glance('network', 'Gifts reported by lobbyists and PACs of their firms', lambda m: usd(N[f'lob:network:{m}:total']))
     glance('network', 'ARI\'s public support for a bill of his', lambda m: {'mast': 'his bill (Jan 2026)', 'moolenaar': 'the Senate version (Sep 2025)'}[m] if T(m, 'network', 'endorse') else '–')
     glance('nvidia', 'Its employees\' own gifts', lambda m: '$0')
     glance('nvidia', 'Nvidia\'s PAC', lambda m: '$0')

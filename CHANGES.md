@@ -2,6 +2,29 @@
 
 This file lists what changed between drafts and every error found on the way, with what was done about it.
 
+## Correction of Nov 16, 2026: one line of committee money worded as a lobbyist's gift; one count of pages
+
+- **What was wrong.** Two things, both found by an independent reading of the companion figure "Fifteen days, mapped",
+  which is built from the same tables (its tenth reading, in that figure's repository under `audit2/`, files `k-...`).
+  First, Mast's panel said "$1,000 from a lobbyist there" for a contribution of Feb 16, 2024 at a firm registered for
+  the Future of Life Institute. The lobbyist's contribution report lists that $1,000 under a campaign committee that
+  carries the lobbyist's own name: it is the committee's money, not the lobbyist's own. The builder had never read who
+  made each contribution in a lobbyist's report. Second, the count of saved news pages naming Crawford searched for
+  "Rick Crawford" and a title before the surname; two pages give his legal given name, Eric, and were missed.
+- **What was done.** Every line of `research/lobbyist_gifts.csv` now says whose money it is (`own_money`, and
+  `contributor` where it is not the lobbyist's own), by one rule for all three sides: a line is a lobbyist's own money
+  only when the report says SELF or gives the filer's own name and nothing else. Of the 31 lines, 23 are a lobbyist's
+  own, 7 are a firm's or a group's PAC, as they were already labelled, and this one is a campaign committee's. Its name
+  is not printed, because it would name the lobbyist. The table keeps its window, gifts dated Jan 2024 to Jun 2026; the
+  companion figure's table reads the same reports back to 2020. Mast's panel now says what the line is; the at-a-glance row is
+  headed "Gifts reported by lobbyists and PACs of their firms"; the notes say that one line is a campaign committee's
+  contribution. Crawford's panel says 71 of the 1,086 saved pages (was 69); the other two chairmen's counts were
+  checked against a wider search of every name form and did not change.
+- **What moved.** No sum: the $4,500 on that row for Mast counted the line before and counts it now, under the rule the
+  notes give (a gift counts if a lobbyist's or a firm's report names the chairman and the firm was registered for the
+  client that day). What changed is what the line is said to be. No line on Anthropic's own side changed.
+- **Not yet read independently.** These two corrections were checked by script only.
+
 ## Correction of Nov 15, 2026: the count across all 535 members, after every joint committee's statement was read
 
 - **What was wrong.** On Nov 14 the rule for joint fundraising committees (a committee is tied to a member only when that

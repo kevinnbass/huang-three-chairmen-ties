@@ -140,7 +140,7 @@ def main(target):
                           '(rows of the builder\'s evidence sets; FEC lines; the bill and lobbying tables in research/)')
         t = scrub(t); assert not PRIVATE.search(t), (name, PRIVATE.search(t).group(0)); put(Tg, f'scripts/{name}', t)
     # the scripts as they were run: they need the builder's evidence sets and FEC downloads, so they do not run on this copy
-    for name in ('build_member_ties.py', 'build_lobbyist_gifts.py', 'build_chairmen.py', 'lda_contributions.py', 'save_v3_records.py', 'reextract_members.py', 'fec_bulk_employer.py', 'fec_sched_a_employer.py', 'nv13_public.py', 'make_audit_nv13.py',
+    for name in ('build_member_ties.py', 'build_lobbyist_gifts.py', 'build_lobbyist_gifts_map.py', 'build_chairmen.py', 'lda_contributions.py', 'save_v3_records.py', 'reextract_members.py', 'fec_bulk_employer.py', 'fec_sched_a_employer.py', 'nv13_public.py', 'make_audit_nv13.py',
                  'member_mentions.py', 'release_nv13.py'):
         t = scrub((ROOT / 'scripts' / name).read_text())
         t = re.sub(r"PRIVATE = re\.compile\(.*\n", "PRIVATE = re.compile(r'(a pattern for local paths, a session id and addresses; left out of this copy)')
@@ -177,9 +177,10 @@ def main(target):
                            'date': r['date'], 'amount_usd': r['amount_usd'], 'purpose': r.get('purpose', ''), 'url': r['url']})
     table(Tg, 'research/grants_cited.csv', gr, list(gr[0].keys()))
     # the saved story pages behind "named on N of the 1,086 saved story pages": addresses only
-    n_pages, hit, _ = member_mentions.count(); sur = {'mast': 'Mast', 'moolenaar': 'Moolenaar', 'crawford': 'Crawford'}
+    # (since Nov 15, 2026 member_mentions.count() counts articles, for the companion map figure; this figure prints pages of the first search, count_pages())
+    n_pages, hit = member_mentions.count_pages(); sur = {'mast': 'Mast', 'moolenaar': 'Moolenaar', 'crawford': 'Crawford'}
     pages = []
-    for pid, _ in member_mentions.pages():
+    for pid, _ in member_mentions.pages(recovered=False):
         m = json.loads((PRIMARY / pid / 'meta.json').read_text())
         pages.append({'id': pid, 'url': m['url'], 'saved_utc': m.get('fetched_utc') or m.get('saved_utc') or '', **{'names_' + k: 'yes' if pid in hit[s] else '' for k, s in sur.items()}})
     assert len(pages) == n_pages
@@ -253,6 +254,7 @@ def main(target):
     if disp.exists():
         put(Tg, 'audit/DISPOSITIONS.csv', disp.read_text())
     put(Tg, '.gitignore', '__pycache__/\n*.pyc\n')
+    put(Tg, 'LICENSE.md', P.LICENSE_MD)
     import nv13_readme
     import nv13_status
     put(Tg, 'README.md', nv13_readme.readme(Tg, gifts, ev, audit_notes, scope=nv13_status.SCOPE))

@@ -119,8 +119,9 @@ def timeline(gifts, lob, trade, ties, events, who, N, nvidia=True):
             if r['member'] != m or r['measure'] == 'own_pac':
                 continue
             col = {'anthropic': A_COL, 'network': W_COL, 'nvidia': N_COL}[r['side']]
-            marks['n' if r['side'] == 'nvidia' else 'a'].append((r['date'], r['amount_usd'], 'square' if r['measure'] == 'firm_pac' else 'diamond', col,
-                                                                 f'{day(r["date"], True)}: {money(float(r["amount_usd"]))}, {"the firm\'s PAC" if r["measure"] == "firm_pac" else "a lobbyist"} at {r["registrant"].title()}'))
+            committee = r['measure'] != 'firm_pac' and r['own_money'] == 'no'          # a committee's contribution that a lobbyist's report lists: a square, like a PAC's gift
+            marks['n' if r['side'] == 'nvidia' else 'a'].append((r['date'], r['amount_usd'], 'square' if r['measure'] == 'firm_pac' or committee else 'diamond', col,
+                                                                 f'{day(r["date"], True)}: {money(float(r["amount_usd"]))}, {"the firm\'s PAC" if r["measure"] == "firm_pac" else "a campaign committee a lobbyist reports" if committee else "a lobbyist"} at {r["registrant"].title()}'))
         for x_ in trade:
             if x_['member'] == m and x_['lists_nvidia'] == 'yes' and x_['lists_anthropic'] == 'no':
                 marks['n'].append((x_['date'], x_['usd'], 'square', N_COL, f'{day(x_["date"], True)}: {money(float(x_["usd"]))}, the PAC of {x_["group_name"]}'))
@@ -319,9 +320,13 @@ def fig_ties(KICKER, DRAFT, partial=False, scope='both', stem=None):
                 '<b>What this figure leaves out:</b> the same search for Nvidia. Nvidia\'s employees and its PAC gave the three chairmen nothing; lobbyists and PACs at firms registered to lobby for Nvidia gave them '
                 f'{lob_n}, and the PACs of two trade groups that list Nvidia gave Mast {money(float(n("trade:nvidia:three")))}. Those records are in the repository\'s tables, not drawn here. ')
     where = ('On the left, the' if LAYOUT == 'wide' else 'The', 'On the right, each panel lists' if LAYOUT == 'wide' else 'Each panel then lists')
+    # a line of the lobbyists' reports that is a committee's contribution, on a side this version draws (corrected Nov 16, 2026: one such line had been worded as a lobbyist's own gift)
+    com_ = [r for r in lob if r['measure'] not in ('firm_pac', 'own_pac') and r['own_money'] == 'no' and (NV or r['side'] != 'nvidia')]
+    W_ = {1: 'one line is', 2: 'two lines are'}
+    COMMITTEE_NOTE = f"; {W_[len(com_)]} a campaign committee's contribution that a lobbyist's report lists, and the panel says so" if com_ else ''
     foot = (f'<b>Reading it:</b> {where[0]} first band says what each company makes and where the two have clashed; the key says once how each group connects to Anthropic; the table and the timeline put the three chairmen side by side. '
             f'{where[1]} its records by that link{", with the same records for Nvidia under them" if NV else ""}. '
-            'An employee\'s gift is that person\'s own money: the FEC line shows the employer the donor wrote down. A lobbyist\'s gift is reported by the lobbyist as his or her own. Donors and lobbyists are counted here, not named; the one exception is Anthropic\'s chief executive, whose gift to a super PAC is in the key. '
+            'An employee\'s gift is that person\'s own money: the FEC line shows the employer the donor wrote down. A lobbyist\'s gift is reported by the lobbyist as his or her own' + COMMITTEE_NOTE + '. Donors and lobbyists are counted here, not named; the one exception is Anthropic\'s chief executive, whose gift to a super PAC is in the key. '
             '<b>How it was made:</b> ' + esc(basis) + ' A line counts if an individual gave the company as employer to a committee tied to a sitting member, not as a memo line; a joint committee\'s later allocation is not counted again. '
             'Committees tied to a member are his campaign committee, plus joint and leadership committees an earlier evidence set keyed to him; a gift to a committee not so keyed is missed. '
             'Lobbyists\' gifts are from the contribution reports lobbyists and their firms file with the Senate (gifts dated Jan 2024 to Jun 2026): a gift counts if it names the chairman and the firm had a lobbying registration for the client on that day. '

@@ -90,6 +90,13 @@ def main():
     check(ok_rows, f'all {len(lg)} lobbyist-gift lines are dated inside the firm\'s registration for the client')
     check(all(r['measure'] in ('named', 'firm_only', 'firm_only_not_classified', 'firm_pac', 'own_pac') and r['member'] in THREE and r['shared_event'] == 'no' for r in lg), 'every line has a known measure, names one of the three, and is not a shared event')
     check(all((r['measure'] in ('firm_pac', 'own_pac')) == (not r['lobbyist_no']) for r in lg), 'a line has a lobbyist number unless it is a firm\'s or a group\'s own PAC')
+    com = [r for r in lg if r['measure'] not in ('firm_pac', 'own_pac') and r['own_money'] == 'no']
+    check(all(r['own_money'] in ('yes', 'no') and (r['own_money'] == 'yes') == (not r['contributor']) for r in lg) and all(r['own_money'] == 'no' for r in lg if r['measure'] in ('firm_pac', 'own_pac'))
+          and all(r['contributor'].startswith('a campaign committee') for r in com)
+          and all('from a campaign committee that a lobbyist there lists in a contribution report' in tie(r['member'], r['side'], 'lobbyists')[0]['words'] for r in com)
+          and (not [r for r in com if NV or r['side'] != 'nvidia'] or "a campaign committee's contribution that a lobbyist's report lists, and the panel says so" in flat),
+          f'each line says whose money it is: {sum(r["own_money"] == "yes" for r in lg)} a lobbyist\'s own, {len(lg) - len(com) - sum(r["own_money"] == "yes" for r in lg)} a firm\'s or a group\'s PAC, '
+          f'{len(com)} a campaign committee\'s contribution that a lobbyist\'s report lists, and the panel and the notes say so for each of those')
     cnt = [r for r in lg if r['measure'] != 'own_pac']
     for side in ('anthropic', 'network', 'nvidia'):
         for k in THREE:
