@@ -180,7 +180,7 @@ def main(target):
     # (since Nov 15, 2026 member_mentions.count() counts articles, for the companion map figure; this figure prints pages of the first search, count_pages())
     n_pages, hit = member_mentions.count_pages(); sur = {'mast': 'Mast', 'moolenaar': 'Moolenaar', 'crawford': 'Crawford'}
     pages = []
-    for pid, _ in member_mentions.pages(recovered=False):
+    for pid, _ in member_mentions.pages():
         m = json.loads((PRIMARY / pid / 'meta.json').read_text())
         pages.append({'id': pid, 'url': m['url'], 'saved_utc': m.get('fetched_utc') or m.get('saved_utc') or '', **{'names_' + k: 'yes' if pid in hit[s] else '' for k, s in sur.items()}})
     assert len(pages) == n_pages

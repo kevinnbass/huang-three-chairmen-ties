@@ -2,6 +2,24 @@
 
 This file lists what changed between drafts and every error found on the way, with what was done about it.
 
+## Third correction of Nov 16, 2026: the counts of saved pages naming each chairman, again
+
+- **What was wrong.** This figure counted each saved page from the text first taken from it, even where the companion
+  figure had since taken the article's text again from the saved HTML because the first extraction had missed it. The
+  companion figure's thirteenth reading (its repository, `audit2/`, files `n-...`, `n-findings13.csv`) found that two
+  posts of one site name all three chairmen in the post's own summary and were not counted here. Separately, that
+  reading found live pages whose saved HTML holds entries the text lacked; one such entry, on one page, names Mast.
+- **What was done.** This figure now reads the same text as the companion figure for every page, and the live entry is
+  added to the text read (a new file beside the saved page; nothing was replaced). The panels now say: Mast named on 93
+  of the 1,086 saved pages (was 90), Moolenaar 81 (79), Crawford 74 (72). `research/story_pages.tsv` marks the three
+  pages. No other number and no tie in this figure changes.
+- **The second correction, read.** The companion figure's twelfth reading (`audit2/`, files `m-...`, `m-findings13.csv`)
+  read the table, the caption and the counts as they then stood (90, 79, 72) and found them right for the text this
+  figure then read.
+- **Not yet read independently.** The three counts as they now stand.
+- **A limit.** A page is counted when its text names the chairman anywhere; on a live page or a round-up that can be in
+  an entry about something else. A passage the extraction lost is found only by the searches described here and below.
+
 ## Second correction of Nov 16, 2026: the counts of saved pages naming each chairman
 
 - **What was wrong.** While answering the next reading of the companion figure, every saved page's HTML was searched for a
@@ -14,7 +32,8 @@ This file lists what changed between drafts and every error found on the way, wi
   `l-findings13.csv`) read the correction below: all 31 lines of `research/lobbyist_gifts.csv`, the reworded line, the
   labels and the three counts of pages as they then stood (88, 78, 71). It found nothing to change, and judged the $4,500
   fair under this figure's rule and the window of Jan 2024 to Jun 2026 plainly stated.
-- **Not yet read independently.** The table and the caption, and the three counts as they now stand.
+- **Read since.** The companion figure's twelfth reading read the table, the caption and these counts and found them right
+  for the text then read; see the third correction above for what the reading after it found.
 - **A limit.** The search finds a lost passage only when it names a member whose name is searched. Other tables and
   captions can still be missing from a page's text.
 

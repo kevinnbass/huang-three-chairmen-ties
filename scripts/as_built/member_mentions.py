@@ -50,11 +50,16 @@ NOT_DRAWN = {'Jordan': (['Jim'], False, 'his election as House minority leader')
              'Massie': (['Thomas'], True, 'his bid to impeach the defense secretary'), 'Garcia': (['Robert'], False, 'other inquiries he plans as incoming oversight chair'),
              'Hyde-Smith': (['Cindy'], True, 'losing her Senate race'), 'Sanders': (['Bernie', 'Bernard'], True, 'the Senate leadership contest and his own AI bill'),
              # found by the sweep of all sitting members' names (scripts/nv8_member_sweep.py, Nov 16, 2026)
-             'Sullivan': (['Dan', 'Daniel'], False, 'his own Senate race, still being counted, and a candidate of the same name')}
+             'Sullivan': (['Dan', 'Daniel'], False, 'his own Senate race, still being counted, and a candidate of the same name'),
+             # at three once the entries of a four-day live page of general news were read (the thirteenth reading, Nov 16, 2026); the three articles were read
+             'Slotkin': (['Elissa'], True, 'the Senate leadership contest and a mention by the president on another matter'),
+             'Pelosi': (['Nancy'], True, 'missing a vote on impeaching the defense secretary, and an older case about another member'),
+             'Horsford': (['Steven', 'Steve'], True, 'missing a vote on impeaching the defense secretary, and a letter on a sale of data')}
 # other words met after a congressional title on three or more pages that are not a searched name: what each is
 NOT_A_MEMBER = {'Rep': 'a second title, as in "Chairman Rep." before a member\'s name', 'Jamieson': 'the U.S. trade representative', 'Greer': 'the U.S. trade representative', 'Eric': 'a former member (Swalwell)', 'Swalwell': 'a former member',
                 'Anthony': 'a former member (Weiner)', 'Weiner': 'a former member', 'Harvey': "Nvidia's board chair", 'Jones': "Nvidia's board chair",
-                'Jensen': 'Huang ("Nvidia Leader ... Jensen Huang")', 'Huang': 'Nvidia\'s chief executive ("Nvidia Leader Before Jensen Huang", "Board Chair After Jensen Huang")', 'Tae-won': 'the chairman of a Korean company'}
+                'Jensen': 'Huang ("Nvidia Leader ... Jensen Huang")', 'Huang': 'Nvidia\'s chief executive ("Nvidia Leader Before Jensen Huang", "Board Chair After Jensen Huang")', 'Tae-won': 'the chairman of a Korean company',
+                'Ted': 'the given name of two members, each named in fewer than three articles (a representative in two, a senator in one, on other news)'}
 
 
 def not_drawn_re(s):
@@ -73,11 +78,15 @@ FIRST_CENSUS = frozenset(_fc.read_text().split()) if _fc.exists() else frozenset
 RECOVERED = ('text.recovered2.txt', 'text.recovered.txt')
 
 
+ADDED = 'text.added*.txt'          # text.added.txt, text.added2.txt, ...: each pass writes a new file, a saved file is never rewritten
+
+
 def added(d):
     """A passage of the page's own piece that the saved HTML holds and the extraction left out (a table, a photo caption): text.added.txt,
-    written by scripts/recover_bodies_3.py after each passage was read (Nov 16, 2026). It is read after the page's text, in every count."""
-    f = d / 'text.added.txt'
-    return '\n' + f.read_text(errors='replace') if f.exists() else ''
+    written by scripts/recover_bodies_3.py after each passage was read (Nov 16, 2026). It is read after the page's text, in every count.
+    Lines of prose that the cleaning of a hand-saved PDF dropped at page breaks are added the same way (scripts/recover_bodies_4.py, and a second
+    and a third pass, scripts/recover_bodies_5.py and recover_bodies_6.py, whose lines are in text.added2.txt and text.added3.txt: a saved file is never rewritten)."""
+    return ''.join('\n' + f.read_text(errors='replace') for f in sorted(d.glob(ADDED)))
 
 
 def pages(recovered=True):
@@ -157,17 +166,19 @@ def count():
         for _, text in copies:
             for m in AFTER.finditer(text):
                 for w in m.group(1).split():
-                    w = w.strip(".,'’")
+                    w = re.sub(r"['’]s$", '', w.strip(".,'’"))          # "Massie’s" is the name Massie
                     if w not in FIRST and len(w) > 2:
                         other[w].add(aid)
     return n, hit, other
 
 
 def count_pages():
-    """(pages counted, {surname: [page ids]}) over the pages of the first census alone, as counted until Nov 15, 2026: the three-chairmen
-    figure (nv13) prints these ("named on N of the 1,086 saved pages") and keeps them."""
+    """(pages counted, {surname: [page ids]}) over the pages of the first census alone: the three-chairmen figure (nv13) prints these
+    ("named on N of the 1,086 saved pages"). Until Nov 16, 2026 it read each page's first extraction even where the article's text had been
+    taken again from the saved HTML for the map figure; the thirteenth reading of the map figure found that this left two posts uncounted
+    for all three chairmen. It now reads the same text as the map figure does."""
     res = {s: member_re(s) for s in FIRST}; hit, n = defaultdict(list), 0
-    for pid, text in pages(recovered=False):
+    for pid, text in pages(recovered=True):
         n += 1
         for s, rx in res.items():
             if rx.search(text):
