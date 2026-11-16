@@ -2,6 +2,22 @@
 
 This file lists what changed between drafts and every error found on the way, with what was done about it.
 
+## Second correction of Nov 16, 2026: the counts of saved pages naming each chairman
+
+- **What was wrong.** While answering the next reading of the companion figure, every saved page's HTML was searched for a
+  member's name that the text taken from it lacks. Two pages name the chairmen only in a part of the piece that the
+  extraction had left out: a timeline table that lists the three chairmen's letter, and a photo caption that names Mast.
+- **What was done.** The table and the caption were added to the text read for those two pages (new files beside the saved
+  pages; nothing was replaced). The panels now say: Mast named on 90 of the 1,086 saved pages (was 88), Moolenaar 79 (78),
+  Crawford 72 (71). `research/story_pages.tsv` marks the two pages.
+- **The first correction, read.** The companion figure's eleventh reading (its repository, `audit2/`, files `l-...`,
+  `l-findings13.csv`) read the correction below: all 31 lines of `research/lobbyist_gifts.csv`, the reworded line, the
+  labels and the three counts of pages as they then stood (88, 78, 71). It found nothing to change, and judged the $4,500
+  fair under this figure's rule and the window of Jan 2024 to Jun 2026 plainly stated.
+- **Not yet read independently.** The table and the caption, and the three counts as they now stand.
+- **A limit.** The search finds a lost passage only when it names a member whose name is searched. Other tables and
+  captions can still be missing from a page's text.
+
 ## Correction of Nov 16, 2026: one line of committee money worded as a lobbyist's gift; one count of pages
 
 - **What was wrong.** Two things, both found by an independent reading of the companion figure "Fifteen days, mapped",

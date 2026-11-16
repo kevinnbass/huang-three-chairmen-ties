@@ -547,7 +547,7 @@ def main():
             usd = sum(float(r['amount_usd']) for r in lc); ds = [r['date'] for r in lc]
             yrs = min(ds)[:4] if min(ds)[:4] == max(ds)[:4] else f'{min(ds)[:4]}–{max(ds)[:4]}'
             lsrc = ['pack:congress/research/lobbyist_contributions.csv#' + r['row_id'] for r in lc]; lq = [r['amount_usd'] for r in lc]
-            ptxt = f'{money(usd)} in {len(lc)} gift{"s" if len(lc) != 1 else ""} from lobbyists\' own pockets, {yrs}, made while their firms were registered for a client in the network. Second-hand: no client directed them.'
+            ptxt = f'{money(usd)} in {len(lc)} gift{"s" if len(lc) != 1 else ""} from lobbyists\' own pockets, {yrs}, made while their firms were registered for a client in the network. Second-hand: the reports do not show whether a client directed these gifts.'
             if len(lc) <= 2 and all(re.search(r'registrant=(.+?) id=', r['note']) for r in lc):   # few enough to say which firm and which client
                 parts = []; ok_ = True; lsrc0, lq0 = list(lsrc), list(lq)
                 for r in lc:
@@ -566,7 +566,7 @@ def main():
                     lsrc += ['pack:congress/research/lobbyist_contributions.csv#' + r['row_id']] + ['pack:congress/research/lobbying.csv#' + firsts[c]['row_id'] for c in then + [c for _, c in later]]
                     lq += ['registrant=' + reg] + [firsts[c]['client'] for c in then + [c for _, c in later]]
                 if ok_:
-                    ptxt = ' '.join(parts) + ' The lobbyist\'s own money: no client directed it.'
+                    ptxt = ' '.join(parts) + ' The lobbyist\'s own money: the report does not show whether a client directed it.'
                 else:
                     lsrc, lq = lsrc0, lq0
             tie(key, 'lobbyist_gifts', 'network', '', 'none', lobby_words(lc, LOB, usd, yrs),
@@ -612,7 +612,7 @@ def main():
             one = len(sm) == 1
             listed = (f'{money(nusd)} of it from lobbyists listed for {short} then' if nm_ and len(nm_) < len(sm) else f'all of it from lobbyists listed for {short} then' if nm_ else f'none of it from a lobbyist listed for {short} then')
             tie(key, 'lobbyist_gifts', side, '', 'none', f'{"A lobbyist at a firm" if one else "Lobbyists at firms"} registered for {who}: {money(usd)} of their own money, {yrs}; {listed}',
-                f'{money(usd)} in {len(sm)} gift{"" if one else "s"} from lobbyists\' own pockets, {yrs}, made while their firms were registered to lobby for {who}; {listed}. Second-hand: no client directed them.' + pac_note,
+                f'{money(usd)} in {len(sm)} gift{"" if one else "s"} from lobbyists\' own pockets, {yrs}, made while their firms were registered to lobby for {who}; {listed}. Second-hand: the reports do not show whether a client directed these gifts.' + pac_note,
                 ['table:lobbyist_gifts_map.csv#' + r['item'] for r in sm], [r['amount_usd'] for r in sm], usd=f'{usd:.2f}', n=str(len(sm)), first=min(ds), last=max(ds), draw='words')
     # 6. ties that rest on one named record each
     RDP = 'pack:congress/research/revolving_door.csv#'

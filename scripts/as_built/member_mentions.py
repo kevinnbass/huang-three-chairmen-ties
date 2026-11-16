@@ -26,17 +26,20 @@ SKIP = ('techmeme', 'memeorandum', 'mediagazer', 'art-', 'anthropic-',
 TITLE = r"(?:Sens?\.|Senators?|Reps?\.|Representatives?|Congress(?:man|woman)|(?:Majority|Minority|Democratic|Republican)\s+Leader|Leader|Whip|Speaker|Chair(?:man|woman)?|Ranking\s+Member)"
 AFTER = re.compile(TITLE + r"\s+((?:[A-Z][\w.'’-]*\s+){0,2}[A-Z][\w'’-]+)")
 # first names as the pages give them; a member is named by "First Last" or by a title then the surname
-FIRST = {'Warren': ['Elizabeth'], 'Coons': ['Chris', 'Christopher'], 'Cramer': ['Kevin'], 'Schumer': ['Chuck', 'Charles'], 'Banks': ['Jim'],
+FIRST = {'Warren': ['Elizabeth', 'Liz'], 'Coons': ['Chris', 'Christopher'], 'Cramer': ['Kevin'], 'Schumer': ['Chuck', 'Charles', 'Charlie'], 'Banks': ['Jim', 'James'],
          'Cornyn': ['John'], 'Kennedy': ['John'], 'Thune': ['John'], 'Mast': ['Brian'], 'Crawford': ['Rick', 'Eric'], 'Meeks': ['Gregory', 'Greg'],
-         'Himes': ['Jim'], 'Huizenga': ['Bill'], 'Moolenaar': ['John'], 'Jeffries': ['Hakeem'], 'Magaziner': ['Seth'],
-         'Subramanyam': ['Suhas'], 'Bacon': ['Don'],
-         'Johnson': ['Mike'], 'Blumenthal': ['Richard', 'Dick'], 'Wyden': ['Ron'], 'Ricketts': ['Pete'], 'McCaul': ['Michael', 'Mike'], 'Warner': ['Mark'],
-         'Cotton': ['Tom'],
-         'Scott': ['Tim'], 'Neal': ['Richard']}      # drawn since Nov 15, 2026 with Ricketts, on the count of articles (Ricketts was searched before and stood at two pages)                 # drawn in the map since Nov 14, 2026: named for his letter of Oct 2025 on Megaspeed (an act on the matter before these days)
+         'Himes': ['Jim', 'James'], 'Huizenga': ['Bill', 'William'], 'Moolenaar': ['John'], 'Jeffries': ['Hakeem'], 'Magaziner': ['Seth'],
+         'Subramanyam': ['Suhas'], 'Bacon': ['Don', 'Donald'],
+         'Johnson': ['Mike'], 'Blumenthal': ['Richard', 'Dick'], 'Wyden': ['Ron', 'Ronald'], 'Ricketts': ['Pete', 'Peter'], 'McCaul': ['Michael', 'Mike'], 'Warner': ['Mark'],
+         'Cotton': ['Tom', 'Thomas'],
+         'Scott': ['Tim', 'Timothy'], 'Neal': ['Richard', 'Richie']}      # drawn since Nov 15, 2026 with Ricketts, on the count of articles (Ricketts was searched before and stood at two pages)                 # drawn in the map since Nov 14, 2026: named for his letter of Oct 2025 on Megaspeed (an act on the matter before these days)
+# Since the eleventh reading (Nov 16, 2026) each member's list holds the given name the roster of sitting members gives and its usual short form (James for Himes,
+# William for Huizenga and so on); that reading tested these and further forms and found no article they add. Not added: other given names for the Speaker
+# ("Michael Johnson" and "James Johnson" are other people's names too; he is matched as "Mike Johnson" or "Speaker Johnson").
 # 'Eric' for Crawford (his legal given name; the pages mostly call him Rick): the tenth reading, Nov 16, 2026, found two articles that name him so and
 # were not counted. scripts/nv8_member_sweep.py now stops when its wider forms find an article for a drawn member that these names do not.
 # Surnames shared with another current member: only the full name counts ("Speaker Johnson" is taken as him, "Sen. Johnson" is not).
-FULL_ONLY = {'Johnson': r"(?:Speaker\s+(?:Mike\s+)?|Mike\s+)Johnson", 'Scott': r"\bTim\s+Scott\b"}        # "Sen. Scott" may be the senator from Florida
+FULL_ONLY = {'Johnson': r"(?:Speaker\s+(?:Mike\s+)?|Mike\s+)Johnson", 'Scott': r"\bTim(?:othy)?\s+Scott\b"}        # "Sen. Scott" may be the senator from Florida
 # Surnames met after a title that are not members of Congress, or are members named only in passing lists; read by hand.
 NOT_MEMBER = set()
 
@@ -49,7 +52,7 @@ NOT_DRAWN = {'Jordan': (['Jim'], False, 'his election as House minority leader')
              # found by the sweep of all sitting members' names (scripts/nv8_member_sweep.py, Nov 16, 2026)
              'Sullivan': (['Dan', 'Daniel'], False, 'his own Senate race, still being counted, and a candidate of the same name')}
 # other words met after a congressional title on three or more pages that are not a searched name: what each is
-NOT_A_MEMBER = {'Jamieson': 'the U.S. trade representative', 'Greer': 'the U.S. trade representative', 'Eric': 'a former member (Swalwell)', 'Swalwell': 'a former member',
+NOT_A_MEMBER = {'Rep': 'a second title, as in "Chairman Rep." before a member\'s name', 'Jamieson': 'the U.S. trade representative', 'Greer': 'the U.S. trade representative', 'Eric': 'a former member (Swalwell)', 'Swalwell': 'a former member',
                 'Anthony': 'a former member (Weiner)', 'Weiner': 'a former member', 'Harvey': "Nvidia's board chair", 'Jones': "Nvidia's board chair",
                 'Jensen': 'Huang ("Nvidia Leader ... Jensen Huang")', 'Huang': 'Nvidia\'s chief executive ("Nvidia Leader Before Jensen Huang", "Board Chair After Jensen Huang")', 'Tae-won': 'the chairman of a Korean company'}
 
@@ -68,6 +71,13 @@ FIRST_CENSUS = frozenset(_fc.read_text().split()) if _fc.exists() else frozenset
 
 # A page's article taken again from its saved HTML: the fourth extraction (scripts/recover_bodies_2.py) is read before the third
 RECOVERED = ('text.recovered2.txt', 'text.recovered.txt')
+
+
+def added(d):
+    """A passage of the page's own piece that the saved HTML holds and the extraction left out (a table, a photo caption): text.added.txt,
+    written by scripts/recover_bodies_3.py after each passage was read (Nov 16, 2026). It is read after the page's text, in every count."""
+    f = d / 'text.added.txt'
+    return '\n' + f.read_text(errors='replace') if f.exists() else ''
 
 
 def pages(recovered=True):
@@ -91,7 +101,7 @@ def pages(recovered=True):
         if texts:
             seen.add(key)
             rec = next((d / n for n in RECOVERED if (d / n).exists()), d / RECOVERED[-1])
-            yield d.name, rec.read_text(errors='replace') if recovered and rec.exists() else max(texts, key=len)
+            yield d.name, (rec.read_text(errors='replace') if recovered and rec.exists() else max(texts, key=len)) + added(d)
 
 
 def saved_since_text(pid):
@@ -100,9 +110,9 @@ def saved_since_text(pid):
     d = P / pid
     for n in RECOVERED + ('text.article.txt',):
         if (d / n).exists():
-            return (d / n).read_text(errors='replace').translate(LIGATURES)
+            return ((d / n).read_text(errors='replace') + added(d)).translate(LIGATURES)
     texts = [f.read_text(errors='replace') for f in (d / 'text.txt', d / 'text.reextract.txt') if f.exists()]
-    return max(texts, key=len).translate(LIGATURES) if texts else ''
+    return (max(texts, key=len) + added(d)).translate(LIGATURES) if texts else ''
 
 
 # A page saved by hand as a PDF gives some letter pairs as one sign (the ff of "Jeffries", the fi of "officials"). They are written out
