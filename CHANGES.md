@@ -29,12 +29,25 @@ This file lists what changed between drafts and every error found on the way, wi
   amendment 6561 to the defense authorization bill for fiscal 2027. When this correction was first published its text
   had not been found, and this file said so. It is in the Congressional Record of July 13, 2026 (pages S3749 and
   S3750): an amendment by Sen. Schiff, for himself and Sen. Banks, headed "Collaboration on adversarial threats and AI
-  security risks", on sharing information about security risks of artificial intelligence. It carries none of the
-  five chip-export measures and is counted for none.
+  security risks". It would make it no violation of the antitrust laws for companies to share information about
+  security risks of artificial intelligence, or, with prior written notice to the Attorney General, to coordinate
+  "delaying or otherwise limiting the release, deployment, use, development, training, testing, or evaluation of
+  artificial intelligence". It excludes price-fixing and the sharing of markets and leaves the Attorney General an
+  injunction. The same report names a bill of the same title by the same two senators (S. 5105). A lobbying report
+  names measures and no position: whether Anthropic supported, opposed or sought changes to either cannot be read
+  from it. Neither carries any of the five chip-export measures, and neither is counted for one. (Until Nov 17 this
+  entry described the amendment only as being "on sharing information about security risks": the builder of this
+  figure is a model made by Anthropic, a reading of the companion map figure found that its lines softened Anthropic,
+  and on rereading the builder found this description too mild. The map figure now gives the amendment's text on a
+  line between Anthropic and Sen. Banks.)
 - **What is not counted.** An amendment is recognised only when a report gives its number: a report that describes a
   provision in its own words, without the act's name, a bill number or an amendment number, is not counted for any
   measure.
-- **Not read independently.** No auditor has read this correction.
+- **Read independently, in part.** The thirtieth reading of the companion map figure (another company's model,
+  Nov 17) read this correction's counts and found its seven checks of this figure ok. It read them before the second
+  amendment's text was found; the thirty-first reading read that text for the map figure. The status sentence on the
+  figure itself still says that no independent reader has read the correction: it is older than those readings and
+  is updated when the figure next changes.
 
 ## Third correction of Nov 16, 2026: the counts of saved pages naming each chairman, again
 
