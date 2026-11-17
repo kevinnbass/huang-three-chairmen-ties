@@ -30,6 +30,7 @@ COPIES = {  # saved originals copied into sources/: official records, or the bui
     'google-ads-creative-mi2-v2-20261113': 'sources/ads/moolenaar-mi2-second-version.txt', 'google-ads-creative-fl21-v2-20261113': 'sources/ads/mast-fl21-second-version.txt',
     'google-ads-creative-ar-20261113': 'sources/ads/arkansas-1.txt', 'google-ads-creative-ar2-20261113': 'sources/ads/arkansas-2.txt',
     'google-ads-political-search-nvidia-20261113': 'sources/google-political-ads-search/search.txt',
+    'lda-ref-samdt-119-3505-text-wayback': 'sources/senate-amendment-3505-text.txt',      # Congress.gov's page of the amendment's text, as the Internet Archive captured it
     'house-hrg-zs00-20250625-clark-statement': 'sources/hearing-20250625-clark-written-statement.txt', 'house-hrg-zs00-20250625-transcript': 'sources/hearing-20250625-transcript.txt',
     'fec-bulk-weball26-20261113': 'sources/fec-candidate-totals-three-chairmen.txt', 'fec-committee-c00583161-20261113': 'sources/fec-committee-C00583161.txt',
     'fec-filings-c30003586-20261114': 'sources/fec-filings-C30003586-public-first-action.txt',
@@ -140,7 +141,7 @@ def main(target):
                           '(rows of the builder\'s evidence sets; FEC lines; the bill and lobbying tables in research/)')
         t = scrub(t); assert not PRIVATE.search(t), (name, PRIVATE.search(t).group(0)); put(Tg, f'scripts/{name}', t)
     # the scripts as they were run: they need the builder's evidence sets and FEC downloads, so they do not run on this copy
-    for name in ('build_member_ties.py', 'build_lobbyist_gifts.py', 'build_lobbyist_gifts_map.py', 'build_chairmen.py', 'lda_contributions.py', 'save_v3_records.py', 'reextract_members.py', 'fec_bulk_employer.py', 'fec_sched_a_employer.py', 'nv13_public.py', 'make_audit_nv13.py',
+    for name in ('build_lobbying.py', 'build_member_ties.py', 'build_lobbyist_gifts.py', 'build_lobbyist_gifts_map.py', 'build_chairmen.py', 'lda_contributions.py', 'save_v3_records.py', 'reextract_members.py', 'fec_bulk_employer.py', 'fec_sched_a_employer.py', 'nv13_public.py', 'make_audit_nv13.py',
                  'member_mentions.py', 'release_nv13.py'):
         t = scrub((ROOT / 'scripts' / name).read_text())
         t = re.sub(r"PRIVATE = re\.compile\(.*\n", "PRIVATE = re.compile(r'(a pattern for local paths, a session id and addresses; left out of this copy)')
@@ -165,7 +166,7 @@ def main(target):
     (Tg / 'research' / 'nv13_frames').mkdir(parents=True, exist_ok=True)
     for f in sorted((R / 'nv13_frames').glob('*.png')):
         shutil.copyfile(f, Tg / 'research' / 'nv13_frames' / f.name)
-    for name in ('employee_gift_rates.csv', 'committee_keys.csv', 'nv13_members.csv', 'pacs_by_member.csv', 'pac_base_rates.csv', 'pac_lines.csv', 'chip_bills.csv', 'chip_bill_backers.csv', 'lobbying_bill_reports.csv', 'lobbying_filings.csv'):
+    for name in ('employee_gift_rates.csv', 'committee_keys.csv', 'nv13_members.csv', 'pacs_by_member.csv', 'pac_base_rates.csv', 'pac_lines.csv', 'chip_bills.csv', 'chip_bill_backers.csv', 'lobbying_bill_reports.csv', 'lobbying_filings.csv', 'lobbying_family_reports.csv'):
         t = (R / name).read_text(); assert not PRIVATE.search(t), (name, PRIVATE.search(t).group(0)); put(Tg, f'research/{name}', t)
     # the grant rows behind the key's totals
     gr = []

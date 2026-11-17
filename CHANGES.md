@@ -2,6 +2,36 @@
 
 This file lists what changed between drafts and every error found on the way, with what was done about it.
 
+## Correction of Nov 17, 2026: lobbying reports that name the GAIN AI Act without a bill number
+
+- **What was wrong.** The count of lobbying reports that name a chairman's chip bill read bill numbers only. A report
+  that named a measure as an amendment to another bill, or by its name alone, was in no count, for either company. Four
+  reports name the GAIN AI Act that way, two filed for each company. Anthropic's own report for the third quarter of
+  2025 names Senate amendment 3505 to the defense authorization bill for fiscal 2026, with the act's name; a firm's
+  report for Anthropic for the fourth quarter of 2025 gives the act's name alone. Nvidia's own reports for the third and
+  fourth quarters of 2025 name "S.A. 3505", without the act's name. The amendment's text, as Congress.gov prints it,
+  carries "GAIN AI Act of 2025" as its short title; Sen. Banks submitted it on Aug 1, 2025, and Moolenaar introduced
+  H.R. 5885 on Oct 31, 2025.
+- **How it was found.** By the builder, on Nov 17, 2026, reading pages that another working session of this project had
+  saved from the Senate's lobbying records. Its first check searched the two companies' reports for the act's name and
+  found only Anthropic's two; it recorded that Nvidia had none. A second search, for amendment numbers, found Nvidia's
+  two before anything was published. The audits had been given the count by bill number.
+- **What was done.** One rule for both companies: a report counts for a measure when its text gives a bill number of the
+  measure, or the number of a Senate amendment whose official text carries the measure, or the measure's name. The
+  three bases are counted apart in a new table, `research/lobbying_family_reports.csv`, and
+  `research/lobbying_filings.csv` says for each report which measures it names and how (column `chip_measures`). The
+  count by bill number does not change: `research/lobbying_bill_reports.csv` is the same file, byte for byte.
+  Moolenaar's panel still says that H.R. 5885 is named in 1 report filed for Anthropic and 1 filed for Nvidia, and now
+  adds that 2 more filed for each company name the act without a bill number, and how each does. The at-a-glance table
+  says the same. For the other four measures no report of either company falls outside the count by bill number, so
+  Mast's line on H.R. 6875 does not change. The script's window (reports of 2025 and 2026) is now written in its code.
+- **What is not known.** One Anthropic report, for the third quarter of 2026, names Senate amendment 6561 to the defense
+  authorization bill for fiscal 2027. The official record of that bill gives the amendment's sponsors and day and no
+  text or description; the page of its text could not be fetched and the Internet Archive holds no copy. It is counted
+  for no measure. An amendment is recognised only when a report gives its number: a report that describes a provision
+  in its own words, without the act's name, a bill number or an amendment number, is not counted for any measure.
+- **Not read independently.** No auditor has read this correction.
+
 ## Third correction of Nov 16, 2026: the counts of saved pages naming each chairman, again
 
 - **What was wrong.** This figure counted each saved page from the text first taken from it, even where the companion

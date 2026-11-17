@@ -420,8 +420,17 @@ def main():
                 ['art-sia-members', 'art-iti-members', f'table:nv13_numbers.csv#trade:nvidia:{m}'], [has('art-sia-members', 'Nvidia is listed. Anthropic is not listed.'), has('art-iti-members', 'Nvidia is listed. Anthropic is not listed.'), '0'])
         num(f'trade:nvidia:{m}', f'{sum(float(x["usd"]) for x in tg):.0f}', f'gifts to {last} from PACs of trade groups that list Nvidia and not Anthropic (SIA, ITI)')
         nb = [o for o in lb if int(o['n'].split('/')[1])]
+
+        def more(o):              # Nvidia's reports that name the measure without a bill number (a Senate amendment's number, or the name only), with Anthropic's count beside it; one rule for both
+            import build_lobbying as BLB
+            fam_ = next(b['family'] for b in table('chip_bills.csv') if b['key'] == o['type'].split(':')[1]); fr = {r['side']: r for r in table('lobbying_family_reports.csv') if r['measure'] == fam_}
+            xa, xn = (int(fr[s_]['by_senate_amendment_number']) + int(fr[s_]['by_name_only']) for s_ in ('anthropic', 'nvidia'))
+            if not xn and not xa:
+                return ''
+            am = [(num, a_) for num, a_ in BLB.AMENDMENTS.items() if a_[0] == fam_]; assert len(am) == 1 and xn and int(fr['nvidia']['by_name_only']) == 0, fam_      # the wording is for one amendment, and for reports of Nvidia's that give it
+            return f' {xn} more name the {fam_} without a bill number, giving {BLB.side_words(fr["nvidia"])}: Senate amendment {am[0][0]} to {am[0][1][8]} (Anthropic\'s: {xa} more).'
         tie(m, 'nvidia', 'lobbying', 'N' if nb else 'G', 'Lobbying on his bill',
-            ' '.join(f'{o["n"].split("/")[1]} lobbying report{"s" if o["n"].split("/")[1] != "1" else ""} filed for Nvidia name{"" if o["n"].split("/")[1] != "1" else "s"} his {re.match(r"(H\.R\. \d+)", o["panel"]).group(1)} (Anthropic\'s: {o["n"].split("/")[0]}).' for o in nb)
+            ' '.join(f'{o["n"].split("/")[1]} lobbying report{"s" if o["n"].split("/")[1] != "1" else ""} filed for Nvidia name{"" if o["n"].split("/")[1] != "1" else "s"} his {re.match(r"(H\.R\. \d+)", o["panel"]).group(1)} (Anthropic\'s: {o["n"].split("/")[0]}).' + more(o) for o in nb)
             if nb else 'He sponsors neither H.R. 5885 nor H.R. 6875, the two chip bills counted here, so no report is counted for him. Reports naming other bills of his were not searched.',
             [s for o in nb for s in sq(o)[0]] or ['table:chip_bill_backers.csv#hr5885:C001087', 'table:chip_bill_backers.csv#hr6875:C001087'], [x for o in nb for x in sq(o)[1]] or ['2025-11-18', '2025-12-18'],
             audit='' if nb else 'V3-CT47 B3-19')
@@ -704,7 +713,14 @@ def main():
         G.append({'group': group, 'label': label, 'mast': f('mast'), 'moolenaar': f('moolenaar'), 'crawford': f('crawford'), 'note': note})
     glance('anthropic', 'Its employees\' own gifts', lambda m: f'{usd(N[f"emp:anthropic:{m}"])} · {N[f"emp_people:anthropic:{m}"]} {"people" if int(N[f"emp_people:anthropic:{m}"]) > 1 else "person"}')
     glance('anthropic', 'AnthroPAC, its political committee', lambda m: usd(next((t['usd'] for t in T(m, 'anthropic', 'company_pac') if t['usd']), 0)))
-    glance('anthropic', 'Its lobbying reports naming a chip bill he sponsors', lambda m: next((f'{o["n"].split("/")[0]} report{"s" if o["n"].split("/")[0] != "1" else ""}' for o in TY if o['member'] == m and o['type'].startswith('lobbying')), '– (cosponsors both)'))
+    def lob_cell(m, i, side_, none):          # the count by bill number, and the reports that name the measure with no bill number (one rule for both companies)
+        for o in TY:
+            if o['member'] == m and o['type'].startswith('lobbying'):
+                n_ = o['n'].split('/')[i]; fam_ = next(b['family'] for b in table('chip_bills.csv') if b['key'] == o['type'].split(':')[1])
+                fr = next(r for r in table('lobbying_family_reports.csv') if r['measure'] == fam_ and r['side'] == side_); x = int(fr['by_senate_amendment_number']) + int(fr['by_name_only'])
+                return f'{n_} report{"s" if n_ != "1" else ""}' + (f'; {x} more name the act with no bill number' if x else '')
+        return none
+    glance('anthropic', 'Its lobbying reports naming a chip bill he sponsors', lambda m: lob_cell(m, 0, 'anthropic', '– (cosponsors both)'))
     glance('anthropic', 'Its co-founder testifying to his committee', lambda m: 'Jun 25, 2025' if T(m, 'anthropic', 'witness') else '–')
     glance('anthropic', 'Gifts from lobbyists at its firms', lambda m: usd(N[f'lob:anthropic:{m}:total']))
     glance('anthropic', 'PACs of trade groups that list it and not Nvidia', lambda m: '– (none found)')
@@ -716,7 +732,7 @@ def main():
     glance('network', 'ARI\'s public support for a bill of his', lambda m: {'mast': 'his bill (Jan 2026)', 'moolenaar': 'the Senate version (Sep 2025)'}[m] if T(m, 'network', 'endorse') else '–')
     glance('nvidia', 'Its employees\' own gifts', lambda m: '$0')
     glance('nvidia', 'Nvidia\'s PAC', lambda m: '$0')
-    glance('nvidia', 'Its lobbying reports naming a chip bill he sponsors', lambda m: next((f'{o["n"].split("/")[1]} report{"s" if o["n"].split("/")[1] != "1" else ""}' for o in TY if o['member'] == m and o['type'].startswith('lobbying')), '–'))
+    glance('nvidia', 'Its lobbying reports naming a chip bill he sponsors', lambda m: lob_cell(m, 1, 'nvidia', '–'))
     glance('nvidia', 'Gifts from lobbyists and PACs of its firms', lambda m: usd(N[f'lob:nvidia:{m}:total']))
     glance('nvidia', 'PACs of trade groups that list it and not Anthropic', lambda m: usd(N[f'trade:nvidia:{m}']))
     glance('nvidia', 'Huang at a meeting of his committee', lambda m: 'reported, May 2025' if T(m, 'nvidia', 'meeting') else '–')

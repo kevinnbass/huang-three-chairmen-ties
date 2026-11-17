@@ -77,5 +77,10 @@ def render(stem, document, width):
                 assert tile.size == (w_ * 2, h_ * 2), (stem, 'a tile of the picture has the wrong size', (x, y), tile.size)
                 im.paste(tile, (x * 2, y * 2))
         b.close()
-    im.save(FIGURES / (stem + '.png')); im.save(FIGURES / (stem + '.jpg'), quality=92)
+    im.save(FIGURES / (stem + '.png'))
+    # A JPEG can have no side over 65,500 pixels. The map passed that height on Nov 17, 2026 (83,628 pixels): its JPG is then the PNG scaled down to the limit, and the PNG stays the full image.
+    if max(im.size) > 65500:
+        k = 65500 / max(im.size); small = im.resize((int(im.width * k), int(im.height * k)), Image.LANCZOS); small.save(FIGURES / (stem + '.jpg'), quality=92); print('jpg scaled to', small.size, 'from', im.size)
+    else:
+        im.save(FIGURES / (stem + '.jpg'), quality=92)
     print('rendered', stem, im.size)

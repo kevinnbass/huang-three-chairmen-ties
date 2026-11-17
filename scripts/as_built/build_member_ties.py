@@ -484,6 +484,8 @@ def main():
 
     chip = list(csv.DictReader(open(R / 'chip_bills.csv', newline='')))
     rep = {(r['side'], r['bill']): r for r in csv.DictReader(open(R / 'lobbying_bill_reports.csv', newline=''))}
+    import build_lobbying as BLB                                   # the reports that name a measure without a bill number (a Senate amendment's number, or the name only), both companies
+    famrep = {(r['side'], r['measure']): r for r in csv.DictReader(open(R / 'lobbying_family_reports.csv', newline=''))}
     pacs = {(r['member_bioguide'], r['pac']): r for r in csv.DictReader(open(R / 'pacs_by_member.csv', newline=''))}
     for key, bg, _ in L.MAP_MEMBERS:
         m = MB[bg]
@@ -538,8 +540,19 @@ def main():
             tw = L.TITLE_WORDS.get(b['family']); gloss = ''
             if tw and tw[0] == b['key']:                         # the official title's own words, from the bill record
                 gloss = f' Its official title includes the words "{tw[1]}".'; src.append(b['source']); q.append(tw[1])
-            tie(key, 'lobbying:' + b['key'], 'both', 'Anthropic' if na else '', 'lobby', f'His {b["bill"]} ({b["family"]}) is named in {na} Anthropic lobbying report{"s" if na != 1 else ""} and {nn} of Nvidia\'s',
-                f'{b["bill"]}, the {b["family"]}, which he sponsors (introduced {mon(b["introduced"])}), is named in {na} lobbying report{"s" if na != 1 else ""} filed for Anthropic and {nn} filed for Nvidia.{gloss} '
+            # reports that name the measure without a bill number (found Nov 17, 2026: until then only bill numbers were counted, for both companies)
+            fa, fn = famrep[('anthropic', b['family'])], famrep[('nvidia', b['family'])]; assert int(fa['by_bill_number']) >= na and int(fn['by_bill_number']) >= nn
+            xa, xn = (int(r_['by_senate_amendment_number']) + int(r_['by_name_only']) for r_ in (fa, fn)); more_w = more_p = ''
+            if xa or xn:
+                am = [(num, a_) for num, a_ in BLB.AMENDMENTS.items() if a_[0] == b['family']]; assert len(am) == 1, b['family']      # the wording below is for one amendment
+                num, a_ = am[0]; who = 'He' if a_[7] == bg else a_[5].split(',')[0]
+                more_w = f'; {xa} more of each name the act without a bill number' if xa == xn else f'; {xa} more of Anthropic\'s and {xn} more of Nvidia\'s name the act without a bill number'
+                more_p = (f' {xa} more filed for Anthropic and {xn} more filed for Nvidia name the act without a bill number, as Senate amendment {num} to {a_[8]} or by name: '
+                          + '; '.join(f'{lab} give {BLB.side_words(r_)}' for lab, r_ in (('Anthropic\'s', fa), ('Nvidia\'s', fn)) if BLB.side_words(r_))
+                          + f'. {who} submitted the amendment on {mon(a_[6])}, and its text carries the act\'s name as its short title.')
+                src += [f'table:lobbying_family_reports.csv#anthropic:{b["family"]}', f'table:lobbying_family_reports.csv#nvidia:{b["family"]}', a_[2], a_[2]]; q += [fa['in_words'], fn['in_words'], a_[3], a_[9]]
+            tie(key, 'lobbying:' + b['key'], 'both', 'Anthropic' if na else '', 'lobby', f'His {b["bill"]} ({b["family"]}) is named in {na} Anthropic lobbying report{"s" if na != 1 else ""} and {nn} of Nvidia\'s' + more_w,
+                f'{b["bill"]}, the {b["family"]}, which he sponsors (introduced {mon(b["introduced"])}), is named in {na} lobbying report{"s" if na != 1 else ""} filed for Anthropic and {nn} filed for Nvidia.{gloss}{more_p} '
                 f'A report names a bill; it does not say which office was contacted or what was asked.', src, q, n=f'{na}/{nn}', draw='line' if na else 'words')
         # 5. lobbyists' own gifts (second-hand: the client did not direct them)
         lc = [LCON[i] for i in m['t4b_ids'].split() if i in LCON]

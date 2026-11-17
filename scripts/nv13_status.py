@@ -5,7 +5,8 @@ STATUS = ('<b>Status:</b> draft of Nov 14, 2026, third version, corrected after 
           'Three independent audits, by a model from another maker, read the figure and its rows against the saved copies. The first, of the second version: 42 rows passed, 20 were qualified, 1 was wrong, and 30 points were raised on the figure. '
           'The second, of this version before correction: 152 passed, 12 were qualified, 5 were wrong (all five from one missed $500 gift on Nvidia\'s side, now counted), and 25 points were raised. '
           'The third, of the 60 rows added or changed since: 54 passed, 5 were qualified, 1 was wrong (a count the figure does not print), and 8 points were raised. Each finding has a written answer in the repository. '
-          'The corrections made after the third audit, and two lines added while it ran, were checked by script only. No audit fetched the originals again, and eight items could not be rechecked from saved copies.')
+          'The corrections made after the third audit, and two lines added while it ran, were checked by script only. No audit fetched the originals again, and eight items could not be rechecked from saved copies. '
+          'Corrected on Nov 17, 2026: the line on lobbying reports in Moolenaar\'s panel had counted only the reports that give a bill number. Two more reports filed for Anthropic, and two more filed for Nvidia, name the GAIN AI Act without one, as a Senate amendment to the defense bill or by name alone, and the line now says so. The builder found this, for both companies; no independent reader has read it.')
 # The published figure draws the ties to Anthropic only (fig_ties(scope='anthropic')). The fuller version (scope='both') also draws
 # the same records for Nvidia: it is the version the three audits read, and it is kept by the builder, not published.
 SCOPE = 'anthropic'
@@ -16,5 +17,6 @@ STATUS_SOCIAL = ('<b>Status:</b> draft of Nov 14, 2026. Each passage behind a dr
                  'not a lobbyist\'s own gift as it was worded; and the counts of saved pages naming each chairman were short: by a legal given name (Crawford), by a table and a photo caption that the extraction of two pages\' text had left out, '
                  'by two posts whose text had been taken again from the saved HTML for the companion figure and was still read here in its first, faulty form, and by a live entry that one page\'s HTML holds '
                  '(now Mast 93, Moolenaar 81, Crawford 74). Readings of that figure read the first correction, the given name, the table and the caption and found them right, and the last of them found the two posts; '
-                 'the counts as they now stand have not been read independently.')
+                 'the counts as they now stand have not been read independently. '
+                 'Corrected on Nov 17, 2026: the line on lobbying reports in Moolenaar\'s panel had counted only the reports that give a bill number. Two more reports filed for Anthropic, and two more filed for Nvidia, name the GAIN AI Act without one, as a Senate amendment to the defense bill or by name alone, and the line now says so. The builder found this, for both companies; no independent reader has read it.')
 PUBLISHED_STATUS = STATUS_SOCIAL if SCOPE == 'anthropic' else STATUS

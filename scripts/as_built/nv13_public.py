@@ -83,6 +83,7 @@ WHAT = {  # what each kind of evidence-set table is, in a reader's words
     'toner/research/cset_people.csv': 'A person\'s post at a research centre, from the centre\'s or the person\'s own page', 'toner/research/cset_money.csv': 'A grant to a research centre, from the funder\'s published grant record'}
 TABLE_WHAT = {'employee_gift_rates.csv': 'This repository\'s count of employees\' gifts across the 535 sitting members (research/employee_gift_rates.csv, from research/employee_gifts.csv)',
               'pacs_by_member.csv': 'This repository\'s table of company PAC money by member, from FEC filings', 'lobbying_bill_reports.csv': 'This repository\'s count of lobbying reports naming each bill, from the Senate\'s lobbying records',
+              'lobbying_family_reports.csv': 'This repository\'s count of lobbying reports naming each chip-export measure by a bill number, by a Senate amendment\'s number or by name only, from the Senate\'s lobbying records',
               'chip_bills.csv': 'This repository\'s table of chip-export bills, from the bills\' records at govinfo', 'chip_bill_backers.csv': 'This repository\'s table of sponsors and cosponsors, from the bills\' records at govinfo',
               'nv13_numbers.csv': 'This repository\'s table of the numbers computed for the figure (research/nv13_numbers.csv; scripts/verify_nv13.py recomputes them)',
               'lobbyist_gifts.csv': 'This repository\'s table of lobbyists\' and firm PACs\' gifts naming the three chairmen, from the contribution reports (form LD-203) filed with the U.S. Senate',
@@ -92,7 +93,8 @@ TABLE_WHAT = {'employee_gift_rates.csv': 'This repository\'s count of employees\
               'lobbyist_gifts_map.csv': 'This repository\'s table of lobbyists\' gifts to the members drawn, made while the firm was registered for Nvidia, for Anthropic or for a group Open Philanthropy funds, from the contribution reports (form LD-203) filed with the U.S. Senate'}
 
 
-DESCR = {'anthropic-ltbt': 'Anthropic: its page on the Long-Term Benefit Trust', 'anthropic-pfa-1': 'Anthropic: announcement of its first $20 million gift to Public First Action (Feb 12, 2026)',
+DESCR = {'lda-ref-samdt-119-3505-text-wayback': 'Congress.gov: the text of Senate amendment 3505 to S. 2296 (119th Congress), as the Internet Archive captured the page on Apr 29, 2026',
+         'anthropic-ltbt': 'Anthropic: its page on the Long-Term Benefit Trust', 'anthropic-pfa-1': 'Anthropic: announcement of its first $20 million gift to Public First Action (Feb 12, 2026)',
          'anthropic-pfa-2': 'Anthropic: announcement of a further $20 million to Public First Action (Jul 21, 2026)',
          'art-anthropic-fontaine': 'Anthropic: announcement that Richard Fontaine joins the Long-Term Benefit Trust',
          'art-pfa-conservative': 'Public First Action: release announcing its Conservative AI Consensus Project and the advertisements (Jul 17, 2026)',

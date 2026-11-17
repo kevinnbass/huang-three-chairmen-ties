@@ -30,7 +30,7 @@ does not draw it, and [What the figure leaves out](#what-the-figure-leaves-out) 
 |---|---|---|---|---|
 | Anthropic | Its employees' own gifts | $43,000 · 5 people | $28,000 · 4 people | $42,000 · 2 people |
 | Anthropic | AnthroPAC, its political committee | $2,500 | – | $1,000 |
-| Anthropic | Its lobbying reports naming a chip bill he sponsors | 8 reports | 1 report | – (cosponsors both) |
+| Anthropic | Its lobbying reports naming a chip bill he sponsors | 8 reports | 1 report; 2 more name the act with no bill number | – (cosponsors both) |
 | Anthropic | Its co-founder testifying to his committee | – | Jun 25, 2025 | – |
 | Anthropic | Gifts from lobbyists at its firms | – | – | $6,000 |
 | Anthropic | PACs of trade groups that list it and not Nvidia | – (none found) | – (none found) | – (none found) |
@@ -103,7 +103,7 @@ Crawford.
 
 **Lobbying on their bills.** H.R. 6875, the AI OVERWATCH Act, which he sponsors (introduced Dec 18, 2025), is named in 8 lobbying reports filed for Anthropic and 6 filed for Nvidia. Its official title includes the words "require a license for the export, reexport, or in-country transfer of certain integrated circuits". A report names a bill; it does not say which office was contacted or what was asked.
 
-H.R. 5885, the GAIN AI Act, which he sponsors (introduced Oct 31, 2025), is named in 1 lobbying report filed for Anthropic and 1 filed for Nvidia. Its official title includes the words "certify that United States persons have priority in acquiring those chips". A report names a bill; it does not say which office was contacted or what was asked.
+H.R. 5885, the GAIN AI Act, which he sponsors (introduced Oct 31, 2025), is named in 1 lobbying report filed for Anthropic and 1 filed for Nvidia. Its official title includes the words "certify that United States persons have priority in acquiring those chips". 2 more filed for Anthropic and 2 more filed for Nvidia name the act without a bill number, as Senate amendment 3505 to the defense authorization bill for fiscal 2026 or by name: Anthropic's give the amendment with the act's name (1) and the name alone (1); Nvidia's give the amendment's number alone (2). Sen. Banks submitted the amendment on Aug 1, 2025, and its text carries the act's name as its short title. A report names a bill; it does not say which office was contacted or what was asked.
 
 **The ads as they ran.**
 
@@ -207,7 +207,9 @@ What that search found:
   (Rep. Brian Mast $13,625, Rep. John Moolenaar $2,875, Rep. Rick Crawford $1,000), against $6,000 from lobbyists at Anthropic's firms.
 - **Trade groups:** the PACs of two trade groups that list Nvidia as a member and do not list Anthropic gave Mast
   $4,500.
-- **Lobbying reports, a reported meeting, ads:** reports filed for Nvidia name the same two bills; Fortune reported in May
+- **Lobbying reports, a reported meeting, ads:** reports filed for Nvidia name the same two bills, and two more of its
+  reports name the GAIN AI Act as a Senate amendment to the defense bill, without a bill number (two of Anthropic's name
+  the act without a bill number too); Fortune reported in May
   2025 that Huang addressed a meeting of Mast's committee; Google's political-ads search offers no advertiser named Nvidia.
 
 ## Check it yourself
@@ -217,7 +219,7 @@ python3 scripts/verify_nv13.py
 ```
 
 recomputes the counts, sums, dates, shares and ranks the figure states from the tables in `research/` and the copies in
-`sources/`, checks the two ads against Google's report and the Census Bureau's table, and looks up each of the 286
+`sources/`, checks the two ads against Google's report and the Census Bureau's table, and looks up each of the 294
 passages whose source is copied here. It needs only Python. The other 169 passages are a link and the words to find
 there (`research/evidence.tsv`).
 
@@ -314,6 +316,7 @@ No audit fetched the originals again, so a source that has changed since it was 
 | `research/employee_gift_rates.csv`, `committee_keys.csv` | the totals across the 535 members; each committee and the member it is tied to |
 | `research/pacs_by_member.csv`, `pac_base_rates.csv`, `pac_lines.csv` | company PAC money by member, from FEC filings |
 | `research/lobbying_bill_reports.csv`, `lobbying_filings.csv`, `chip_bills.csv`, `chip_bill_backers.csv` | lobbying reports naming each chip-export bill (with a link to each report), and the bills |
+| `research/lobbying_family_reports.csv` | for each company and each of the five chip-export measures, the reports that name it by a bill number, by a Senate amendment's number, or by name only (added Nov 17, 2026) |
 | `research/story_pages.tsv` | the addresses of the 1,086 saved news pages behind "named on N pages", and which name each chairman; no page text |
 | `research/nv13_frames/` | the four ad frames the figure shows |
 | `sources/` | copies of sources that are official records or the builder's own captures: the committees' release, post and letter; the hearing statement and transcript; FEC candidate totals, committee records, the one filing by Public First Action, and the committee-to-candidate lines for ARI's and the trade groups' PACs; the three trade groups' member lists as read; Google's report lines, ad pages and frames; the Census rows for the district |

@@ -215,6 +215,19 @@ def main():
             for side, n in (('anthropic', int(m.group(2))), ('nvidia', int(m.group(3)))):
                 r = lb.get(f'{side}:{bill}'); u = r['uuids'].split() if r else []
                 check(len(u) == n and all(x in lf and bill in lf[x]['bills'] and lf[x]['side'] == side for x in u), f'{t["member"]}: {n} {side} lobbying reports name {bill}, each in lobbying_filings.csv')
+    # reports that name a measure without a bill number (a Senate amendment's number, or the name only): one rule for both companies, counted apart
+    fam = {r['key']: r for r in table('lobbying_family_reports.csv')}; cbill = {r['bill']: r for r in table('chip_bills.csv')}
+    for t in ties:
+        if t['type'].startswith('lobbying:') and t['section'] == 'anthropic':
+            bill = re.search(r'^(H\.R\. \d+)', t['words']).group(1); measure = cbill[bill]['family']
+            m2 = re.search(r'(\d+) more filed for Anthropic and (\d+) more filed for Nvidia name the act without a bill number', t['words'])
+            nvl = [x for x in ties if x['member'] == t['member'] and x['section'] == 'nvidia' and x['type'] == 'lobbying']; m3 = re.search(r"(\d+) more name the .+? without a bill number.*\(Anthropic's: (\d+) more\)", nvl[0]['words']) if nvl else None
+            for side, i in (('anthropic', 1), ('nvidia', 2)):
+                r = fam[f'{side}:{measure}']; u = (r['uuids_by_senate_amendment_number'] + ' ' + r['uuids_by_name_only']).split(); want = int(m2.group(i)) if m2 else 0
+                check(len(u) == want == int(r['by_senate_amendment_number']) + int(r['by_name_only']) and int(r['reports']) == int(r['by_bill_number']) + want
+                      and all(x in lf and lf[x]['side'] == side and lf[x]['current'] == 'yes' and measure + ' [' in lf[x]['chip_measures'] and measure + ' [bill number]' not in lf[x]['chip_measures'] and not any(b in lf[x]['bills'].split('; ') for b in cbill if cbill[b]['family'] == measure) for x in u),
+                      f'{t["member"]}: {want} {side} lobbying reports name the {measure} without a bill number, each in lobbying_filings.csv with no number of that measure')
+            check((m2 is None and m3 is None) or (m2 is not None and m3 is not None and (m3.group(2), m3.group(1)) == (m2.group(1), m2.group(2))), f'{t["member"]}: both panels give the same counts of reports without a bill number')
     # ---------------------------------------------------------------- the key: grant totals
     gr = defaultdict(list)
     for r in table('grants_cited.csv'):
