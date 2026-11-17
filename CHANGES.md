@@ -25,11 +25,15 @@ This file lists what changed between drafts and every error found on the way, wi
   adds that 2 more filed for each company name the act without a bill number, and how each does. The at-a-glance table
   says the same. For the other four measures no report of either company falls outside the count by bill number, so
   Mast's line on H.R. 6875 does not change. The script's window (reports of 2025 and 2026) is now written in its code.
-- **What is not known.** One Anthropic report, for the third quarter of 2026, names Senate amendment 6561 to the defense
-  authorization bill for fiscal 2027. The official record of that bill gives the amendment's sponsors and day and no
-  text or description; the page of its text could not be fetched and the Internet Archive holds no copy. It is counted
-  for no measure. An amendment is recognised only when a report gives its number: a report that describes a provision
-  in its own words, without the act's name, a bill number or an amendment number, is not counted for any measure.
+- **A second amendment, looked up afterwards.** One Anthropic report, for the third quarter of 2026, names Senate
+  amendment 6561 to the defense authorization bill for fiscal 2027. When this correction was first published its text
+  had not been found, and this file said so. It is in the Congressional Record of July 13, 2026 (pages S3749 and
+  S3750): an amendment by Sen. Schiff, for himself and Sen. Banks, headed "Collaboration on adversarial threats and AI
+  security risks", on sharing information about security risks of artificial intelligence. It carries none of the
+  five chip-export measures and is counted for none.
+- **What is not counted.** An amendment is recognised only when a report gives its number: a report that describes a
+  provision in its own words, without the act's name, a bill number or an amendment number, is not counted for any
+  measure.
 - **Not read independently.** No auditor has read this correction.
 
 ## Third correction of Nov 16, 2026: the counts of saved pages naming each chairman, again

@@ -41,8 +41,8 @@ AMENDMENTS = {
  '3505': ('GAIN AI Act', 'S. 2296', 'lda-ref-samdt-119-3505-text-wayback', "or the ``GAIN AI Act of 2025''", 'billstatus-119-s2296', 'Sen. Banks, Jim [R-IN]', '2025-08-01',
           'B001299', 'the defense authorization bill for fiscal 2026', 'Sponsor: Sen. Banks, Jim [R-IN] (Submitted 08/01/2025)'),
 }
-# named in a report, and the saved official record gives its sponsors and day and no text or description: counted for no measure
-AMENDMENTS_NOT_PLACED = {'6561': ('S. 4784', 'billstatus-119-s4784')}
+# named in a report and looked up: its text, in the Congressional Record, carries none of the five measures (number: the bill it amends, the saved page of the Record, its heading there)
+AMENDMENTS_NOT_PLACED = {'6561': ('S. 4784', 'lda-ref-samdt-119-6561-crec', 'COLLABORATION ON ADVERSARIAL THREATS AND AI SECURITY RISKS')}
 SAMDT = re.compile(r'\b(?:S\.?\s?Amdt\.?|S\.\s?A\.|Senate\s+Amendment)\s*(?:No\.?\s*)?(\d{3,4})\b', re.I)
 ANY_AMDT = re.compile(r'Amdt|\bS\.\s?A\.\s?\d|\bH\.\s?A\.\s?\d|amendment\s+(?:no\.?\s*|#\s*)?\d', re.I)
 BASES = ('bill number', 'amendment number', 'name')
@@ -89,6 +89,10 @@ def main():
         rec = (R / 'primary' / record / 'body.html').read_text(errors='replace')
         a = [m.group(1) for m in re.finditer(r'<amendment>(.*?)</amendment>', rec, re.S) if re.search(rf'<number>{num}</number>', m.group(1))]
         assert len(a) == 1 and sponsor in a[0] and f'<bioguideId>{sponsor_id}</bioguideId>' in a[0] and f'<submittedDate>{day}' in a[0], (num, record)
+    import html as _html
+    for num, (bill, page, heading) in AMENDMENTS_NOT_PLACED.items():      # the amendment's own text: its heading is there, and no name of a measure, nor the words export, integrated circuit or semiconductor
+        t = ' '.join(_html.unescape(re.sub(r'<[^>]+>', ' ', (R / 'primary' / page / 'body.html').read_text(errors='replace'))).split())
+        assert f'SA {num}.' in t and bill in t and heading in t and not any(re.search(p_, t, re.I) for p_ in FAMILY_NAMES.values()) and not re.search(r'export|integrated circuit|semiconductor', t, re.I), (num, page)
     for side, word in SIDES.items():
         for d in sorted(x for y in YEARS for x in glob.glob(str(R / 'primary' / f'lda-gov-{side}-{y}*'))):
             for f in sorted(glob.glob(d + '/body.*')):
