@@ -29,11 +29,15 @@ This file lists what changed between drafts and every error found on the way, wi
   amendment 6561 to the defense authorization bill for fiscal 2027. When this correction was first published its text
   had not been found, and this file said so. It is in the Congressional Record of July 13, 2026 (pages S3749 and
   S3750): an amendment by Sen. Schiff, for himself and Sen. Banks, headed "Collaboration on adversarial threats and AI
-  security risks". It would make it no violation of the antitrust laws for companies to share information about
-  security risks of artificial intelligence, or, with prior written notice to the Attorney General, to coordinate
+  security risks". It would make it no violation of the antitrust laws for companies, for the exclusive purpose of
+  addressing security risks of artificial intelligence that it defines, to share information about those risks, or,
+  with prior written notice to the Attorney General that details the risk and the restriction, to coordinate
   "delaying or otherwise limiting the release, deployment, use, development, training, testing, or evaluation of
-  artificial intelligence". It excludes price-fixing and the sharing of markets and leaves the Attorney General an
-  injunction. The same report names a bill of the same title by the same two senators (S. 5105). A lobbying report
+  artificial intelligence". A company that receives information must use it for that purpose and keep internal
+  controls; the clause on sharing excludes price-fixing and the sharing of markets; the exemption is a defence the
+  company must prove, and the Attorney General may seek an injunction. (As first corrected, this entry left those
+  conditions out and so told the exemption too broadly: a further reading of the map figure found that on Nov 17.)
+  The same report names a bill of the same title by the same two senators (S. 5105). A lobbying report
   names measures and no position: whether Anthropic supported, opposed or sought changes to either cannot be read
   from it. Neither carries any of the five chip-export measures, and neither is counted for one. (Until Nov 17 this
   entry described the amendment only as being "on sharing information about security risks": the builder of this
